@@ -289,3 +289,9 @@ strong {
     margin-top: 20px;
     font-size: 13px;
 }
+
+.small p i {
+    font-size: 14px;
+    padding-top: 12px;
+    display: block;
+}
