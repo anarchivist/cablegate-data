@@ -1,7 +1,7 @@
 Unofficial mirror of WikiLeaks Cablegate data
 ---------------------------------------------
 
-**CURRENT SOURCE TORRENT: cablegate-201012011021.7z.torrent**
+**CURRENT SOURCE TORRENT: cablegate-201012020501.7z.torrent**
 
 * http://github.com/anarchivist/cablegate-data
 * git://github.com/anarchivist/cablegate-data.git
