@@ -1,0 +1,788 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/support.html'>
+<img alt='Keep Us Strong' src='/img/ja-cg.jpg' />
+</a>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 842 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/Brasil-rejeitou-prisioneiros-de.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/Har-blir-vi-blasta.html">Sweden</a>
+<a href="/articles/2010/PayPal-freezes-WikiLeaks-donations.html"> Editorial</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-04_0.html'>2010/12/04</a>
+<a href='/reldate/2010-12-03_0.html'>2010/12/03</a>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-06_0.html'>2004/06</a>
+<a href='/date/2004-09_0.html'>2004/09</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-02_0.html'>2005/02</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-06_0.html'>2008/06</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/69_0.html'>Embassy Asuncion</a>
+<a href='/origin/70_0.html'>Embassy Astana</a>
+<a href='/origin/71_0.html'>Embassy Ashgabat</a>
+<a href='/origin/72_0.html'>Embassy Ankara</a>
+<a href='/origin/73_0.html'>Embassy Amman</a>
+<a href='/origin/74_0.html'>Embassy Algiers</a>
+<a href='/origin/75_0.html'>Embassy Addis Ababa</a>
+<a href='/origin/76_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/57_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/58_0.html'>Embassy Bucharest</a>
+<a href='/origin/59_0.html'>Embassy Brussels</a>
+<a href='/origin/60_0.html'>Embassy Bridgetown</a>
+<a href='/origin/61_0.html'>Embassy Brasilia</a>
+<a href='/origin/62_0.html'>Embassy Bishkek</a>
+<a href='/origin/63_0.html'>Embassy Berlin</a>
+<a href='/origin/64_0.html'>Embassy Beirut</a>
+<a href='/origin/65_0.html'>Embassy Beijing</a>
+<a href='/origin/66_0.html'>Embassy Bangkok</a>
+<a href='/origin/67_0.html'>Embassy Baku</a>
+<a href='/origin/68_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/52_0.html'>Embassy Conakry</a>
+<a href='/origin/53_0.html'>Embassy Colombo</a>
+<a href='/origin/54_0.html'>Embassy Chisinau</a>
+<a href='/origin/55_0.html'>Embassy Caracas</a>
+<a href='/origin/56_0.html'>Embassy Cairo</a>
+<a href='/origin/87_0.html'>Consulate Casablanca</a>
+<a href='/origin/88_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/47_0.html'>Embassy Dushanbe</a>
+<a href='/origin/48_0.html'>Embassy Dublin</a>
+<a href='/origin/49_0.html'>Embassy Doha</a>
+<a href='/origin/50_0.html'>Embassy Djibouti</a>
+<a href='/origin/51_0.html'>Embassy Damascus</a>
+<a href='/origin/86_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/46_0.html'>Embassy Harare</a>
+<a href='/origin/85_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/45_0.html'>Embassy Islamabad</a>
+<a href='/origin/84_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/83_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/41_0.html'>Embassy Kyiv</a>
+<a href='/origin/42_0.html'>Embassy Kuwait</a>
+<a href='/origin/43_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/44_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/36_0.html'>Embassy Luxembourg</a>
+<a href='/origin/37_0.html'>Embassy London</a>
+<a href='/origin/38_0.html'>Embassy Lisbon</a>
+<a href='/origin/39_0.html'>Embassy Lima</a>
+<a href='/origin/40_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/31_0.html'>Embassy Muscat</a>
+<a href='/origin/32_0.html'>Embassy Moscow</a>
+<a href='/origin/33_0.html'>Embassy Mexico</a>
+<a href='/origin/34_0.html'>Embassy Manama</a>
+<a href='/origin/35_0.html'>Embassy Madrid</a>
+<a href='/origin/82_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/30_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/27_0.html'>Embassy Ouagadougou</a>
+<a href='/origin/28_0.html'>Embassy Ottawa</a>
+<a href='/origin/29_0.html'>Embassy Oslo</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/23_0.html'>Embassy Prague</a>
+<a href='/origin/24_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/25_0.html'>Embassy Paris</a>
+<a href='/origin/26_0.html'>Embassy Panama</a>
+<a href='/origin/81_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/20_0.html'>Embassy Rome</a>
+<a href='/origin/21_0.html'>Embassy Riyadh</a>
+<a href='/origin/22_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/15_0.html'>Embassy Stockholm</a>
+<a href='/origin/16_0.html'>Embassy Singapore</a>
+<a href='/origin/17_0.html'>Embassy Seoul</a>
+<a href='/origin/18_0.html'>Embassy Santiago</a>
+<a href='/origin/19_0.html'>Embassy Sanaa</a>
+<a href='/origin/78_0.html'>Consulate Shenyang</a>
+<a href='/origin/79_0.html'>Consulate Shanghai</a>
+<a href='/origin/80_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy The Hague</a>
+<a href='/origin/11_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/12_0.html'>Embassy Tehran</a>
+<a href='/origin/13_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/14_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/77_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AFIN_0.html'>AFIN</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BO_0.html'>BO</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BY_0.html'>BY</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/COUNTER_0.html'>COUNTER</a>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CACM_0.html'>CACM</a>
+<a href='/tag/CDB_0.html'>CDB</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/COUNTERTERRORISM_0.html'>COUNTERTERRORISM</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CG_0.html'>CG</a>
+<a href='/tag/CM_0.html'>CM</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ET_0.html'>ET</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EINVEFIN_0.html'>EINVEFIN</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/ELECTIONS_0.html'>ELECTIONS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/EINDETRD_0.html'>EINDETRD</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+<a href='/tag/FREEDOM_0.html'>FREEDOM</a>
+<a href='/tag/FBI_0.html'>FBI</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GV_0.html'>GV</a>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+<a href='/tag/GE_0.html'>GE</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HU_0.html'>HU</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/INRA_0.html'>INRA</a>
+<a href='/tag/INRO_0.html'>INRO</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+<a href='/tag/ITALY_0.html'>ITALY</a>
+<a href='/tag/ITALIAN_0.html'>ITALIAN</a>
+<a href='/tag/IRAQI_0.html'>IRAQI</a>
+<a href='/tag/IO_0.html'>IO</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JUS_0.html'>JUS</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KIPR_0.html'>KIPR</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KSUM_0.html'>KSUM</a>
+<a href='/tag/KPIN_0.html'>KPIN</a>
+<a href='/tag/KDEMAF_0.html'>KDEMAF</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KAWC_0.html'>KAWC</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KR_0.html'>KR</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KGIC_0.html'>KGIC</a>
+<a href='/tag/KRAD_0.html'>KRAD</a>
+<a href='/tag/KE_0.html'>KE</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LG_0.html'>LG</a>
+<a href='/tag/LU_0.html'>LU</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MK_0.html'>MK</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MA_0.html'>MA</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/MP_0.html'>MP</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NO_0.html'>NO</a>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+<a href='/tag/NL_0.html'>NL</a>
+<a href='/tag/NATIONAL_0.html'>NATIONAL</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OAS_0.html'>OAS</a>
+<a href='/tag/OPDC_0.html'>OPDC</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OREP_0.html'>OREP</a>
+<a href='/tag/ODIP_0.html'>ODIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/POLITICS_0.html'>POLITICS</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PECON_0.html'>PECON</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RW_0.html'>RW</a>
+<a href='/tag/RO_0.html'>RO</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SM_0.html'>SM</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SI_0.html'>SI</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TIP_0.html'>TIP</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TERRORISM_0.html'>TERRORISM</a>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+<a href='/tag/UE_0.html'>UE</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WI_0.html'>WI</a>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XM_0.html'>XM</a>
+<a href='/tag/XR_0.html'>XR</a>
+<a href='/tag/XS_0.html'>XS</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XG_0.html'>XG</a>
+<a href='/tag/XH_0.html'>XH</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+<a href='/tag/YE_0.html'>YE</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZK_0.html'>ZK</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F05%2F09KABUL1239.html%20%2309KABUL1239'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F05%2F09KABUL1239.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 09KABUL1239, SUBJECT: AFGHANISTAN: A SNAPSHOT OF THE NORTHEAST</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#09KABUL1239</b>.
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2009/05/09KABUL1239.html'>09KABUL1239</a>
+</td>
+<td>
+<a href='/date/2009-05_0.html'>2009-05-17 05:05</a>
+</td>
+<td>
+<a href='/reldate/2010-12-02_0.html'>2010-12-02 21:09</a>
+</td>
+<td>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+</td>
+<td>
+<a href='/origin/44_0.html'>Embassy Kabul</a>
+</td>
+</tr>
+<tr>
+<td colspan='5'>
+Appears in these articles:<br />
+<a href='http://http://www.spiegel.de'>http://www.spiegel.de</a><br />
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXYZ0000&#x000A;OO RUEHWEB&#x000A;&#x000A;DE RUEHBUL #1239/01 1370551&#x000A;ZNY CCCCC ZZH (TAO)&#x000A;O 170551Z MAY 09&#x000A;FM AMEMBASSY KABUL&#x000A;TO RUEHC/SECSTATE WASHDC IMMEDIATE 8907&#x000A;INFO RUCNAFG/AFGHANISTAN COLLECTIVE PRIORITY</pre></code>
+<code><pre>C O N F I D E N T I A L SECTION 01 OF 05 KABUL 001239&#x000A;CORRECTED COPY -TEXT&#x000A;SIPDIS&#x000A;&#x000A;DEPARTMENT FOR SRAP, SCA/FO, SCA/A, EUR/RPM&#x000A;STATE PASS USAID FOR ASIA/SCAA&#x000A;&#x000A;E.O. 12958: DECL: 04/09/2019&#x000A;TAGS: <a href='/tag/PGOV_0.html'>PGOV</a> <a href='/tag/PREL_0.html'>PREL</a> <a href='/tag/KDEM_0.html'>KDEM</a> <a href='/tag/EAID_0.html'>EAID</a> <a href='/tag/AF_0.html'>AF</a>&#x000A;SUBJECT: SUBJECT: AFGHANISTAN: A SNAPSHOT OF THE NORTHEAST&#x000A;&#x000A;KABUL 00001239 001.6 of 005&#x000A;&#x000A;&#x000A;Classified By: PRT and Sub-National Governance Director&#x000A;Valerie C. Fowler for reasons 1.4 (b) and (d)&#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (U) Summary: A recent trip to the northeast by a&#x000A;representative of the Embassy's Provincial Reconstruction&#x000A;Team-Sub-National Governance team confirmed the presence&#x000A;there of a number of the same challenges thwarting progress&#x000A;elsewhere in Afghanistan. It also served to dispel a few&#x000A;misconceptions about the region. Among the challenges are&#x000A;poor governance and corruption. Among the misconceptions&#x000A;dispelled are the notions that there are only negligible&#x000A;security issues in the northeast and that development&#x000A;assistance, particularly from the Germans, is readily&#x000A;available to address the most pressing needs. In fact, there&#x000A;appears to be a genuine threat to future ISAF resupply&#x000A;convoys through Kunduz. As far as development aid is&#x000A;concerned, Germans on the ground are frustrated by the limits&#x000A;and constraints under which they have to operate; and funds&#x000A;available from the Hungarians in Baghlan province provide&#x000A;only a drop of help in a desert of need. End Summary.&#x000A;&#x000A;Security: More Dangers than Sometimes Assumed&#x000A;--------------------------------------------- -&#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (SBU) The fact that the PRT came under RPG attack&#x000A;during Emboff's visit risked coloring his impressions&#x000A;regarding security in the northeast; but in fact, there do&#x000A;appear to be some serious security issues needing to be&#x000A;addressed. Clearly the most compelling is the festering&#x000A;situation in Chahar Darrah district in Kunduz. It is a bit&#x000A;unnerving to realize that villages literally a stone's throw&#x000A;from the main north-south road linking Kabul to the border&#x000A;crossing with Tajikistan at Sherkan-Bandar are in a security&#x000A;no-go area owing to the presence there of insurgent elements.&#x000A;This is hardly an abstract concern, given increased&#x000A;prospects of ISAF using the road as an important resupply&#x000A;route. A joint ANSF/German operation in the district from&#x000A;late December to mid-January managed to expel mid-level&#x000A;insurgent commanders and suppress low-level fighters. Key&#x000A;leaders, however, have been moving back into the district and&#x000A;the PRT in Kunduz is expecting the worst this summer. As the&#x000A;then-PRT commander reasoned in late March, the Taliban feel a&#x000A;need to surge in order to demonstrate their reach, especially&#x000A;in light of the influx of additional U.S. troops to&#x000A;Afghanistan.&#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (C) Rocket attacks on the PRT and a rise in IED&#x000A;incidents in the area are seen as a harbinger of things to&#x000A;come. The same German commander (the position shifts every&#x000A;six months) was more rigorous than some of his predecessors&#x000A;in addressing the insurgent threat, sending his soldiers to&#x000A;patrol in Chahar Darrah even at night. But he expressed&#x000A;frustration at the unwieldiness of the German interagency&#x000A;bureaucracy in Berlin that left the PRT unable to move&#x000A;forward quickly with job- and income-generating projects in&#x000A;Chahar Darrah at a time when, he felt, such activities could&#x000A;have helped cement gains made in the December-January&#x000A;operation. The increased pace of insurgent attacks in and&#x000A;around Kunduz since that commander's departure have confirmed&#x000A;his worrying predictions. Whether more PRT projects could&#x000A;have prevented the ongoing security downturn in Chahar Darrah&#x000A;is hard to say. The commander himself noted the embarrassed&#x000A;reaction of local residents there at the time of the earlier&#x000A;operation over the New Year period. People told the Germans&#x000A;they were ashamed that international forces had had to come&#x000A;to help -- that Afghan authorities were not paying heed to&#x000A;their calls for help and that Afghans themselves should have&#x000A;been able to address the situation.&#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (SBU) Kunduz Governor Omar shares the former PRT&#x000A;commander's view on the fundamental source of the security&#x000A;problem, namely the lack of jobs. Equally important in his&#x000A;view, however, is the absence of a functioning legal system&#x000A;capable of dispensing real punishment to malefactors. He&#x000A;estimates the number of active insurgents in the province as&#x000A;between 150-200 and also anticipates an upsurge in attacks&#x000A;this year, as both Taliban and Hizb-e Islami seek to increase&#x000A;instability for the elections and demonstrate they can and do&#x000A;remain an active threat in the North. The governor further&#x000A;shares the assessment that insurgents are likely to target&#x000A;the expected increase in ISAF resupply convoys transiting the&#x000A;province. He bemoans what he sees as the squandering of&#x000A;earlier popular support for the government as a result of the&#x000A;government's own inability/failure to act decisively in the&#x000A;area. He suggests poppy cultivation was left unchallenged&#x000A;for too long, the disbandment of illegal armed groups was not&#x000A;pursued with enough vigor and ministries have failed to&#x000A;coordinate among themselves or mount effective programs.&#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. (C) Further to the south, ostensibly peaceful Baghlan&#x000A;&#x000A;Kabul 00001239 002.5 of 005&#x000A;&#x000A;&#x000A;Province faces a different set of security challenges. As&#x000A;the head of the UNAMA office for the region tells it, even&#x000A;though Baghlan generally flies under the national radar, it&#x000A;actually deserves to be labeled "the wild, wild west."&#x000A;xxxxxxxxxxxx, behind-the-scenes&#x000A;contests for power (including on the part of the provincial&#x000A;chief of police); the influence of local strongmen and former&#x000A;mujahedeen (particularly in northern Baghlan); unchecked&#x000A;poppy cultivation in Andarab district; underlying&#x000A;Tajik-Pashtun tensions; and criminality all combine to&#x000A;undermine stability. Direct insurgent activity appears&#x000A;limited, but criminal elements have fashioned links to the&#x000A;Taliban. Locals have also made themselves available to&#x000A;execute for-hire insurgent missions. The Hungarian PRT does&#x000A;little to address any of these problems. They are not&#x000A;permitted to fire their weapons except in self-defense, do&#x000A;little more than patrol the main roads and undertake no&#x000A;counter-narcotics activities. When two Hungarian de-miners&#x000A;were killed doing their work, Budapest stopped sending mine&#x000A;clearers to the PRT. When the security situation in&#x000A;northeastern Bamyan Province was threatened by Baghlan-based&#x000A;malefactors, it was the New Zealanders who had to cross into&#x000A;Baghlan to address the problem. The PRT sees itself as&#x000A;focused on humanitarian assistance and small-scale&#x000A;development work. Again xxxxxxxxxxxx,&#x000A;his nation's troops are looking to do their short stints in&#x000A;Afghanistan and get back home unscathed.&#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (SBU) The head of the Provincial Council (PC) in&#x000A;Baghlan sees one of the same factors cited by Governor Omar&#x000A;in Kunduz as undermining stability in his province too )&#x000A;namely the inability of the nascent formal legal system to&#x000A;address people,s need for justice. In fact, he claims as&#x000A;one of his PC's singular achievements its intervention to&#x000A;settle legal disputes that the formal legal system failed to&#x000A;resolve in a timely manner. According to the PC chairman,&#x000A;one dispute over a murder had languished for 10 years but was&#x000A;settled in two days once a Council member from the affected&#x000A;district mediated. Another case involving a tribal killing&#x000A;had been with prosecutors and the court for 18 months but was&#x000A;settled in two hours with the Provincial Council's help. It&#x000A;is questionable whether these cases were in fact "resolved"&#x000A;in a way that met formal justice standards, but it is&#x000A;noteworthy that these elected sub-national governance&#x000A;officials clearly believe they have done a service to their&#x000A;constituents and thereby brought the government and people&#x000A;closer by their actions.&#x000A;&#x000A;Governance ) A Weak Reed&#x000A;-------------------------&#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (C) The governors in Kunduz and Takhar provinces are&#x000A;hardly among the country's strongest. While Kunduz Governor&#x000A;Omar certainly talks a good game, the Germans see him as so&#x000A;thoroughly corrupt that they avoid all contact with him to&#x000A;the furthest extent possible. This can hardly make for&#x000A;optimal synchronization of security, governance and&#x000A;development efforts. The PRT insists, however, that to be&#x000A;seen working with the governor would seriously taint them in&#x000A;the eyes of local residents. As a case in point, they&#x000A;suggest their efforts to construct a bridge across the Kunduz&#x000A;River into Chahar Darrah district (an obvious security&#x000A;priority) have been stalled not least because of the&#x000A;governor's shady dealings with the government land needed for&#x000A;access to the site of the bridge crossing (the Germans also&#x000A;say they had to re-bid the construction contract for the&#x000A;bridge to enable a firm favored by a deputy minister at the&#x000A;Ministry of Reconstruction and Development (MRRD) to come out&#x000A;the winner). Governor Omar himself places a finger of blame&#x000A;on the poor quality of some of his district administrators.&#x000A;In other instance, however, he suggests the Independent&#x000A;Director of Local Governance,s (IDLG) emphasis on education&#x000A;qualifications has saddled districts with officials ignorant&#x000A;of the important local social networks and power&#x000A;relationships. He complains as well about his lack of funds&#x000A;and argues that the inability of some line ministries in&#x000A;Kunduz to spend their full allocations from Kabul exacerbates&#x000A;the problem. The Kunduz PRT's German development advisor had&#x000A;high praise for the activities of USAID's Local Governance&#x000A;and Community Development (LGCD) program in the province but&#x000A;noted the lack of a civil service training institute in&#x000A;Kunduz, the most important city in the northeast.&#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (C) While Takhar Governor Ibrahimi may check the Uzbek&#x000A;ethnic box, he appears to have little else going for him, at&#x000A;least judging by a desultory 90-minute meeting he gave to&#x000A;Emboff. Despite evidence to the contrary, according to the&#x000A;governor his province has virtually no major challenges,&#x000A;aside from the inadequacy of international development&#x000A;&#x000A;Kabul 00001239 003.2 of 005&#x000A;&#x000A;&#x000A;assistance. He suggested that, thanks to his own efforts as&#x000A;well as those of NDS and ANP and the cooperation of local&#x000A;elders and religious leaders, security in the province is&#x000A;good and insurgents are "under control;" weapons have been&#x000A;surrendered in fully half of the province's districts; women&#x000A;play an active role, including in government service; the&#x000A;Governor makes special efforts to press district&#x000A;administrators working under him to respect human rights; and&#x000A;anti-corruption efforts are underway. He dismissed reports&#x000A;of weapons smuggling through the province as inaccurate and&#x000A;blamed what he admitted is some heroin and opium smuggling on&#x000A;the existence of an active drug market across Takhar's border&#x000A;in Tajikistan. According to the German PRT in Kunduz,&#x000A;Ibrahimi's extortion schemes are netting him $40,000 a month&#x000A;from Takhar residents.&#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (C) If there is a bright spot in governance in the&#x000A;northeast, it may be Governor Barakzai in Baghlan. While it&#x000A;is still early days, xxxxxxxxxxxx sees Barakzai as a breath of fresh air. While the&#x000A;provincial chief of police reportedly ran roughshod over&#x000A;Barakzai's predecessor, the new governor has put the ANP&#x000A;chief off balance (it may help that Barakzai brought with him&#x000A;to Baglan his own bodyguard force). For the moment, the&#x000A;governor appears to have co-opted the police chief as well as&#x000A;the local NDS head, is gaining in prestige among the local&#x000A;movers and shakers and has even gone some distance in&#x000A;quieting unease among the province's large Tajik population&#x000A;over his appointment (he is a Pashtun).&#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (C) Comments by some key international stakeholders&#x000A;raise doubts that UNAMA's local operations are likely to&#x000A;contribute much to turning around the situation on governance&#x000A;in the region. The German PRT in Kunduz reports that the&#x000A;local UNAMA office has little to offer, in contrast to&#x000A;UNAMA's facility in Maza-I Sharif. As the PRT sees it,&#x000A;UNAMA's Kunduz office does not coordinate or align donors,&#x000A;has no humanitarian assistance officer and has failed so far&#x000A;to provide much needed district mapping for Chahar Darrah&#x000A;district. In Baghlan, where UNAMA placed three people late&#x000A;last year, xxxxxxxxxxxx goes so far as to label&#x000A;UNAMA's role in the province "just a joke." He takes aim&#x000A;particularly at what he suggests is a failure by local UNAMA&#x000A;staff to exercise a coordinating role. In UNAMA's defense,&#x000A;the head of UNAMA's regional office in Kunduz notes that&#x000A;personnel reinforcements are in the pipeline. She points in&#x000A;particular to the upcoming addition of a governance unit,&#x000A;with two additional international staffers.&#x000A;&#x000A;Development: No Pockets are Deep Enough&#x000A;-----------------------------------------&#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (U) Three of the four provinces of the northeast enjoy&#x000A;something of an advantage in having as their "patron" the&#x000A;Germans, who see their mission as development-focused.&#x000A;Germany currently channels 130 million euros a year in&#x000A;assistance to Afghanistan, with 60 percent of this going to&#x000A;the three provinces of Kunduz, Takhar and Badakhshan, as well&#x000A;as to Balkh (home of the German-led Regional Command North).&#x000A;Of those three northeastern provinces, Badakhshan receives&#x000A;the largest share because of its greater needs. The Kunduz&#x000A;corridor also comes in for a fair share of the funding, with&#x000A;Takhar receiving the least. The German Development Agency&#x000A;(GTZ) does, however, maintain an office in Taloqan, Takhar's&#x000A;capital. The Germans are seriously considering&#x000A;rehabilitating and paving the direct road link between Kunduz&#x000A;and Mazar-e Sharif over the next few years, at an estimated&#x000A;cost of 54 million euros for the 60-mile stretch. They were&#x000A;instrumental in getting EC funding for the rehabilitation of&#x000A;the major irrigation system along the Taloqan River in Takhar&#x000A;and are putting 1.6 million euros into repairing the adjacent&#x000A;Khanabad I power station (damaged in the war).&#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (U) Such large-scale projects, rather than the quick&#x000A;impact projects that were once a staple of the German PRT in&#x000A;Kunduz, are sought increasingly by the local population. But&#x000A;even for smaller projects, the PRT has tried to better target&#x000A;local desires and needs by establishing a special Provincial&#x000A;Development Fund (PDF). Each of the three provinces in the&#x000A;PRT's area of responsibility is awarded 800,000 euros a year&#x000A;in projects approved by an eight-member panel composed of&#x000A;four Germans and four Afghans, including representative from&#x000A;the respective Provincial Councils and governors' offices.&#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (SBU) Despite their best efforts, the Germans in the&#x000A;field in the northeast are frustrated by the cumbersomeness&#x000A;of their own government bureaucracy. As the Kunduz DEVAD&#x000A;explains it, back in 2003 the Berlin ministries with a stake&#x000A;in development assistance worked out an agreement defining&#x000A;the specific sectors to which assistance would be directed.&#x000A;&#x000A;Kabul 00001239 004.4 of 005&#x000A;&#x000A;&#x000A;These include such areas as drinking water supply, basic&#x000A;education, gender, renewable energy and provision of&#x000A;technical cooperation and advice. The list did not include a&#x000A;sector that is key in this relatively well-watered region,&#x000A;namely agriculture; and this has come to hamper the&#x000A;effectiveness of the overall effort of the PRT. It appears&#x000A;all but impossible to have the basic list of priority sectors&#x000A;reexamined, given the existing balance of interests between&#x000A;the various German ministries. This makes it extremely&#x000A;difficult for the PRT to respond to evolving, sometimes&#x000A;pressing needs. This year, in what they consider a major&#x000A;victory, the PRT managed to extract 500,000 euros in extra&#x000A;funding from the German Foreign Ministry and the German Bank&#x000A;for Reconstruction and Development (KFW) for urgently needed&#x000A;projects in Chahar Darrah. None of this assistance, however,&#x000A;keeps local authorities from complaining, sometimes bitterly,&#x000A;about their neglect ) particularly relative to what they see&#x000A;as truly massive aid being channeled to the country,s east&#x000A;and south.&#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. (U) Baghlan falls into that unfortunate category of&#x000A;provinces stuck with the fatal combination of a fairly benign&#x000A;environment and a fairly indigent PRT. The result is minimal&#x000A;international development assistance. The Hungarians spend&#x000A;about $30 million a year to maintain their PRT outpost. They&#x000A;invest another $3 million a year in development assistance,&#x000A;with $300,000 directed at infrastructure improvements (the&#x000A;section of the Ring Road in the province south of Pol-i&#x000A;Khumri is still unpaved). The PRT has a budget of $500,000&#x000A;for civ-mil quick impact projects. The NGO Hungarian&#x000A;Interchurch Aid (HIA) serves as implementer for much of&#x000A;Hungary's aid.&#x000A;&#x000A;Self-Sacrifice a Lost Virtue? Yes and No&#x000A;-------------------------------------------&#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (U) A visit to the Baghlan sugar refinery just north&#x000A;of the provincial capital provided a window on the challenges&#x000A;of reviving what little industry or processing capabilities&#x000A;the country still possesses. The mill, which ran from 1929&#x000A;until 1976 as a private concern, suffered like the rest of&#x000A;the country from decades of war but was reopened in 2005&#x000A;after being reborn as a private-public partnership. The&#x000A;enterprise was capitalized at 15.6 million euros, with the&#x000A;Afghan government holding a 30 percent stake and the&#x000A;remainder in the hands of two German companies and four local&#x000A;Afghans. The refinery first produced sugar again in 2006,&#x000A;but its potential has been difficult to realize because of a&#x000A;local roundworm infestation that originated in the former&#x000A;Soviet Union and now covers all of Baghlan. In that year&#x000A;fully 70 percent of the harvest was lost to the infestation.&#x000A;The following year no beets were grown, and in 2008 only 40&#x000A;hectares of the 260 hectares planted survived. And this was&#x000A;only due to some farmers having planted beets as their second&#x000A;crop ) the worms did not have the entire season to do their&#x000A;damage. xxxxxxxxxxxx this is a tragedy for the country since it is&#x000A;currently importing sugar at a cost of $450 million a year.&#x000A;A possible solution would be to allow fields to lie fallow&#x000A;for a time, but xxxxxxxxxxxx has been unable to convince farmers to&#x000A;follow his advice.&#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (SBU) Roundworm is not the only challenge facing he&#x000A;refinery. It was, notoriously, the site of an explosive&#x000A;attack in November 2007 that resulted in death and injury to&#x000A;as many as 75 people, including women and children. A&#x000A;six-member delegation from the Wolesi Jirga's economics&#x000A;committee died in the incident. Although the German&#x000A;development agency (GTZ) does not generally support&#x000A;agricultural projects in Afghanistan, it did come up with the&#x000A;funds to make extensive security improvements to the&#x000A;office/residence complex at the mill. xxxxxxxxxxxx a&#x000A;continuing threat of kidnapping. xxxxxxxxxxxx has also had to hire&#x000A;a local strongman as his assistant to run interference for&#x000A;him with locals seeking to extort this or that advantage for&#x000A;themselves from the plant.&#x000A;&#x000A;<a id='par17' href='#par17'>¶</a>17. (U) The problem of locals seeking immediate, personal&#x000A;gain is not confined to the mill. xxxxxxxxxxxx recounts it, the&#x000A;well-known cheese factory across the street from his mill&#x000A;gave local farmers dairy cows to help ensure the factory&#x000A;would have a steady supply of milk. Much to the annoyance of&#x000A;the managers of that plant, many of the farmers instead sold&#x000A;the animals. xxxxxxxxxxxx complains further that farmers have&#x000A;demanded $4000 from the mill to clear their own irrigation&#x000A;canals, something they traditionally have done for&#x000A;themselves. xxxxxxxxxxxx suggests a simple assessment of $2 per&#x000A;head among the farmers would get the job done.&#x000A;&#x000A;<a id='par18' href='#par18'>¶</a>18. (U) Elsewhere enlightened self-interest still has a&#x000A;&#x000A;Kabul 00001239 005.2 of 005&#x000A;&#x000A;&#x000A;place. At least this is what is reported by the Louis Berger&#x000A;Group (LBG) project managers guiding the USAID-funded&#x000A;construction of the 60-mile engineering marvel that is the&#x000A;Feyzabad-to-Kishim highway through the Hindu Kush in&#x000A;Badakhshan Province. This massive $120-130 million&#x000A;undertaking is forcing a 30-meter wide highway alongside the&#x000A;Mashhad River by means of major hill-leveling and blasting&#x000A;works. If the Germans ultimately do decide to rebuild the&#x000A;direct road between Kunduz and Mazar-e Sharif, then an&#x000A;improved asphalt band will link people and commerce across&#x000A;the entire north of Afghanistan, from Feyzabad in the east to&#x000A;Sherberghan and Meymaneh in the west. While government and&#x000A;security officials at all levels in Badakhshan have been&#x000A;quite supportive of USAID,s project, the LBG engineers are&#x000A;especially impressed by the readiness of farmers along the&#x000A;route to give up a significant part of their extremely&#x000A;limited mountainside acreage for the sake of the road.&#x000A;Although GIRoA is supposed to pay compensation, project&#x000A;managers doubt this is actually happening. The company&#x000A;maintains two community development offices to work as&#x000A;liaisons with local residents and has tried to be&#x000A;accommodating, for example by allowing time for harvesting of&#x000A;targeted fields and by rerouting of affected irrigation&#x000A;channels. They marvel nonetheless at the goodwill they have&#x000A;encountered despite the destruction of 400-500 houses, many&#x000A;of which have been dismantled by the residents themselves.&#x000A;&#x000A;<a id='par19' href='#par19'>¶</a>19. (U) The on-site project managers point to one other&#x000A;important advantage they enjoy ) good security. They had&#x000A;some IEDs and rockets to deal with last year, but things are&#x000A;going well now. Without good security, they say, it would be&#x000A;impossible to build the road through the area's mountainous&#x000A;terrain where they and their crews are often dwarfed by still&#x000A;higher ground above them. The NDS licenses their protection&#x000A;teams, who are made up basically of the troops of local&#x000A;commanders. Another advantage of good security is their&#x000A;ability to find willing Afghan subcontractors. Some of these&#x000A;firms once worked in the southeast and reinvested their&#x000A;earnings in the purchase of expensive road construction&#x000A;equipment. Those Afghan businessmen are reluctant to work&#x000A;again in those now more insecure areas for fear of losing&#x000A;their equipment to insurgent attack.&#x000A;Eikenberry</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

@@ -1,0 +1,782 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/support.html'>
+<img alt='Keep Us Strong' src='/img/ja-cg.jpg' />
+</a>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 842 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/Brasil-rejeitou-prisioneiros-de.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/Har-blir-vi-blasta.html">Sweden</a>
+<a href="/articles/2010/PayPal-freezes-WikiLeaks-donations.html"> Editorial</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-04_0.html'>2010/12/04</a>
+<a href='/reldate/2010-12-03_0.html'>2010/12/03</a>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-06_0.html'>2004/06</a>
+<a href='/date/2004-09_0.html'>2004/09</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-02_0.html'>2005/02</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-06_0.html'>2008/06</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/69_0.html'>Embassy Asuncion</a>
+<a href='/origin/70_0.html'>Embassy Astana</a>
+<a href='/origin/71_0.html'>Embassy Ashgabat</a>
+<a href='/origin/72_0.html'>Embassy Ankara</a>
+<a href='/origin/73_0.html'>Embassy Amman</a>
+<a href='/origin/74_0.html'>Embassy Algiers</a>
+<a href='/origin/75_0.html'>Embassy Addis Ababa</a>
+<a href='/origin/76_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/57_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/58_0.html'>Embassy Bucharest</a>
+<a href='/origin/59_0.html'>Embassy Brussels</a>
+<a href='/origin/60_0.html'>Embassy Bridgetown</a>
+<a href='/origin/61_0.html'>Embassy Brasilia</a>
+<a href='/origin/62_0.html'>Embassy Bishkek</a>
+<a href='/origin/63_0.html'>Embassy Berlin</a>
+<a href='/origin/64_0.html'>Embassy Beirut</a>
+<a href='/origin/65_0.html'>Embassy Beijing</a>
+<a href='/origin/66_0.html'>Embassy Bangkok</a>
+<a href='/origin/67_0.html'>Embassy Baku</a>
+<a href='/origin/68_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/52_0.html'>Embassy Conakry</a>
+<a href='/origin/53_0.html'>Embassy Colombo</a>
+<a href='/origin/54_0.html'>Embassy Chisinau</a>
+<a href='/origin/55_0.html'>Embassy Caracas</a>
+<a href='/origin/56_0.html'>Embassy Cairo</a>
+<a href='/origin/87_0.html'>Consulate Casablanca</a>
+<a href='/origin/88_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/47_0.html'>Embassy Dushanbe</a>
+<a href='/origin/48_0.html'>Embassy Dublin</a>
+<a href='/origin/49_0.html'>Embassy Doha</a>
+<a href='/origin/50_0.html'>Embassy Djibouti</a>
+<a href='/origin/51_0.html'>Embassy Damascus</a>
+<a href='/origin/86_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/46_0.html'>Embassy Harare</a>
+<a href='/origin/85_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/45_0.html'>Embassy Islamabad</a>
+<a href='/origin/84_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/83_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/41_0.html'>Embassy Kyiv</a>
+<a href='/origin/42_0.html'>Embassy Kuwait</a>
+<a href='/origin/43_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/44_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/36_0.html'>Embassy Luxembourg</a>
+<a href='/origin/37_0.html'>Embassy London</a>
+<a href='/origin/38_0.html'>Embassy Lisbon</a>
+<a href='/origin/39_0.html'>Embassy Lima</a>
+<a href='/origin/40_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/31_0.html'>Embassy Muscat</a>
+<a href='/origin/32_0.html'>Embassy Moscow</a>
+<a href='/origin/33_0.html'>Embassy Mexico</a>
+<a href='/origin/34_0.html'>Embassy Manama</a>
+<a href='/origin/35_0.html'>Embassy Madrid</a>
+<a href='/origin/82_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/30_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/27_0.html'>Embassy Ouagadougou</a>
+<a href='/origin/28_0.html'>Embassy Ottawa</a>
+<a href='/origin/29_0.html'>Embassy Oslo</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/23_0.html'>Embassy Prague</a>
+<a href='/origin/24_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/25_0.html'>Embassy Paris</a>
+<a href='/origin/26_0.html'>Embassy Panama</a>
+<a href='/origin/81_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/20_0.html'>Embassy Rome</a>
+<a href='/origin/21_0.html'>Embassy Riyadh</a>
+<a href='/origin/22_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/15_0.html'>Embassy Stockholm</a>
+<a href='/origin/16_0.html'>Embassy Singapore</a>
+<a href='/origin/17_0.html'>Embassy Seoul</a>
+<a href='/origin/18_0.html'>Embassy Santiago</a>
+<a href='/origin/19_0.html'>Embassy Sanaa</a>
+<a href='/origin/78_0.html'>Consulate Shenyang</a>
+<a href='/origin/79_0.html'>Consulate Shanghai</a>
+<a href='/origin/80_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy The Hague</a>
+<a href='/origin/11_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/12_0.html'>Embassy Tehran</a>
+<a href='/origin/13_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/14_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/77_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AFIN_0.html'>AFIN</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BO_0.html'>BO</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BY_0.html'>BY</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/COUNTER_0.html'>COUNTER</a>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CACM_0.html'>CACM</a>
+<a href='/tag/CDB_0.html'>CDB</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/COUNTERTERRORISM_0.html'>COUNTERTERRORISM</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CG_0.html'>CG</a>
+<a href='/tag/CM_0.html'>CM</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ET_0.html'>ET</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EINVEFIN_0.html'>EINVEFIN</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/ELECTIONS_0.html'>ELECTIONS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/EINDETRD_0.html'>EINDETRD</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+<a href='/tag/FREEDOM_0.html'>FREEDOM</a>
+<a href='/tag/FBI_0.html'>FBI</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GV_0.html'>GV</a>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+<a href='/tag/GE_0.html'>GE</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HU_0.html'>HU</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/INRA_0.html'>INRA</a>
+<a href='/tag/INRO_0.html'>INRO</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+<a href='/tag/ITALY_0.html'>ITALY</a>
+<a href='/tag/ITALIAN_0.html'>ITALIAN</a>
+<a href='/tag/IRAQI_0.html'>IRAQI</a>
+<a href='/tag/IO_0.html'>IO</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JUS_0.html'>JUS</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KIPR_0.html'>KIPR</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KSUM_0.html'>KSUM</a>
+<a href='/tag/KPIN_0.html'>KPIN</a>
+<a href='/tag/KDEMAF_0.html'>KDEMAF</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KAWC_0.html'>KAWC</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KR_0.html'>KR</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KGIC_0.html'>KGIC</a>
+<a href='/tag/KRAD_0.html'>KRAD</a>
+<a href='/tag/KE_0.html'>KE</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LG_0.html'>LG</a>
+<a href='/tag/LU_0.html'>LU</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MK_0.html'>MK</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MA_0.html'>MA</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/MP_0.html'>MP</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NO_0.html'>NO</a>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+<a href='/tag/NL_0.html'>NL</a>
+<a href='/tag/NATIONAL_0.html'>NATIONAL</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OAS_0.html'>OAS</a>
+<a href='/tag/OPDC_0.html'>OPDC</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OREP_0.html'>OREP</a>
+<a href='/tag/ODIP_0.html'>ODIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/POLITICS_0.html'>POLITICS</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PECON_0.html'>PECON</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RW_0.html'>RW</a>
+<a href='/tag/RO_0.html'>RO</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SM_0.html'>SM</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SI_0.html'>SI</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TIP_0.html'>TIP</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TERRORISM_0.html'>TERRORISM</a>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+<a href='/tag/UE_0.html'>UE</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WI_0.html'>WI</a>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XM_0.html'>XM</a>
+<a href='/tag/XR_0.html'>XR</a>
+<a href='/tag/XS_0.html'>XS</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XG_0.html'>XG</a>
+<a href='/tag/XH_0.html'>XH</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+<a href='/tag/YE_0.html'>YE</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZK_0.html'>ZK</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2010%2F02%2F10BRUSSELS183.html%20%2310BRUSSELS183'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2010%2F02%2F10BRUSSELS183.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 10BRUSSELS183, SUBJECT: DEPUTY NSA MICHAEL FROMAN VISIT TO</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#10BRUSSELS183</b>.
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2010/02/10BRUSSELS183.html'>10BRUSSELS183</a>
+</td>
+<td>
+<a href='/date/2010-02_0.html'>2010-02-17 13:01</a>
+</td>
+<td>
+<a href='/reldate/2010-12-03_0.html'>2010-12-03 21:09</a>
+</td>
+<td>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+</td>
+<td>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXRO5689&#x000A;RR RUEHAG RUEHROV RUEHSL RUEHSR&#x000A;DE RUEHBS #0183/01 0481331&#x000A;ZNY CCCCC ZZH&#x000A;R 171331Z FEB 10&#x000A;FM USEU BRUSSELS&#x000A;TO RUEHC/SECSTATE WASHDC&#x000A;RHEHNSC/NSC WASHDC&#x000A;RUCPDOC/USDOC WASHDC&#x000A;RUEATRS/DEPT OF TREASURY WASHDC&#x000A;INFO RUCNMEM/EU MEMBER STATES COLLECTIVE&#x000A;RUEHBJ/AMEMBASSY BEIJING&#x000A;RUEHBR/AMEMBASSY BRASILIA&#x000A;RUEHNE/AMEMBASSY NEW DELHI&#x000A;RUEHSA/AMEMBASSY PRETORIA&#x000A;RUEHGV/USMISSION USTR GENEVA</pre></code>
+<code><pre>C O N F I D E N T I A L SECTION 01 OF 07 BRUSSELS 000183 &#x000A;&#x000A;SIPDIS &#x000A;&#x000A;NSC FOR DNSA FROMAN, KVIEN, BELL &#x000A;STATE PLEASE PASS TO USTR FOR SAPIRO AND WILSON &#x000A;&#x000A;EO 12958 DECL: 02/16/2020 &#x000A;TAGS EAID, ECON, ECPS, EFIN, ENRG, EINV, ETRD, EUN, KGHG, &#x000A;PREL, SENV, BR, CH, HA, IN, SF &#x000A;SUBJECT: SUBJECT: DEPUTY NSA MICHAEL FROMAN VISIT TO &#x000A;BRUSSELS, JANUARY 27, 2010&#x000A;&#x000A;SUMMARY&#x000A;------- &#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (C) Deputy National Security Advisor for International Economic Affairs Michael Froman held wide-ranging discussions with over 25 senior EU officials in Brussels January 27. Froman and the Ambassador met with Commission President Barroso, the incoming European Commissioners for Climate (Hedegaard), Internal Markets (Barnier) and Trade (De Gucht), and with new European Council President Van Rompuy,s Chief of Staff. Froman and the Ambassador also lunched with a dozen Directors General and Commissioner cabinet chiefs, and led a roundtable with Member State Ambassadors. The EU officials welcomed Froman,s call for stronger bilateral cooperation to boost our economies, improve coordination on climate, Doha and financial regulation, and push back against coordinated opposition of BASIC countries (China, India, Brazil, South Africa) to our international positions. They also appreciated the Ambassador,s message that they must capitalize on the Obama Administration commitment to multilateralism to secure with the U.S. concrete achievements to strengthen growth and create jobs.&#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (C) DNSA Froman and Hedegaard committed to work closely to define the right Post-Copenhagen climate negotiating group and process, and agreed to hold a DVC prior to the February 11 European Council. Froman and De Gucht committed to share ideas to improve the Transatlantic Economic Council (TEC), with De Gucht planning a February-March DC visit to discuss TEC and trade issues. Froman, Barnier, and lunch attendees agreed on the importance of bilateral coordination to improve G20 and other work on financial reform. De Gucht and other officials noted the urgency of building U.S.-EU crisis response and development cooperation in the wake of the Haiti earthquake. Finally, Froman expressed U.S. support for the new EU Lisbon Treaty structure; the officials explained that the EU will need time to adjust to the new format but should emerge with better, more streamlined decisionmaking. END SUMMARY.&#x000A;&#x000A;A PACKED AGENDA WITH SENIOR EU OFFICIALS&#x000A;---------------------------------------- &#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (C) Deputy National Security Advisor for International Affairs Michael Froman held intense, broad-ranging discussions with EU and Member State officials on January 27 enroute to the Davos World Economic Forum. Ambassador Kennard accompanied Froman throughout the day. Froman met with European Commissioners-designate for Climate Connie Hedegaard and for Internal Markets Michel Barnier, current Development Commissioner and Commissioner-designate for Trade Karel de Gucht (plus staff for all), and new European Council President Herman Von Rompuy,s chief of staff Frans Van Daele. Froman also met briefly with Commission President Jose Manuel Barroso and with Director General for External Relations Joao Vale de Almeida. Froman attended a lunch hosted by Vale de Almeida featuring:&#x000A;&#x000A;- Marco Buti, Director General for Economic and Financial Affairs Jonathan Faull, Director General for Justice, Freedom and Security - Antonio Cabral, President Barroso Senior Economic Policy Adviser - Fernando Andresen Guimaraes, President Barroso Diplomatic Adviser &#x000A;- James Morrison, Head of Cabinet for High Representative and Commission Vice President Catherine Ashton - Olivier Guersent, Head of Cabinet for Commissioner-designate for Internal Market and Services Michel Barnier - Timo Pesonen, Head of Cabinet for Commissioner-designate for Economic and Financial Affairs Ollie Rehn - Mark Vanheukelen, Head of Cabinet of Commissioner-designate for Trade Karel de Gucht - Alan Seatter, Director for North America in Directorate General for External Relations - Jean Claude Thebault, new Commission Deputy Secretary General&#x000A;BRUSSELS 00000183 002 OF 007&#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (C) Froman and the Ambassador ended with a roundtable including Member State Permanent Representation (COREPER II) Ambassadors from: Austria (Hans Dietmar Schwiesgut); Belgium (Jean De Ruyt); Denmark (Poul Skytte Christoffersen); France (Philippe Etienne); Italy (Fernando Nelli Feroci); Poland (Jan Tombinski); Sweden (Christian Danielsson); and the UK (Kim Darroch).&#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. (C) Discussions centered around six themes: the need to improve U.S.-EU bilateral coordination on a range of transnational issues (including climate, Doha and financial reform), to avoid repeating what Froman termed &disappointments8 of 2009 and to meet the rising challenge of surprisingly united BASIC countries (China, India, Brazil and South Africa); close coordination on climate to build upon the fledgling Copenhagen Accord; better coordination on G20 and financial supervisory and regulatory reform issues; our joint commitment to reach a Doha Development Agenda Agreement; the need to improve the Transatlantic Economic Council (TEC) and use it to secure concrete achievements that boost growth and create jobs; and improving U.S.-EU crisis response and development cooperation in the wake of the Haiti earthquake.&#x000A;IMPROVING U.S.-EU COOPERATION TO MEET THE &BASIC8 &#x000A;&#x000A;CHALLENGE&#x000A;--------------------------------------------- -------------- &#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (C) DNSA Froman made two major points to his interlocutors on bilateral relations. First, he stressed, 2009 was a transition year for both the U.S. Administration and EU institutions, with both facing enormous challenges. Despite our mutual good intentions in relaunching U.S.-EU relations, Froman said, and great improvement in tone, we continued to talk past each other on some issues. He cited Copenhagen as an example, where both sides misread each other,s negotiating bottom lines, and stressed that EU leaders, &one-upsmanship8 model of outdoing each other to push EU-wide policy did not/not work in dealing with the U.S. Administration.&#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (C) Second, Froman told the EU officials, it is remarkable how closely coordinated the &BASIC8 group of countries (China, India, Brazil and South Africa) have become in international fora, taking turns to impede U.S./EU initiatives and playing the U.S. and EU off against each other. BASIC countries have widely differing interests, he said, but have subordinated these to their common short-term goals to block some Western initiatives. The U.S. and EU need to learn from this coordination, Froman said, and work much more closely and effectively together ourselves, to better handle third country obstructionism and avoid future trainwrecks on climate, Doha or financial regulatory reform.&#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (C) Ambassador Kennard underscored that this is a significant moment for U.S.-EU relations. There is important alignment between our interests, he said, with President Obama as a committed multilateralist in the White House. We must feel urgency to work together to deliver real benefits that will boost growth and create jobs, the Ambassador stressed, given that we have a limited window of opportunity before a political referendum occurs on these efforts.&#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (C) The EU officials welcomed Froman,s and the Ambassador,s calls for closer cooperation. Director General for External Relations Vale de Almeida emphasized that the Commission transition and Lisbon Treaty implementation, while seeming to add to the complexity of EU institutions (for example, with greater power for European Parliament) will produce a streamlined EU that is an indispensible U.S. partner. Commission President Barroso is committed to closer relations, Vale de Almeida said, highlighting his shift of TEC leadership to the Trade Commissioner as a positive step. Vale de Almeida asked for U.S. understanding in the EU attaching political importance to annual U.S.-EU Summits and other &processes8; these processes are the way the EU produces results, he declared. He acknowledged the U.S. desire for concrete outcomes but stressed that symbolism is important to EU institutions.&#x000A;BRUSSELS 00000183 003 OF 007&#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (C) Council President Van Rompuy Chief of Staff Van Daele elaborated on the theme that the Lisbon changes, in adding a permanent EU Council President and Foreign Policy High Representative, will strengthen the EU,s capacity to be an effective U.S. partner. Froman responded that the U.S. welcomes the Lisbon changes and wants to help Van Rompuy in his new position. Van Daele welcomed this, saying he understood U.S. policy constraints on climate and financial regulation, given Capitol Hill dynamics. We must work together on economic reform and must look forward together, he added; there is &no good from wagging fingers.8 The U.S. and EU must focus more on getting China more invested in global cooperation, he concluded, to make the Chinese realize they &can,t have their cake and eat it too.8&#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (C) Member State Permanent Representation Ambassadors appreciated the good will of Froman and the Administration to work for better relations with Europe. UK Ambassador Darroch stressed that President Obama,s engagement with Europe (the President has made six trips to Europe since his inauguration, Froman noted) is welcome, and that European leaders &haven,t sufficiently responded yet.8 The Ambassadors were skeptical that Lisbon would bring rapid benefits. They noted that EU institutions will require an adjustment period to the new structure, implying delay in a fully effective EU under the new treaty. Polish Ambassador Tombinski expected &a big institutional fight,8 but thought eventually Lisbon may speed up EU operations. French Ambassador Etienne said the challenge will be to use these new capabilities effectively so the EU can act coherently with its major partners. Ambassadors Danielsson of Sweden and Christofferson of Denmark agreed that the lesson of our mutual misunderstanding in Copenhagen should be ensuring better communication to avoid a recurrence in other fora.&#x000A;&#x000A;CLIMATE CHANGE: BUILDING UPON THE COPENHAGEN ACCORD&#x000A;--------------------------------------------- ------ &#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (C) Climate Commissioner-designate Hedegaard thanked Froman for President Obama,s efforts in Copenhagen. She asked about U.S. legislative efforts on climate and U.S. political dynamics around mid-term Congressional elections and how they might impact U.S. international cooperation moving toward COP-16 in Cancun, Mexico. Froman responded that the U.S., overriding international goal, to work on implementing the Copenhagen Accord as well as on the other UN tracks, will not change. We will still work toward domestic legislation as well, Froman said. He thought midterm dynamics would not strongly impact our work going into Cancun.&#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (C) Froman and Hedegaard reviewed Copenhagen outcomes. Froman said that while nobody considered the agreement complete, it is a good step forward. Hedegaard said Copenhagen left some disappointed in the UN process, but stressed that we can,t give up. The Accord contains a lot of good points, she said, that should not be wasted. She hoped that the U.S. noted the EU was muting its criticism of the U.S., to be constructive.&#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. (C) Both officials agreed we must focus now on operational steps to implement the Copenhagen Accord. Froman said the U.S. will work in the next few weeks on getting countries to sign up for (&associate themselves with8) the Accord, and to inscribe their targets. The U.S. would be happy, he suggested, with the seven emerging market countries in the Major Economies Forum (MEF), saying others would then follow. We also need to work on financing, he added.&#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (C) Froman emphasized that we need to determine the right process and grouping of countries to go forward. This could be the Greenland group of 28 countries from Copenhagen, MEF members, or countries signing the Accord, he speculated. The U.S. is not wedded to a particular grouping, he said, but there seems to be broad consensus that relying on the two UNFCCC working groups is insufficient. Hedegaard agreed, suggesting that an informal MEF grouping might be effective.  It would be critical that this have legitimacy, she said.&#x000A;BRUSSELS 00000183 004 OF 007&#x000A;The Greenland group is an option, she said, but others might resent this designation.&#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (C) It is vital to get G-77 agreement to whatever grouping we use, Hedegaard continued. Both agreed it will be important to talk to incoming G-77 chair Yemen, with Froman adding it will also be important to be in close touch with Mexico as COP-16 chair. In fact, Froman added, we need all major groups ) the EU, MEF, BASIC, G-77, the island countries ) to agree to a negotiating mechanism. Hedegaard responded that we will need to work around unhelpful countries such as Venezuela or Bolivia. Froman agreed that we will need to neutralize, co-opt or marginalize these and others such as Nicaragua, Cuba, Ecuador. Hedegaard noted the irony that the EU is a big donor to these countries, while Cuba, for example, is actively discouraging others from signing on to the Accord.&#x000A;&#x000A;<a id='par17' href='#par17'>¶</a>17. (C) Both agreed that we need processes for coordination and avoiding recriminations. Hedegaard said the EU will use the February 11 informal European Council meeting to reflect on how to be more focused and effective on climate. Froman noted he will do likewise for the U.S. in meetings with Climate Special Envoy Todd Stern and other Administration officials. He suggested that he and Hedegaard speak before the Council meeting to coordinate; she agreed to a videoconference February 10, the day after the new Commission is expected to be formally approved by the European Parliament.&#x000A;&#x000A;<a id='par18' href='#par18'>¶</a>18. (C) Froman and Hedegaard then discussed specific goals for the Bonn and Cancun meetings. Hedegaard said we must have universal acknowledgment that &the world cannot afford8 failure to reach a binding agreement. Froman thought that we should try for progress by Cancun on MRV (monitoring, reporting and verification), the adaptation framework, technologies, and some resolution of process. Both agreed that we should also get countries to inscribe 2020 targets.&#x000A;&#x000A;<a id='par19' href='#par19'>¶</a>19. (C) Froman and Hedegaard also discussed their respective domestic policy developments, noting the complex issue of carbon border taxes. This is an issue of great concern to China, Froman noted. Hedegaard noted the EU,s struggle with how to manage inclusion of aviation and maritime sectors in the EU,s Emissions Trading Scheme. Both agreed it is vital to show economic benefits and potential job creation from bilateral cooperation on climate and clean energy technologies, to build public support for our efforts; Hedegaard committed to provide to Froman EU studies showing such impacts.&#x000A;&#x000A;<a id='par20' href='#par20'>¶</a>20. (C) Froman summarized his climate points for the Member State Ambassadors; while some Post-Copenhagen soul searching is warranted, he said, we need to focus on avoiding a damaging replay of our division there in the runup to Cancun.  We need to work to make the Copenhagen Accord real, getting all countries that matter to associate themselves with the agreement and inscribing their targets. We need early U.S.-EU agreement on the right group and process to take discussions forward, and need progress on financing, technical points and transparency and verification; all are important, he concluded.&#x000A;&#x000A;G20/REFORM OF FINANCIAL SUPERVISION AND REGULATION&#x000A;--------------------------------------------- ----- &#x000A;&#x000A;<a id='par21' href='#par21'>¶</a>21. (C) Froman heard at length from Internal Markets Commissioner-designate Barnier and several lunch participants on the importance of coordination in the G20 and elsewhere on reform of financial supervision and regulation. Froman stressed with all that the U.S. wants to work closely with the EU on all G20 issues, particularly on agreeing to common principles. The G20 is an important framework for this cooperation, he said, and it is vital that we deliver results on G20 commitments not just for their own sake but to build the credibility of the G20 framework. Froman said he wants to ensure the G20 is effective.&#x000A;BRUSSELS 00000183 005 OF 007&#x000A;&#x000A;<a id='par22' href='#par22'>¶</a>22. (C) Director General for Economic and Financial Affairs Buti agreed that the ascendency of the G20 has raised our need for bilateral coordination. He lauded the new macroeconomic and financial dialogue with Treasury launched just days ago, noting we have agreed to hold this to coordinate views before major events. Buti said 2009 was a &fantastic year8 for the G20, and noted we are delivering on many of the major commitments, including IFI reform, resources and quotas, the framework for balanced growth agreed in Pittsburgh, and sharing plans for withdrawal of stimulus when appropriate. Froman responded that a major medium-term challenge should then be more structural reform; Buti agreed. Vale de Almeida said the G20 is improving and streamlining as it develops, which is positive. He pointed to Buti and others at the lunch as those who can deliver on EU commitments and cooperation in the G20.&#x000A;&#x000A;<a id='par23' href='#par23'>¶</a>23. (C) Barnier told Froman he wants to work closely and in confidence with the U.S. He wants to move as much as possible in step with the U.S., he stressed. Barnier,s first non-EU trip will be to the U.S., he added, possibly for the April G20/IMF Spring Meetings. Froman responded that Treasury had the primary role on financial services issues, but that he looked forward to staying in touch. Before President Obama,s recent announcements on banking reform, Barnier noted, there had been doubts in the EU on U.S. willingness to fulfill G20 commitments. There have been doubts about U.S. willingness to implement Basel II bank capital rules, but said this is important to ensure a level playing field. Froman again emphasized U.S. willingness to work with Europe on these issues.&#x000A;&#x000A;<a id='par24' href='#par24'>¶</a>24. (C) Barnier said he was impressed by President Obama,s announcements on bank size and scope. He noted EU reaction has varied, with the UK against, the Dutch in favor and the French &supportive of the direction.8 David Wright, Director for DG Internal Market, said the announcements were a significant and structural change from what had been under discussion in the international community. He emphasized that the EU normally does not regulate via caps on particular business lines but through competition policy. Vale de Almeida in the lunch also questioned whether the announcements were &off-mark8 from the G20. Froman responded that these proposals were consistent with what had been raised previously, noted that we were not alone in showing leadership on these issues, but returned to the U.S. commitment to cooperate toward agreement on basic principles and avoid damaging regulatory arbitrage.&#x000A;&#x000A;<a id='par25' href='#par25'>¶</a>25. (C) Barnier said &his roadmap is the G20 roadmap,8 and he seeks &#x000A;relevant, proportionate regulation in Europe that leaves no market or player unregulated. He said his immediate priorities include resolving Council-Parliament differences over EU financial supervisory architecture, OTC derivatives (and cooperation here with the U.S.), corporate governance, and improving crisis prevention and management tools.&#x000A;&#x000A;WORKING TOWARD A DOHA DEAL&#x000A;-------------------------- &#x000A;&#x000A;<a id='par26' href='#par26'>¶</a>26. (C) Froman emphasized to Commissioner De Gucht and other EU officials the U.S. commitment to try to complete an ambitious Doha Development Agenda agreement, but said that public spats over negotiations were damaging; we should work to prevent this going forward. Froman described our Doha position, and our bilateral engagement with India, Brazil, China and others to produce market access. He emphasized the vital importance of this market access to our stakeholders and the Congress. Froman said that the current offer is not acceptable to U.S. agriculture, NAMA or services stakeholders. De Gucht responded that it is important to close the Doha Round, and that blaming others does not get us there; the question is how to manage the process with appropriate ambition. He said that the EU can live with the result on the table, but if other things come onto the table, we will need a &new equilibrium.8 De Gucht said he hoped that the U.S. bilateral efforts would not interfere with the ability to nail down existing tariffs (Comment: this probably&#x000A;BRUSSELS 00000183 006 OF 007&#x000A;refers to proposed bound tariff reductions in recent DDA texts, which reduce maximum permitted ) bound ) tariffs but do not reduce currently applied tariffs significantly. End comment).&#x000A;&#x000A;<a id='par27' href='#par27'>¶</a>27. (C) De Gucht added that he faces a similar challenge, because the Spanish Presidency is pushing for bilateral FTAs with Latin America, and he wants to ensure such efforts do not interfere with the DDA. Froman responded that eliminating &water8 between bound and actual tariffs is insufficient, that there has to be additional market access. Froman emphasized the importance of the U.S. and EU sending a consistent message on this issue to third countries, even though he recognized that our positions, though similar, are not identical. He encouraged open dialogue and transparency with the EU. Froman said he did not want there to be misunderstanding among our trading partners (similar to what happened in Copenhagen) that the U.S. would ultimately agree to what is on the table.&#x000A;&#x000A;MAKING THE TRANSATLANTIC ECONOMIC COUNCIL DELIVER&#x000A;--------------------------------------------- ---- &#x000A;&#x000A;<a id='par28' href='#par28'>¶</a>28. (C) Froman emphasized to all of his interlocutors the Administration,s interest in making the TEC deliver real results. We are open to all ideas, he said; we can reform, restructure or even eliminate the TEC, based on what we identify together as the best way to secure concrete achievements. The Ambassador added that the bottom line should be generating growth and creating jobs, which could help us prioritize issues for the TEC agenda.&#x000A;&#x000A;<a id='par29' href='#par29'>¶</a>29. (C) De Gucht welcomed Froman,s interest in the TEC. He viewed the TEC as very important, particularly in the context of the rising Chinese economy and significant trade deficits of both the U.S. and EU with China. De Gucht noted that as U.S.-EU tariffs have fallen, non-tariff barriers (NTBs) are the logical next challenge. De Gucht Chief of Staff VanHeukelen stressed that U.S.-EU economic links are &hard to overestimate,8 with &colossal8 bilateral FDI. De Gucht highlighted a recent study showing that if we could remove one half of existing bilateral NTBs, the EU and U.S. would get many billions of dollars in welfare gains (GDP increases) by 2016, or greater than Doha. Seatter of DG External Relations pointed to the 12-14 million jobs dependent on transatlantic trade, stressing that steps to expand these jobs could be an important near-term TEC achievement. VanHeukelen said that to date the TEC has not been seen as extremely effective, but it is important that it do better.&#x000A;&#x000A;<a id='par30' href='#par30'>¶</a>30. (C) Both the EU and U.S. need more growth, De Gucht said, in the face of such challenges as rising social security and health care costs. De Gucht recognized, however, that there are political problems with addressing some NTBs. He agreed it is important that the next TEC meeting produces concrete results, and should not be a simple get-acquainted session. Therefore, he added, we must prepare carefully, out of the spotlight. He said Spain is pushing for a TEC before its Presidency ends June 30, but noted it is unclear if this would provide adequate preparation time. He said a low-profile planning meeting might be more appropriate in the near term. He added he is preparing a paper on TEC goals to send to the U.S. in the next few weeks and hoped the U.S. could do the same. De Gucht said he hopes to visit Washington in late February to discuss key TEC and trade issues with Froman and others. (Note: his staff clarified that the trip will likely be in early March. End note).&#x000A;&#x000A;<a id='par31' href='#par31'>¶</a>31. (C) Both agreed that possible TEC topics could include Doha, climate, China/third country issues, and financial regulation. Froman agreed that there should be no &artificial deadlines8 for the TEC, and that the important thing is to ensure the next meeting produces significant results, to justify the presence of high-ranking officials and respond to stakeholders. We are flexible on timing, and can take five to nine months to achieve concrete results, he underscored. Froman committed to producing a U.S. paper to discuss with the EU.&#x000A;BRUSSELS 00000183 007 OF 007&#x000A;&#x000A;IMPROVING CRISIS RESPONSE AND DEVELOPMENT COORDINATION AFTER HAITI&#x000A;--------------------------------------------- --------------- &#x000A;&#x000A;<a id='par32' href='#par32'>¶</a>32. (SBU) Commissioner De Gucht offered Froman his views on the situation in Haiti, where De Gucht visited the previous week in his capacity as current Development Commissioner. He said that what had happened was a disaster, guessing that &at least 250,0008 were killed, with &20 percent8 of Port-au-Prince destroyed. He thought the Haiti situation manageable, however, with time and money needed for recovery.  The Southeast Asian tsunami had been much worse, he noted. A lot of assistance food stocks were already in Haiti when the earthquake hit, he said, and water and food distribution was OK. Roads were mostly unaffected, he added. The biggest near-term problem, De Gucht explained, will be for 250,000 homeless when the rainy season begins in six weeks. The GOH and donors need to rapidly build camps, he said, to avoid pandemics once rains start. Overall, in De Gucht,s view, life in Haiti is &picking up8 again, and despite media reports, security problems are not serious.&#x000A;&#x000A;<a id='par33' href='#par33'>¶</a>33. (SBU) Morrison of Ashton,s cabinet noted our &great8 bilateral cooperation on Haiti, and stressed that the EU is committed long-term to rebuilding the Haitian economy and state. High Representative Ashton seeks greater development cooperation with the U.S., he said. Seatter of DG External Relations said that the challenges we have faced and met in Haiti coordination underscore our need to work on our crisis response and overall development coordination. This is an area where we can achieve strong results this year, Seatter added.&#x000A;&#x000A;<a id='par34' href='#par34'>¶</a>34. (U) This cable has been cleared by Deputy National Security Advisor Michael Froman.&#x000A;MURRAY&#x000A;End Cable Text&#x000A;Zenaida X Toledo 07/30/2008 04:04:14 PM From DB/Inbox: TRANS&#x000A;.</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

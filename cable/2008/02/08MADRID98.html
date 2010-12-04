@@ -1,0 +1,782 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/support.html'>
+<img alt='Keep Us Strong' src='/img/ja-cg.jpg' />
+</a>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 842 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/Brasil-rejeitou-prisioneiros-de.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/Har-blir-vi-blasta.html">Sweden</a>
+<a href="/articles/2010/PayPal-freezes-WikiLeaks-donations.html"> Editorial</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-04_0.html'>2010/12/04</a>
+<a href='/reldate/2010-12-03_0.html'>2010/12/03</a>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-06_0.html'>2004/06</a>
+<a href='/date/2004-09_0.html'>2004/09</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-02_0.html'>2005/02</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-06_0.html'>2008/06</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/69_0.html'>Embassy Asuncion</a>
+<a href='/origin/70_0.html'>Embassy Astana</a>
+<a href='/origin/71_0.html'>Embassy Ashgabat</a>
+<a href='/origin/72_0.html'>Embassy Ankara</a>
+<a href='/origin/73_0.html'>Embassy Amman</a>
+<a href='/origin/74_0.html'>Embassy Algiers</a>
+<a href='/origin/75_0.html'>Embassy Addis Ababa</a>
+<a href='/origin/76_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/57_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/58_0.html'>Embassy Bucharest</a>
+<a href='/origin/59_0.html'>Embassy Brussels</a>
+<a href='/origin/60_0.html'>Embassy Bridgetown</a>
+<a href='/origin/61_0.html'>Embassy Brasilia</a>
+<a href='/origin/62_0.html'>Embassy Bishkek</a>
+<a href='/origin/63_0.html'>Embassy Berlin</a>
+<a href='/origin/64_0.html'>Embassy Beirut</a>
+<a href='/origin/65_0.html'>Embassy Beijing</a>
+<a href='/origin/66_0.html'>Embassy Bangkok</a>
+<a href='/origin/67_0.html'>Embassy Baku</a>
+<a href='/origin/68_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/52_0.html'>Embassy Conakry</a>
+<a href='/origin/53_0.html'>Embassy Colombo</a>
+<a href='/origin/54_0.html'>Embassy Chisinau</a>
+<a href='/origin/55_0.html'>Embassy Caracas</a>
+<a href='/origin/56_0.html'>Embassy Cairo</a>
+<a href='/origin/87_0.html'>Consulate Casablanca</a>
+<a href='/origin/88_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/47_0.html'>Embassy Dushanbe</a>
+<a href='/origin/48_0.html'>Embassy Dublin</a>
+<a href='/origin/49_0.html'>Embassy Doha</a>
+<a href='/origin/50_0.html'>Embassy Djibouti</a>
+<a href='/origin/51_0.html'>Embassy Damascus</a>
+<a href='/origin/86_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/46_0.html'>Embassy Harare</a>
+<a href='/origin/85_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/45_0.html'>Embassy Islamabad</a>
+<a href='/origin/84_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/83_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/41_0.html'>Embassy Kyiv</a>
+<a href='/origin/42_0.html'>Embassy Kuwait</a>
+<a href='/origin/43_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/44_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/36_0.html'>Embassy Luxembourg</a>
+<a href='/origin/37_0.html'>Embassy London</a>
+<a href='/origin/38_0.html'>Embassy Lisbon</a>
+<a href='/origin/39_0.html'>Embassy Lima</a>
+<a href='/origin/40_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/31_0.html'>Embassy Muscat</a>
+<a href='/origin/32_0.html'>Embassy Moscow</a>
+<a href='/origin/33_0.html'>Embassy Mexico</a>
+<a href='/origin/34_0.html'>Embassy Manama</a>
+<a href='/origin/35_0.html'>Embassy Madrid</a>
+<a href='/origin/82_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/30_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/27_0.html'>Embassy Ouagadougou</a>
+<a href='/origin/28_0.html'>Embassy Ottawa</a>
+<a href='/origin/29_0.html'>Embassy Oslo</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/23_0.html'>Embassy Prague</a>
+<a href='/origin/24_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/25_0.html'>Embassy Paris</a>
+<a href='/origin/26_0.html'>Embassy Panama</a>
+<a href='/origin/81_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/20_0.html'>Embassy Rome</a>
+<a href='/origin/21_0.html'>Embassy Riyadh</a>
+<a href='/origin/22_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/15_0.html'>Embassy Stockholm</a>
+<a href='/origin/16_0.html'>Embassy Singapore</a>
+<a href='/origin/17_0.html'>Embassy Seoul</a>
+<a href='/origin/18_0.html'>Embassy Santiago</a>
+<a href='/origin/19_0.html'>Embassy Sanaa</a>
+<a href='/origin/78_0.html'>Consulate Shenyang</a>
+<a href='/origin/79_0.html'>Consulate Shanghai</a>
+<a href='/origin/80_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy The Hague</a>
+<a href='/origin/11_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/12_0.html'>Embassy Tehran</a>
+<a href='/origin/13_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/14_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/77_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AFIN_0.html'>AFIN</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BO_0.html'>BO</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BY_0.html'>BY</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/COUNTER_0.html'>COUNTER</a>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CACM_0.html'>CACM</a>
+<a href='/tag/CDB_0.html'>CDB</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/COUNTERTERRORISM_0.html'>COUNTERTERRORISM</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CG_0.html'>CG</a>
+<a href='/tag/CM_0.html'>CM</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ET_0.html'>ET</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EINVEFIN_0.html'>EINVEFIN</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/ELECTIONS_0.html'>ELECTIONS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/EINDETRD_0.html'>EINDETRD</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+<a href='/tag/FREEDOM_0.html'>FREEDOM</a>
+<a href='/tag/FBI_0.html'>FBI</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GV_0.html'>GV</a>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+<a href='/tag/GE_0.html'>GE</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HU_0.html'>HU</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/INRA_0.html'>INRA</a>
+<a href='/tag/INRO_0.html'>INRO</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+<a href='/tag/ITALY_0.html'>ITALY</a>
+<a href='/tag/ITALIAN_0.html'>ITALIAN</a>
+<a href='/tag/IRAQI_0.html'>IRAQI</a>
+<a href='/tag/IO_0.html'>IO</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JUS_0.html'>JUS</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KIPR_0.html'>KIPR</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KSUM_0.html'>KSUM</a>
+<a href='/tag/KPIN_0.html'>KPIN</a>
+<a href='/tag/KDEMAF_0.html'>KDEMAF</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KAWC_0.html'>KAWC</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KR_0.html'>KR</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KGIC_0.html'>KGIC</a>
+<a href='/tag/KRAD_0.html'>KRAD</a>
+<a href='/tag/KE_0.html'>KE</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LG_0.html'>LG</a>
+<a href='/tag/LU_0.html'>LU</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MK_0.html'>MK</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MA_0.html'>MA</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/MP_0.html'>MP</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NO_0.html'>NO</a>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+<a href='/tag/NL_0.html'>NL</a>
+<a href='/tag/NATIONAL_0.html'>NATIONAL</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OAS_0.html'>OAS</a>
+<a href='/tag/OPDC_0.html'>OPDC</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OREP_0.html'>OREP</a>
+<a href='/tag/ODIP_0.html'>ODIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/POLITICS_0.html'>POLITICS</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PECON_0.html'>PECON</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RW_0.html'>RW</a>
+<a href='/tag/RO_0.html'>RO</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SM_0.html'>SM</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SI_0.html'>SI</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TIP_0.html'>TIP</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TERRORISM_0.html'>TERRORISM</a>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+<a href='/tag/UE_0.html'>UE</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WI_0.html'>WI</a>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XM_0.html'>XM</a>
+<a href='/tag/XR_0.html'>XR</a>
+<a href='/tag/XS_0.html'>XS</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XG_0.html'>XG</a>
+<a href='/tag/XH_0.html'>XH</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+<a href='/tag/YE_0.html'>YE</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZK_0.html'>ZK</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2008%2F02%2F08MADRID98.html%20%2308MADRID98'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2008%2F02%2F08MADRID98.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 08MADRID98, CODEL MARTINEZ JANUARY 10-11 VISIT TO MADRID</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#08MADRID98</b>.
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2008/02/08MADRID98.html'>08MADRID98</a>
+</td>
+<td>
+<a href='/date/2008-02_0.html'>2008-02-01 10:10</a>
+</td>
+<td>
+<a href='/reldate/2010-12-03_0.html'>2010-12-03 12:12</a>
+</td>
+<td>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</td>
+<td>
+<a href='/origin/35_0.html'>Embassy Madrid</a>
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXRO7083&#x000A;RR RUEHAG RUEHAST RUEHDA RUEHDF RUEHFL RUEHIK RUEHKW RUEHLA RUEHLN&#x000A;RUEHLZ RUEHPOD RUEHROV RUEHSR RUEHVK RUEHYG&#x000A;DE RUEHMD #0098/01 0321058&#x000A;ZNR UUUUU ZZH&#x000A;R 011058Z FEB 08&#x000A;FM AMEMBASSY MADRID&#x000A;TO RUEHC/SECSTATE WASHDC 4164&#x000A;INFO RUEHZL/EUROPEAN POLITICAL COLLECTIVE&#x000A;RUEHUB/USINT HAVANA 0245</pre></code>
+<code><pre>UNCLAS SECTION 01 OF 05 MADRID 000098&#x000A;&#x000A;SIPDIS&#x000A;&#x000A;SENSITIVE&#x000A;SIPDIS&#x000A;&#x000A;E.O. 12958: N/A&#x000A;TAGS: <a href='/tag/OREP_0.html'>OREP</a> <a href='/tag/PREL_0.html'>PREL</a> <a href='/tag/ECON_0.html'>ECON</a> <a href='/tag/EFIN_0.html'>EFIN</a> <a href='/tag/ETRD_0.html'>ETRD</a> <a href='/tag/ENRG_0.html'>ENRG</a> <a href='/tag/EINV_0.html'>EINV</a> <a href='/tag/SP_0.html'>SP</a>&#x000A;SUBJECT: CODEL MARTINEZ JANUARY 10-11 VISIT TO MADRID&#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (U) Summary: Codel Martinez had a busy and productive&#x000A;visit to Madrid January 10-11, 2008, meeting with the Prince&#x000A;of Asturias, Popular Party (PP) presidential candidate&#x000A;Mariano Rajoy, National Security Advisor Carles Casajuana&#x000A;(septel), former President Aznar, Foreign Minister Moratinos&#x000A;(septel), and Cuban dissidents Hector Palacios and Gisela&#x000A;Delgado. The Ambassador accompanied Senator Martinez in all&#x000A;of his meetings. Codel Martinez also attended a lunch&#x000A;organized by the American Chamber of Commerce where&#x000A;discussion focused on renewable energy and a dinner with the&#x000A;U.S.-Spain Council hosted by the Ambassador. In addition,&#x000A;Senator Martinez gave an interview to El Pais newspaper.&#x000A;Senators Grassley and Thune met with a senior official at the&#x000A;Ministry of Industry, Tourism, and Trade to discuss U.S. pork&#x000A;exports. End Summary.&#x000A;&#x000A;Prince of Asturias&#x000A;------------------&#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (SBU) Shortly after their arrival January 10, Senators&#x000A;Martinez, Grassley, Thune, and Craig were received by the&#x000A;Prince of Asturias at Zarzuela Palace. The Prince stressed&#x000A;the importance for Spain of maintaining excellent relations&#x000A;with the U.S. and his commitment to improving those&#x000A;relations. The Prince reminisced happily about his travels&#x000A;in the U.S. and expressed a great fondness for the country.&#x000A;He had clearly been following the U.S. Presidential primaries&#x000A;and sought the Senators' views on the process.&#x000A;&#x000A;Mariano Rajoy&#x000A;-------------&#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (SBU) The delegation met at PP headquarters with&#x000A;presidential candidate Mariano Rajoy. Rajoy noted that with&#x000A;less than two months to go before the Spanish general&#x000A;elections, the polls showed him in a tie with Zapatero and&#x000A;his Spanish Socialist Workers, Party (PSOE). Rajoy said his&#x000A;campaign would focus on the economy, nationalism, and&#x000A;terrorism. On the economy, he said polls showed it to be the&#x000A;number one issue. Rajoy said Zapatero had lived for four&#x000A;years off the inheritance of the previous PP,s government's&#x000A;good economic management. Rajoy said the macroeconomic&#x000A;indicators were still good, but people were beginning to feel&#x000A;the pinch of inflation running above the EU average. He also&#x000A;said interest rates were rising, a serious worry in a nation&#x000A;of 44 million with eight million mortgages. Rajoy said&#x000A;Zapatero had not defended Spain, the oldest national identity&#x000A;in Europe, from the demands of radical regional groups with&#x000A;nationalistic aspirations. On terrorism, Rajoy contrasted PP&#x000A;firmness with Zapatero,s attempt to negotiate with ETA.&#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (SBU) In foreign policy, Rajoy said he would defend&#x000A;democracy, freedom, human rights, and Western values. He&#x000A;said Spain (and Europe) needed the best possible relationship&#x000A;with the U.S. Rajoy noted Spain had once been a reliable&#x000A;ally of the U.S. He promised that as President he would&#x000A;speak his mind and avoid surprises. Rajoy said Spain should&#x000A;play a significant role in Latin America and should promote&#x000A;democracy, freedom, and human rights in the region, which was&#x000A;suffering some unacceptable leaders at the moment. He said&#x000A;the PP position regarding Venezuela was well known: populism&#x000A;was not the direction the people of Latin America were&#x000A;moving. He expressed strong disagreement with Zapatero,s&#x000A;Cuba policy and voiced concern over treatment of dissidents&#x000A;in Cuba. Rajoy noted Spain,s position on Cuba was important&#x000A;within the EU. Rajoy insisted he would fulfill Spain,s&#x000A;commitments abroad, which would be in defense of Western&#x000A;values. He said it was difficult but the public would&#x000A;understand the need for overseas engagement if the problems&#x000A;were explained to them. He said Spain would continue in&#x000A;Afghanistan, and noted the while in opposition the PP had&#x000A;supported sending troops abroad. Rajoy said the PP opposed&#x000A;Spain,s 2004 withdrawal from Iraq, which he characterized as&#x000A;a mistake, albeit one that won the PSOE votes.&#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. (SBU) Although he did not indicate he would make it a&#x000A;campaign issue, Rajoy noted Spain was number two in the world&#x000A;behind the U.S. in terms of the numbers of immigrants&#x000A;received. Over ten percent of the population was of foreign&#x000A;origin, and there was a large Muslim immigrant population.&#x000A;He said immigration was beginning to cause problems, as&#x000A;ordinary Spaniards saw their access to social services&#x000A;affected (he mentioned public health was 40 percent of&#x000A;Spain,s budget). He said the PP was against illegal&#x000A;immigration and in favor of orderly migration flows. He&#x000A;condemned Zapatero,s amnesty for nearly one million illegal&#x000A;immigrants, saying it had drawn new immigrants and noted that&#x000A;migratory pressures from Africa were only increasing.&#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (SBU) Rajoy mentioned that while Minister of Interior he&#x000A;was the first European minister to visit the U.S. after the&#x000A;&#x000A;MADRID 00000098 002 OF 005&#x000A;&#x000A;&#x000A;9/11 attacks. He said the West needed to invest more&#x000A;resources in educating people about democratic values. He&#x000A;criticized the Zapatero government,s Alliance of&#x000A;Civilizations (AOC) effort, saying it was an electoral ploy.&#x000A;He said the left wing in Spain and elsewhere tried to use the&#x000A;popular media and entertainment figures to convince people&#x000A;that they favored peace while center right parties such as&#x000A;the PP in Spain favored war. He said this had to be&#x000A;countered through education.&#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (SBU) Asked about voter turnout, Rajoy said this was a big&#x000A;unknown. He said in 2000 the PP won an absolute majority in&#x000A;Congress. In 2004, they lost by about five percent because&#x000A;Zapatero was able to mobilize socialist voters using the Iraq&#x000A;war and the Atocha bombings. He characterized 2004 as a vote&#x000A;against the PP rather than for the PSOE. Rajoy predicted the&#x000A;anti-PP vote would not be there this year. He said the PP&#x000A;base was very loyal and would vote, so the question was many&#x000A;socialist actually turned out. He noted in 2004 polls should&#x000A;him eight points ahead the day of the Atocha bombings, and he&#x000A;lost by five points the following Sunday. Rajoy noted that&#x000A;the polls in the 2007 municipal elections predicted PP&#x000A;defeat. In fact, the PP won. He said turnout and loyalty&#x000A;were key. He claimed polls showed 85 percent of PP voters&#x000A;were loyal but only 72 percent of PSOE voters. He said his&#x000A;strategy was to reach out to the center and the opposition&#x000A;rather than to his base. He said this was to avoid&#x000A;mobilizing the PSOE base and increasing their turnout. Rajoy&#x000A;mentioned that convincing the media which supported the PP to&#x000A;avoid antagonizing the left was a challenge. Noting he had&#x000A;been campaign manager both times, he noted Aznar,s 1996&#x000A;campaign was aggressive whereas in the even more successful&#x000A;2000 campaign the PP had behaved like nuns. Rajoy said the&#x000A;costs of campaigning in Spain were negligible compared to the&#x000A;U.S. He said in Spain, as opposed to the U.S., it was&#x000A;important not to let people know how much money you had&#x000A;raised since voters would turn against the candidate with the&#x000A;most money. He noted the parties were prohibited from buying&#x000A;advertising until the last two weeks, and so they had to earn&#x000A;media coverage in the meantime and were heavily focused on&#x000A;the internet, which he said was the only way to reach young&#x000A;voters. He said the party was commissioning two polls a&#x000A;month and would move to daily polling in the last two weeks&#x000A;(Rajoy joked that after long and intensive study of the&#x000A;science of polling he had concluded he knew nothing about&#x000A;polls). He said most of the PP money would be spent on radio&#x000A;and billboard advertising. He noted he was on the trail four&#x000A;out of every seven days. Rajoy said the debates, scheduled&#x000A;for February 25 and March 3, could be decisive since they&#x000A;came so late in the process. He mentioned that the PP was&#x000A;also hitting family issues, noting the PSOE favored gay&#x000A;marriage. Rajoy said there were 1.5 million absentee voters,&#x000A;a number he said was significant in terms of the Spanish&#x000A;electorate. He recalled that in a recent election the PP had&#x000A;lost a seat in Galicia because Hugo Chavez had sequestered&#x000A;the mail from Venezuela, which Rajoy was sure contained a&#x000A;heavy PP vote since Spaniards there were unhappy with the&#x000A;PSOE,s failure to stand up to Chavez. Rajoy mentioned the&#x000A;PP had an office in Washington and their representative there&#x000A;was part of the party,s governing committee. He also sought&#x000A;the Senators, views on the U.S. Presidential campaign.&#x000A;&#x000A;Jose Maria Aznar&#x000A;----------------&#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (SBU) On January 11 CODEL Martinez held a wide-ranging&#x000A;discussion with former Spanish President Jose Maria Aznar&#x000A;that touched on the electoral outlook in Spain and the U.S.,&#x000A;as well as Aznar,s strong opinions on Kosovo, Turkey, and&#x000A;the Alliance of Civilizations. President Aznar told the&#x000A;CODEL that he held real reservations about Kosovo's&#x000A;independence, concerns he mentioned he had conveyed to&#x000A;Senator Lieberman the night before. Aznar said he believed&#x000A;international acceptance of a unilateral declaration of&#x000A;independence (UDI) would lead to three undesirable results:&#x000A;the de facto acceptance of changed borders in Europe as a&#x000A;consequence of "blackmail;" the establishment of a principle&#x000A;of self-determination that would have ramifications in Spain,&#x000A;Italy, Turkey, Iraq, and other states with minority&#x000A;populations; and the rise of nationalism on the European&#x000A;continent. Aznar said he feared the explosive mixture of&#x000A;nationalism and changing borders and would prefer Kosovo&#x000A;remain a protectorate for the next century rather than have a&#x000A;UDI be accepted by much of the international community.&#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (SBU) Aznar opined that Turkey's EU bid was impossible at&#x000A;present and would continue to be so for perhaps the next 15&#x000A;years. The former president said that while Europe should&#x000A;certainly look to forge and maintain a special relationship&#x000A;with Turkey, it was hard for him to imagine a Muslim-majority&#x000A;country fitting into a Europe of Christian roots. He said&#x000A;&#x000A;MADRID 00000098 003 OF 005&#x000A;&#x000A;&#x000A;that EU and U.S. leaders needed to consider just what the&#x000A;Turkey factor would mean to Europe with the addition of 100&#x000A;million Muslims.&#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (SBU) Aznar voiced skepticism regarding the AOC. He said&#x000A;during his term in office he visited Iran and worked closely&#x000A;with former Iranian President Khatemi to establish a dialogue&#x000A;of civilizations, but that he could not see the desirability&#x000A;or feasibility of forming an alliance with figures such as&#x000A;Supreme Leader Khamenei. Aznar said that the AOC was not in&#x000A;the best interests of the West. He mentioned that he&#x000A;maintains good relations with Turkish President Erdogan and&#x000A;claimed to have it on good authority that Erdogan was taking&#x000A;an active role in Zapatero,s AOC not because he necessarily&#x000A;believed in it, but because he hoped it would help Turkey,s&#x000A;EU bid.&#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (SBU) Aznar concluded the meeting with a discussion of&#x000A;the role of his think tank, the Foundation for Social&#x000A;Analysis and Studies (FAES). He said that FAES was set up in&#x000A;the European liberal tradition and was intended to defend the&#x000A;values of the western world and an Atlantic policy. FAES&#x000A;seeks to strengthen the U.S.-EU pillar and believes that an&#x000A;Atlantic Europe is the only possibility for the continent.&#x000A;&#x000A;Renewable Energy&#x000A;----------------&#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (U) At a lunch on renewable energy hosted by the&#x000A;American Chamber of Commerce, the Senators and Spanish&#x000A;companies discussed the status of several forms of renewable&#x000A;and low-emission energy. Ambassador Aguirre and AmCham&#x000A;president Jaime Malet opened with remarks describing Spanish&#x000A;and U.S. leadership in the sector and emphasizing the amount&#x000A;of Spanish investment in renewables projects in the U.S.&#x000A;Ambassador Aguirre described the February renewable energy&#x000A;trade and investment mission post is organizing with the GOS&#x000A;to bring Spanish government officials and companies to the&#x000A;U.S. Senators Grassley and Thune discussed biofuels, which&#x000A;Senator Grassley noted were likely to shift away from the&#x000A;present emphasis on corn-based ethanol to cellulose-based&#x000A;ethanol after the next 5-10 years. Senators Grassley and&#x000A;Thune explained their states, favorable location for wind&#x000A;power (Iowa has Spanish investment in both wind farms and a&#x000A;wind turbine manufacturing plant), while Senator Martinez&#x000A;noted that the U.S., geographic variability meant that an&#x000A;identical national renewable portfolio standard for each&#x000A;state would be unfair to states such as Florida that lacked&#x000A;commercially viable quantities of wind. Senator Craig and&#x000A;Ambassador Aguirre emphasized the importance of technological&#x000A;advances in addressing energy dependence and climate change.&#x000A;Senator Craig described U.S. climate change policy, outlined&#x000A;the U.S. national energy laboratories, role in technological&#x000A;research, and reviewed issues related to nuclear and clean&#x000A;coal technology. Spanish company representatives described&#x000A;Spain,s system of incentives for electricity from renewable&#x000A;sources (Spain,s system is based on guaranteed prices, while&#x000A;U.S. incentives are mainly tax-related) and expressed&#x000A;interest in investment opportunities in the U.S. in&#x000A;electricity transmission as well as generation. Participants&#x000A;from both countries emphasized the importance of encouraging&#x000A;renewable energy as an alternative to dependence upon&#x000A;hydrocarbon imports from undemocratic suppliers.&#x000A;&#x000A;Cuban Dissidents&#x000A;----------------&#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (SBU) Senators Martinez and Craig, joined by the&#x000A;Ambassador and Deputy Chief of Mission, met January 11 with&#x000A;Cuban dissidents Hector Palacios and his wife Gisela Delgado.&#x000A;Palacios briefed the Senators on his personal situation&#x000A;saying he had been released from jail at the petition of the&#x000A;Spanish Government in order to come to Spain to receive&#x000A;medical treatment. While appreciated Spain,s help, he did&#x000A;not agree with Spain,s policy of engagement with the Cuban&#x000A;regime or with gestures such as the 2007 Moratinos visit to&#x000A;Cuba. He said he and his wife had made public statements&#x000A;critical of Spanish policy and as a result the Spanish had&#x000A;cut his per diem allowance and moved him to a cheaper hotel.&#x000A;He said Moratinos had not seen him and instead he dealt with&#x000A;the Director General for Iberoamerica.&#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. (SBU) Palacios said political control in Cuba was&#x000A;fragmenting into three or four different groups. Fidel had&#x000A;been the glue that held it together. Each group had a&#x000A;somewhat different agenda their common goal was to stay in&#x000A;power. Palacios said Cuba was ripe for change. He said the&#x000A;military would not be a major obstacle once change began&#x000A;because conscription meant that the military reflected the&#x000A;people. Also, Fidel,s policy of rotating troops regularly&#x000A;underneath their officers had had its intended effect of&#x000A;&#x000A;MADRID 00000098 004 OF 005&#x000A;&#x000A;&#x000A;preventing the formation of units personally loyal to their&#x000A;commanders. He said a greater problem would the large system&#x000A;of repression Fidel had created (the Ministry of Interior,&#x000A;neighborhood committees, bands of thugs who attacked and&#x000A;intimidated dissidents). There were about 200,000 people in&#x000A;this system and they were the ones who lived well and who had&#x000A;a great deal to lose. Even those within government would&#x000A;find these people a formidable obstacle if they tried to&#x000A;promote change.&#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (SBU) Palacios said U.S. assistance was not reaching the&#x000A;dissidents. He noted the irony of being jailed as an agent&#x000A;of U.S. imperialism when the actual amount of USG funding was&#x000A;minimal. He said they ran into problems doing things as&#x000A;simple as finding the small amounts of money needed to bring&#x000A;dissidents from one part of the island to another to attend&#x000A;demonstrations. He said he planned to travel to Washington&#x000A;and Miami soon and intended to raise this issue in both&#x000A;places.&#x000A;&#x000A;National Security Advisor Casajuana and Foreign Minister&#x000A;Moratinos&#x000A;&#x000A;--------------------------------------------- -----------------&#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (SBU) Senators Martinez and Craig (joined by Senator&#x000A;Lieberman) met January 11 with Carles Casajuana and discussed&#x000A;Afghanistan, Lebanon, Morocco, Cuba, and the AOC. Also on&#x000A;January 11, Codel Martinez met with FM Moratinos where the&#x000A;conversation touched on Afghanistan, the Middle East peace&#x000A;process, Syria, Venezuela, Cuba, and the AOC. Both meetings&#x000A;are reported via septels.&#x000A;&#x000A;Agricultural Trade Issues&#x000A;-------------------------&#x000A;&#x000A;<a id='par17' href='#par17'>¶</a>17. (SBU) On January 11, Senators Charles Grassley and John&#x000A;Thune, together with the Deputy Chief of Mission, AgCouns and&#x000A;EconOff, met with the Ministry of Industry, Tourism and&#x000A;Trade,s Secretary of State for International Trade, Pedro&#x000A;Mejia, and Secretary General Alfredo Bonet. Senator Grassley&#x000A;emphasized the importance of science-based decisions in the&#x000A;agricultural biotechnology context. Mejia said that Spain&#x000A;had a relatively "liberal" view with respect to&#x000A;biotechnology. However, even in Spain the technology was&#x000A;controversial and faced NGO opposition, albeit not as strong&#x000A;as in some other EU member states. Senator Thune asked what&#x000A;influence Spain could exercise in Brussels on this issue.&#x000A;Bonet noted it was very difficult to get a qualified majority&#x000A;for biotech approvals in the EU Environment Council so in the&#x000A;end the Commission was taking decisions in favor of&#x000A;biotechnology. Both Mejia and Bonet noted that commodity&#x000A;price hikes might spur greater liberalization on biotech&#x000A;imports. The Secretary of State asked about the status of&#x000A;the proposed elimination of the "splash and dash" tax credit&#x000A;loophole that allows biodiesel producers in the U.S. to&#x000A;import commodities such as soybeans, add a minimal amount of&#x000A;petroleum diesel, and then reexport the biodiesel. European&#x000A;producers have complained about these imports. The Senator&#x000A;promised to get back to the Secretary of State on the status&#x000A;of the proposed elimination of the loophole. Mejia said that&#x000A;he was pessimistic about the prospects for Doha because major&#x000A;developing countries were not willing to give sufficiently in&#x000A;terms of industrial and services market access; he emphasized&#x000A;especially Spain,s interest in better services access. He&#x000A;noted also that with high agricultural commodity prices, some&#x000A;developing countries now did not see why they should give on&#x000A;industrial goods and services access. He said that the U.S.&#x000A;was still under pressure to do more on domestic agricultural&#x000A;support. Spain's senior trade representative asserted that&#x000A;the EU had made a good agricultural access offer. The&#x000A;Senators expressed support for Doha but were pessimistic&#x000A;about getting support for Trade Promotion Authority (TPA)&#x000A;this year. Finally, there was a lively discussion of&#x000A;Secretary of State Mejia's February energy renewables trip to&#x000A;&#x000A;SIPDIS&#x000A;the U.S. Both Senators Grassley and Thune were very&#x000A;interested in the mission. (Comment: This was a very good&#x000A;substantive discussion. However, it is clear that while&#x000A;Spain will continue sometimes to vote in favor of&#x000A;biotechnology liberalization proposals, the Spaniards will&#x000A;tread warily on this issue given their own domestic&#x000A;sensitivities and other equities Spain has in the EU. It was&#x000A;interesting to hear Mejia,s strong emphasis on services as&#x000A;the future of Spain,s economy. Unfortunately, Spanish&#x000A;services companies have not been aggressive in promoting&#x000A;Doha, although this is true of many other services companies&#x000A;in Europe as well. End comment.)&#x000A;Press Coverage&#x000A;--------------&#x000A;&#x000A;<a id='par18' href='#par18'>¶</a>18. (U) ABC, EFE, Europa Press, and El Pais reported on the&#x000A;&#x000A;MADRID 00000098 005 OF 005&#x000A;&#x000A;&#x000A;visit. El Pais published January 14 an interview with&#x000A;Senator Martinez focused on the U.S. elections, the Middle&#x000A;East peace process, and the need for democratic change in&#x000A;Cuba.&#x000A;&#x000A;<a id='par19' href='#par19'>¶</a>19. (U) Senator Martinez cleared this cable.&#x000A;LLORENS</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>
