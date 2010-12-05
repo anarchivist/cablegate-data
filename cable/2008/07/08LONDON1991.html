@@ -1,0 +1,776 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/support.html'>
+<img alt='Keep Us Strong' src='/img/ja-cg.jpg' />
+</a>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 821 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/Brasil-rejeitou-prisioneiros-de.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/Har-blir-vi-blasta.html">Sweden</a>
+<a href="/articles/2010/PayPal-freezes-WikiLeaks-donations.html"> Editorial</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-04_0.html'>2010/12/04</a>
+<a href='/reldate/2010-12-03_0.html'>2010/12/03</a>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-06_0.html'>2004/06</a>
+<a href='/date/2004-09_0.html'>2004/09</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-02_0.html'>2005/02</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-06_0.html'>2008/06</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/68_0.html'>Embassy Asuncion</a>
+<a href='/origin/69_0.html'>Embassy Astana</a>
+<a href='/origin/70_0.html'>Embassy Ashgabat</a>
+<a href='/origin/71_0.html'>Embassy Ankara</a>
+<a href='/origin/72_0.html'>Embassy Amman</a>
+<a href='/origin/73_0.html'>Embassy Algiers</a>
+<a href='/origin/74_0.html'>Embassy Addis Ababa</a>
+<a href='/origin/75_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/56_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/57_0.html'>Embassy Bucharest</a>
+<a href='/origin/58_0.html'>Embassy Brussels</a>
+<a href='/origin/59_0.html'>Embassy Bridgetown</a>
+<a href='/origin/60_0.html'>Embassy Brasilia</a>
+<a href='/origin/61_0.html'>Embassy Bishkek</a>
+<a href='/origin/62_0.html'>Embassy Berlin</a>
+<a href='/origin/63_0.html'>Embassy Beirut</a>
+<a href='/origin/64_0.html'>Embassy Beijing</a>
+<a href='/origin/65_0.html'>Embassy Bangkok</a>
+<a href='/origin/66_0.html'>Embassy Baku</a>
+<a href='/origin/67_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/51_0.html'>Embassy Conakry</a>
+<a href='/origin/52_0.html'>Embassy Colombo</a>
+<a href='/origin/53_0.html'>Embassy Chisinau</a>
+<a href='/origin/54_0.html'>Embassy Caracas</a>
+<a href='/origin/55_0.html'>Embassy Cairo</a>
+<a href='/origin/85_0.html'>Consulate Casablanca</a>
+<a href='/origin/86_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/46_0.html'>Embassy Dushanbe</a>
+<a href='/origin/47_0.html'>Embassy Dublin</a>
+<a href='/origin/48_0.html'>Embassy Doha</a>
+<a href='/origin/49_0.html'>Embassy Djibouti</a>
+<a href='/origin/50_0.html'>Embassy Damascus</a>
+<a href='/origin/84_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/45_0.html'>Embassy Harare</a>
+<a href='/origin/83_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/44_0.html'>Embassy Islamabad</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/82_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/40_0.html'>Embassy Kyiv</a>
+<a href='/origin/41_0.html'>Embassy Kuwait</a>
+<a href='/origin/42_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/43_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/35_0.html'>Embassy Luxembourg</a>
+<a href='/origin/36_0.html'>Embassy London</a>
+<a href='/origin/37_0.html'>Embassy Lisbon</a>
+<a href='/origin/38_0.html'>Embassy Lima</a>
+<a href='/origin/39_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/30_0.html'>Embassy Muscat</a>
+<a href='/origin/31_0.html'>Embassy Moscow</a>
+<a href='/origin/32_0.html'>Embassy Mexico</a>
+<a href='/origin/33_0.html'>Embassy Manama</a>
+<a href='/origin/34_0.html'>Embassy Madrid</a>
+<a href='/origin/81_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/29_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/26_0.html'>Embassy Ouagadougou</a>
+<a href='/origin/27_0.html'>Embassy Ottawa</a>
+<a href='/origin/28_0.html'>Embassy Oslo</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/23_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+<a href='/origin/25_0.html'>Embassy Panama</a>
+<a href='/origin/80_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/20_0.html'>Embassy Rome</a>
+<a href='/origin/21_0.html'>Embassy Riyadh</a>
+<a href='/origin/22_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/15_0.html'>Embassy Stockholm</a>
+<a href='/origin/16_0.html'>Embassy Singapore</a>
+<a href='/origin/17_0.html'>Embassy Seoul</a>
+<a href='/origin/18_0.html'>Embassy Santiago</a>
+<a href='/origin/19_0.html'>Embassy Sanaa</a>
+<a href='/origin/77_0.html'>Consulate Shenyang</a>
+<a href='/origin/78_0.html'>Consulate Shanghai</a>
+<a href='/origin/79_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy The Hague</a>
+<a href='/origin/11_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/12_0.html'>Embassy Tehran</a>
+<a href='/origin/13_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/14_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/76_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AFIN_0.html'>AFIN</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BO_0.html'>BO</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BU_0.html'>BU</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CACM_0.html'>CACM</a>
+<a href='/tag/CDB_0.html'>CDB</a>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/COUNTERTERRORISM_0.html'>COUNTERTERRORISM</a>
+<a href='/tag/COUNTER_0.html'>COUNTER</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CG_0.html'>CG</a>
+<a href='/tag/CY_0.html'>CY</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ET_0.html'>ET</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/ELECTIONS_0.html'>ELECTIONS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/EINVEFIN_0.html'>EINVEFIN</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EINDETRD_0.html'>EINDETRD</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+<a href='/tag/FREEDOM_0.html'>FREEDOM</a>
+<a href='/tag/FBI_0.html'>FBI</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GV_0.html'>GV</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+<a href='/tag/GE_0.html'>GE</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HU_0.html'>HU</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/INRA_0.html'>INRA</a>
+<a href='/tag/INRO_0.html'>INRO</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+<a href='/tag/ITALY_0.html'>ITALY</a>
+<a href='/tag/ITALIAN_0.html'>ITALIAN</a>
+<a href='/tag/IRAQI_0.html'>IRAQI</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JUS_0.html'>JUS</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KIPR_0.html'>KIPR</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KSUM_0.html'>KSUM</a>
+<a href='/tag/KPIN_0.html'>KPIN</a>
+<a href='/tag/KGIC_0.html'>KGIC</a>
+<a href='/tag/KRAD_0.html'>KRAD</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KAWC_0.html'>KAWC</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KDEMAF_0.html'>KDEMAF</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KR_0.html'>KR</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KE_0.html'>KE</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LU_0.html'>LU</a>
+<a href='/tag/LG_0.html'>LG</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MK_0.html'>MK</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MA_0.html'>MA</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+<a href='/tag/NO_0.html'>NO</a>
+<a href='/tag/NL_0.html'>NL</a>
+<a href='/tag/NATIONAL_0.html'>NATIONAL</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OAS_0.html'>OAS</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OPDC_0.html'>OPDC</a>
+<a href='/tag/OREP_0.html'>OREP</a>
+<a href='/tag/ODIP_0.html'>ODIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/POLITICS_0.html'>POLITICS</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PECON_0.html'>PECON</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RW_0.html'>RW</a>
+<a href='/tag/RO_0.html'>RO</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SM_0.html'>SM</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SI_0.html'>SI</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SR_0.html'>SR</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TSPA_0.html'>TSPA</a>
+<a href='/tag/TERRORISM_0.html'>TERRORISM</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+<a href='/tag/TIP_0.html'>TIP</a>
+<a href='/tag/TD_0.html'>TD</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WI_0.html'>WI</a>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XM_0.html'>XM</a>
+<a href='/tag/XR_0.html'>XR</a>
+<a href='/tag/XS_0.html'>XS</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XG_0.html'>XG</a>
+<a href='/tag/XH_0.html'>XH</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+<a href='/tag/YE_0.html'>YE</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZK_0.html'>ZK</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2008%2F07%2F08LONDON1991.html%20%2308LONDON1991'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2008%2F07%2F08LONDON1991.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 08LONDON1991, C/NF) WHO WOULD REPLACE GORDON BROWN AS UK PRIMEREF: A. LONDON 1939  B. LONDON 1704</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#08LONDON1991</b>.
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2008/07/08LONDON1991.html'>08LONDON1991</a>
+</td>
+<td>
+<a href='/date/2008-07_0.html'>2008-07-31 10:10</a>
+</td>
+<td>
+<a href='/reldate/2010-12-02_0.html'>2010-12-02 23:11</a>
+</td>
+<td>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+</td>
+<td>
+<a href='/origin/36_0.html'>Embassy London</a>
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXRO0182&#x000A;PP RUEHFL RUEHKW RUEHLA RUEHROV RUEHSR&#x000A;DE RUEHLO #1991/01 2131030&#x000A;ZNY CCCCC ZZH&#x000A;P 311030Z JUL 08&#x000A;FM AMEMBASSY LONDON&#x000A;TO RUEHC/SECSTATE WASHDC PRIORITY 9342&#x000A;INFO RUEHZL/EUROPEAN POLITICAL COLLECTIVE PRIORITY&#x000A;RHEHNSC/NSC WASHDC PRIORITY</pre></code>
+<code><pre>C O N F I D E N T I A L SECTION 01 OF 05 LONDON 001991 &#x000A;&#x000A;SIPDIS&#x000A;&#x000A;STATE FOR EUR/WE, NSC FOR BRADLEY&#x000A;&#x000A;EO 12958 DECL: 07/31/2018&#x000A;TAGS PGOV, PREL, PINR, UK&#x000A;SUBJECT: (C/NF) WHO WOULD REPLACE GORDON BROWN AS UK PRIMEREF: A. LONDON 1939  B. LONDON 1704&#x000A;&#x000A;Classified By: Ambassador Robert H. Tuttle, reasons 1.4 b, d.&#x000A;<a id='par1' href='#par1'>¶</a>1. (C/NF) Summary. As Gordon Brown lurches from political disaster to disaster, Westminster is abuzz with speculation about whether he will be replaced as Prime Minister and Labour Parxty leader, and, if so, by whom. Right now, Foreign Secretary David Miliband and Justice Secretary Jack Straw are the two most frequently mentioned, and likely, successors -- Miliband as the “Labour David Cameron” to represent the Blairite wing of the party or Straw as a Labour elder statesman to bind the Party together. Other credible names in circulation, in Post’s view, are Brown confidante Secretary of State for Children and Schools Ed Balls, House of Commons Labour Leader Harriet Harman, Secretary of State for Work and Pensions James Purnell, and Health Secretary Alan Johnston. These would-be successors are a diverse group, but they all have one thing in common: unless Brown steps down voluntarily, which is highly unlikely, one of them will have to mount a public challenge to Brown, and none of the candidates has so far been willing to wield the knife - or at least not yet. End summary.&#x000A;Talk of Ousting Brown Reaching Fever Pitch&#x000A;------------------------------------------ &#x000A;<a id='par2' href='#par2'>¶</a>2. (C/NF) A terrible by-election defeat in Scotland on July 23, in which a formerly rock-solid Labour seat with a 13,000 majority fell to the Scottish National Party (Ref A), has left the Labour Party reeling and fueled fears among MPs that Brown’s leadership of the party, and his premiership, may now be beyond repair. For the first time in Labour’s eleven-year reign, Labour MPs are experiencing what it is to be truly unpopular and fear they are facing meltdown at the next election, which must be held no later than June 2010. According to a July 28 YouGov poll, if a general election were called now, the Tories would receive 46 percent of the vote, while Labour would take just 26 percent and the Liberal Democrat Party 17 percent; 74 percent of respondent said they were dissatisfied with Brown’s performance as PM. In this febrile atmosphere, Westminster is buzzing with news that dissident MPs are canvassing their colleagues to find a new leader, while at the same time Cabinet ministers are lining up to warn MPs to stop plotting and unite behind Brown (Ref A). While rumors have been afloat for several months, our contacts tell us now that those considering getting rid of Brown are no longer confined to a small rump of bitter ex-Ministers, such as Charles Clark (Ref B). With no sign yet that Brown has a clear plan to turn the party’s woes around, commentators wonder if he can hold out until 2010, and are already turning their attention to who might replace him.&#x000A;How Would It Happen?&#x000A;-------------------- &#x000A;<a id='par3' href='#par3'>¶</a>3. (C/NF) There are two ways to oust Brown. First, he could step down on his own, perhaps at the behest of a group of close advisors and party elders. We judge this possibility to be extremely unlikely; Brown has wanted Downing Street for too long to go quietly - a point London Mayor Boris Johnson, a Conservative, made in a widely-read op-ed piece earlier this week. Second, another candidate for party leader could force a leadership election by identifying him- or herself publicly and producing the names of 20 percent of sitting MPs (70 of 346 Labour MPs) who support his/her candidacy. Labour would then hold an election at its party conference for a new leader, in which Brown could conceivably run himself to regain the leadership. In the event of a leadership election, one-third of the vote would be allocated to MPs; one-third to Labour Party members; and one-third to the trade unions. Many MPs have told us that, regardless of the scenario, they candidly hope a change in leadership is still a long way off.  They acknowledge - as Labour Deputy Whip Nick Brown did to us just days after the Glasgow election -- that changing PM for the third time in 18 months could lead to calls for an immediate general election, which would be hard to ignore and would not give Labour the time it needs to recover under a new leader.&#x000A;When Would It Happen?&#x000A;--------------------- &#x000A;<a id='par4' href='#par4'>¶</a>4. (C/NF) Before the catastrophic July 23 by-election defeat, uppermost on MPs, minds was heading home for the summer recess. The fact that Parliament is now out until&#x000A;LONDON 00001991 002 OF 005&#x000A;early October gives Brown some breathing space. On the other hand, Labour MPs now have a lengthy period to hear out their constituents’ wrath while gnawing over the problem of their party’s collapsing popularity and their leader’s seeming inability to turn its fortunes around. There is rampant speculation by media and pundits alike that a move against Brown will occur before the party meets for its annual conference at the end of September - early September 2006 was when the plot that eventually forced then-PM Blair to announce a date for his departure from Downing Street took place. While that scenario still remains highly unlikely, another possibility rapidly gaining credence among Westminster watchers has Labour replacing Brown closer to a general election in 2009 or 2010, thus giving a new leader a few months time to settle in and get the party’s poll ratings back up.&#x000A;The Candidates&#x000A;-------------- &#x000A;<a id='par5' href='#par5'>¶</a>5. (C/NF) In the order of frequency, and Post’s assessment of their credibility as potential successors, below are the names we are hearing most often from Labour Party contacts and from UK media observers:&#x000A;David Miliband&#x000A;-------------- &#x000A;<a id='par6' href='#par6'>¶</a>6. (C/NF) Foreign Secretary David Miliband is a high-flying young member of the Government whose name inevitably tops “future leader” lists, with some going as far as to call him Labour,s “heir apparent.” A former Kennedy Scholar, Miliband at 42 years of age has been at the center of power for a long time, serving as Blair,s Head of Policy from 1994 to 2001 before winning a seat in Parliament.&#x000A;<a id='par7' href='#par7'>¶</a>7. (C/NF) Miliband’s appointment as Foreign Secretary in June 2007 makes him the second-youngest UK Foreign Secretary ever. His appointment came as a surprise to many who had expected Brown to purge the cabinet of so-called “Blairites.”  Miliband’s fortitude is widely viewed as a testament to how successfully he has bridged the Blairite/Brownite division that still hamper the Labour Party. He steers clear of well-known Blairite rabble rousers Charles Clarke, Alan Milburn and John Reid, all of whom are suspected of trying to unseat Brown, and resisted pressure from “Blairites” to stand against Brown before last year,s leadership handover. More Machiavellian voices within the Labour Party say that Brown gave Miliband the high profile job of Foreign Secretary not as a reward for his loyalty, but as a way of keeping Miliband removed from domestic politics where he might start to build up an alternative power base for any future job vacancy.&#x000A;<a id='par8' href='#par8'>¶</a>8. (C/NF) Miliband certainly has the most high-profile portfolio of all Brown’s would-be successors. Added to that, his Labour credentials are impeccable and his intellect unquestioned. Some consider Miliband, whose nickname at Number 10 was “egghead,” as too brainy to be leader. Rumor has it that he has entered into an electoral pact with Cabinet colleague and another would-be successor James Purnell (see para. 15), who reportedly told Miliband he would stand aside in order to give Miliband his full backing.&#x000A;<a id='par9' href='#par9'>¶</a>9. (C/NF) Long viewed as too young or too reticent to challenge Brown, Miliband may be changing this perception. An op-ed piece he published in the July 29 Guardian, in which he laid out his ideas of how Labour can still win the next election, has triggered wide-spread media speculation that he is positioning himself at long last as a possible successor. In the op-ed, Miliband was careful not to criticize Brown - but neither did he call for party unity behind the PM, and Miliband is canny enough to know how this omission would be interpreted. Miliband’s Principal Private Secretary told us July 30 that Downing Street had “been told in advance about the article” and explained that the op-ed piece reflected that Miliband is “concerned and doing a lot of thinking about the party’s standing,” but said the Foreign Secretary was not the kind of man to “plot behind someone’s back on his own.” The PPS declined to respond when asked if that meant the Foreign Secretary was the kind of man who might join a delegation of plotters who ask the Prime Minister to step down for the good of the party.&#x000A;Jack Straw&#x000A;---------- &#x000A;<a id='par10' href='#par10'>¶</a>10. (C/NF) Could the party unite around caretaker leader Jack Straw, a wise old man of the party? In the wake of the&#x000A;LONDON 00001991 003 OF 005&#x000A;July 23 by-election meltdown, the media was awash with rumors that 62-year-old Straw, currently the Justice Secretary, was being lined up by disgruntled Labour MPs to confront Brown and force him to quit before taking over as caretaker leader of the party while a younger replacement is groomed. After Gordon Brown himself, Straw is the second most senior member of the Cabinet, having previously served as both Home Secretary and Foreign Secretary, holding the latter post during the September 11 terrorist attacks and overseeing the beginning of military action in Afghanistan and Iraq. Outwardly an amiable and affable man, Straw is viewed with less affection by some cabinet colleagues who say they have been at the receiving end of his whispering campaigns regarding their abilities. Critics are also quick to note that he was one of the first of Blair,s closest allies to jump ship in favor of Gordon Brown when he sensed the political winds were shifting in Brown,s direction.&#x000A;<a id='par11' href='#par11'>¶</a>11. (C/NF) Over the July 26-27 weekend, Straw interrupted his U.S. holiday following widespread rumors that his supporters were collecting names of MPs to force Brown into a leadership challenge, announcing that he remains “absolutely convinced” that Brown is “the right man to be leading the Labour Party.” Despite his public endorsement of the PM, No 10 advisors are reportedly enraged by the actions of Straw,s supporters who they suspect of organizing a coup, with or without Straw’s active participation.&#x000A;Ed Balls&#x000A;-------- &#x000A;<a id='par12' href='#par12'>¶</a>12. (C/NF) Super bright, relatively young, Ed Balls, now Secretary of State for Children, Schools and Families, has seen his star rise and fall in recent years but remains a credible front-runner to succeed Brown. Since becoming an MP in 2005, he has enjoyed a meteoric political rise into the Cabinet in only 3 years, not least because of his close friendship with Brown. Brown plucked Balls out of his job as an economist at the Financial Times and installed him as a senior advisor in 1994. Balls became Brown,s most trusted lieutenant at the Treasury, where he was unofficially known as the Deputy Chancellor., He continues to remain Brown,s closest confidante, and it is an open secret according to Labour party contacts that Balls is Brown,s choice as his successor - a charge Balls vehemently denies. He is married to another Labour high-flying minister, Yvette Cooper.&#x000A;<a id='par13' href='#par13'>¶</a>13. (C/NF) While his financial credentials and close relationship to Brown weigh in his favor, Balls has performed badly as Schools Secretary and is accused of shirking responsibility for the failings of his department (the most recent blow to his reputation was a delay in reporting standardized test scores to UK schoolchildren, which Balls at first publicly minimized then belatedly apologized for). Critics point out that since coming out from the shadows and entering the public arena, Balls has shown himself to be less than suited to the top job: his public speaking is derided as “dull,” his slightly awkward manner as “charmless,” and he has many enemies within the party, precisely because of his relationship with the PM. Party insiders accuse him of cowardice because he tells Brown what he thinks Brown wants to hear. It is this close relationship that may make a leadership challenge difficult for Balls, since of all the would-be successors, Balls will face the harshest criticism if he turns on his mentor. On the other hand, in the unlikely event that Brown steps aside voluntarily, Balls might very well catapult to the top of the possible successors.&#x000A;Harriet Harman&#x000A;-------------- &#x000A;<a id='par14' href='#par14'>¶</a>14. (C/NF) Deputy Leader Harriet Harman, the only woman mentioned as a possible successor, is a relative policy light weight but an adept inter-party operator. A Brownite, she has reportedly been discreetly attempting to gauge how much support she has among Parliamentary colleagues ever since Brown’s star started to wane earlier this year. Harman faces a rough ride with most of the UK media, especially the more widely read tabloids who criticize her aggressive championing of women,s rights and say that she is obsessed with political correctness. On July 29 Harman had to publicly deny reports that she told her aides, “This is my moment (to rule),” following the July 23 by-election disaster. She has recently begun to speak on the need for the party to underscore its commitment to equality and fairness, which may be a sign of her reaching out to the party’s anti-Blairite,&#x000A;LONDON 00001991 004 OF 005&#x000A;left wing.&#x000A;James Purnell&#x000A;------------- &#x000A;<a id='par15' href='#par15'>¶</a>15. (C/NF) Work and Pensions Secretary James Purnell is another strong candidate, although he is often described as Labour,s “next leader but one.” Like many of the other contenders, 38-year-old Purnell was one of Blair,s closest advisers at Number Ten before entering Parliament in 2001. Purnell is already a darling of the UK media, having taken on Britain,s so-called “benefit cheats” by announcing plans for the long-term unemployed to retrain and take on work.&#x000A;<a id='par16' href='#par16'>¶</a>16. (C/NF) Purnell,s political radar is finely honed and colleagues describe him as astute and able. He went to work for Blair when Blair was a relatively unknown MP in the late 1980s; now, after just a year in the cabinet, Purnell has gained a reputation for handling difficult briefs with aplomb, although he is sometimes criticized for coming across as smug. Purnell may have support within Parliament, but he lacks a strong constituency base outside Westminster - crucial for any successful party leader. Because Purnell was “parachuted” into a safe parliamentary seat, he has no local ties and therefore limited local backing; and because he is not from a trade union background, he also can,t count on the support of union leaders, who aren’t impressed with his planned social security cuts.&#x000A;Alan Johnson&#x000A;------------ &#x000A;<a id='par17' href='#par17'>¶</a>17. (C/NF) For many in the Labour Party, Health Secretary Alan Johnson pushes all the right personal buttons. Born into poverty, orphaned, and married with two kids by the age of 18, Johnson went on to become the boss of one of the UK,s biggest trade unions - the Communication Workers Union - where he worked his way up from postman to union baron. Johnson, who has a reputation as an inclusive and collegiate boss and is most often described as “amiable,” is happy to let junior ministers in his department shine rather than taking their ideas or their limelight - but it is this lack of killer instinct that, commentators note, make Johnson more suitable to serve as a deputy prime minister, rather than for the top job itself in which he has shown remarkably little interest.&#x000A;Andy Burnham&#x000A;------------ &#x000A;<a id='par18' href='#par18'>¶</a>18. (C/NF) On paper, Secretary of State for Culture, Media and Sport Andy Burnham,s rise through the party mirrors that of James Purnell. At 38 years old, Burnham has only been an MP since 2001, following a career as a special advisor to PM Tony Blair. He is also another “Blairite” who, like Miliband, successfully survived the cull when Brown became PM. Burnham is a dark horse favorite among Labour members. The Cambridge-educated father-of-three has a common touch his rivals envy and is married to his university sweetheart, Dutch-born Marie-France.&#x000A;Jon Cruddas&#x000A;----------- &#x000A;<a id='par19' href='#par19'>¶</a>19. (C/NF) MP for Dagenham Jon Crudas is a wild card. Although not well known outside the party, he fought a brilliant campaign in last year,s Labour deputy leader contest, eventually losing out to Harriet Harman, but not before winning the crucial backing of some of the country,s biggest trade unions as well as the endorsement of Labour,s “Tribune” magazine. Cruddas, elected to Parliament in 2001, has already shown himself to be a highly astute and wily politician. Prior to becoming an MP, Cruddas was one of Blair,s closest advisors, working as his deputy political secretary at Downing Street where he was responsible for the Government,s relations with the trade unions. On becoming an MP, Cruddas cleverly began to disassociate himself from Blair, rebelling against the Government on key issues, opposing the Government’s initiatives to pay for university education, more rights for asylum seekers, and the renewal of the UK Trident nuclear submarine system. He has described himself as “mistaken” over his decision to vote for British participation in the 2003 Iraq conflict. One of Cruddas, biggest assets is his wife, fellow party activist Anna Healy, who has worked for many of Labour,s best known cabinet ministers in recent years. However, Cruddas - who is believed to have turned down ministerial roles from both&#x000A;LONDON 00001991 005 OF 005&#x000A;Blair and Brown - may find that his lack of previous any ministerial experience counts against him.&#x000A;John Hutton&#x000A;----------- &#x000A;<a id='par20' href='#par20'>¶</a>20. (C/NF) 53-year-old Business Secretary John Hutton was until recently seen as another strong contender - until he upset the powerful and influential trade unions by arguing earlier this year that the UK should “celebrate the fact that people can be enormously wealthy in this country.” The unions were further infuriated when Hutton said the Government had reached “the end of the era” on considering new regulations, although this sentiment has earned Hutton the respect of the business community, who see him as a key ally. The unions now say there has been a complete breakdown of trust, and have called on Hutton to be removed from his post in any Brown government reshuffle (widely expected in September as part of the Prime Minister’s effort to re-energize his political standing). These requests put Prime Minister Brown in a difficult position - he would look weak were he to move Hutton; the answer may be to move him to another cabinet spot, such as the next Defense Secretary.&#x000A;<a id='par21' href='#par21'>¶</a>21. (C/NF) While union fury won’t particularly bother Hutton, who has always been to the right of the Labour Party and one of Tony Blair,s closest allies, a lack of union support would stop any leadership challenge he might be considering. Hutton has told us in confidence that he is fed up with government work and considering standing down at the next election to go into the private sector.&#x000A;Comment------- &#x000A;<a id='par22' href='#par22'>¶</a>22. (C/NF) Given the improbability that Brown will step down voluntarily, the chances of any one of this group of would-be successors, or any dark horses that might emerge, taking over before the scheduled election in 2010 depends on one of them challenging Brown openly for the party leadership. So far, none of them have been willing to wield the knife, most likely afraid that such a move would cause a party split that would in the end be an even greater fiasco for Labour. We don’t see a clear tipping point on the horizon - but given Brown’s abysmal track record over the last year, that day could come when Labour MPs return from vacations in late August/early September.&#x000A;Visit London’s Classified Website: http://www.intelink.sgov.gov/wiki/Portal:Unit ed_Kingdom&#x000A;TUTTLE</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>
