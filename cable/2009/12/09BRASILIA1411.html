@@ -1,0 +1,803 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/support.html'>
+<img alt='Keep Us Strong' src='/img/ja-cg.jpg' />
+</a>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 931 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/EUA-tentaram-usar-Saito-e-Jobim.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/Har-blir-vi-blasta.html">Sweden</a>
+<a href="/articles/2010/PayPal-freezes-WikiLeaks-donations.html"> Editorial</a>
+<a href="/articles/2010/U-S-Empire-Shopping-List.html">United States</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-05_0.html'>2010/12/05</a>
+<a href='/reldate/2010-12-04_0.html'>2010/12/04</a>
+<a href='/reldate/2010-12-03_0.html'>2010/12/03</a>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1988' onclick="return swap('year_1988');">88</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1988'>
+<a href='/date/1988-01_0.html'>1988/01</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-06_0.html'>2004/06</a>
+<a href='/date/2004-09_0.html'>2004/09</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-02_0.html'>2005/02</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-06_0.html'>2008/06</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/69_0.html'>Embassy Asuncion</a>
+<a href='/origin/70_0.html'>Embassy Astana</a>
+<a href='/origin/71_0.html'>Embassy Ashgabat</a>
+<a href='/origin/72_0.html'>Embassy Ankara</a>
+<a href='/origin/73_0.html'>Embassy Amman</a>
+<a href='/origin/74_0.html'>Embassy Algiers</a>
+<a href='/origin/75_0.html'>Embassy Addis Ababa</a>
+<a href='/origin/76_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/57_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/58_0.html'>Embassy Bucharest</a>
+<a href='/origin/59_0.html'>Embassy Brussels</a>
+<a href='/origin/60_0.html'>Embassy Bridgetown</a>
+<a href='/origin/61_0.html'>Embassy Brasilia</a>
+<a href='/origin/62_0.html'>Embassy Bishkek</a>
+<a href='/origin/63_0.html'>Embassy Berlin</a>
+<a href='/origin/64_0.html'>Embassy Beirut</a>
+<a href='/origin/65_0.html'>Embassy Beijing</a>
+<a href='/origin/66_0.html'>Embassy Bangkok</a>
+<a href='/origin/67_0.html'>Embassy Baku</a>
+<a href='/origin/68_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/52_0.html'>Embassy Conakry</a>
+<a href='/origin/53_0.html'>Embassy Colombo</a>
+<a href='/origin/54_0.html'>Embassy Chisinau</a>
+<a href='/origin/55_0.html'>Embassy Caracas</a>
+<a href='/origin/56_0.html'>Embassy Cairo</a>
+<a href='/origin/87_0.html'>Consulate Casablanca</a>
+<a href='/origin/88_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/47_0.html'>Embassy Dushanbe</a>
+<a href='/origin/48_0.html'>Embassy Dublin</a>
+<a href='/origin/49_0.html'>Embassy Doha</a>
+<a href='/origin/50_0.html'>Embassy Djibouti</a>
+<a href='/origin/51_0.html'>Embassy Damascus</a>
+<a href='/origin/86_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/46_0.html'>Embassy Harare</a>
+<a href='/origin/85_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/45_0.html'>Embassy Islamabad</a>
+<a href='/origin/84_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/83_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/41_0.html'>Embassy Kyiv</a>
+<a href='/origin/42_0.html'>Embassy Kuwait</a>
+<a href='/origin/43_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/44_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/36_0.html'>Embassy Luxembourg</a>
+<a href='/origin/37_0.html'>Embassy London</a>
+<a href='/origin/38_0.html'>Embassy Lisbon</a>
+<a href='/origin/39_0.html'>Embassy Lima</a>
+<a href='/origin/40_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/31_0.html'>Embassy Muscat</a>
+<a href='/origin/32_0.html'>Embassy Moscow</a>
+<a href='/origin/33_0.html'>Embassy Mexico</a>
+<a href='/origin/34_0.html'>Embassy Manama</a>
+<a href='/origin/35_0.html'>Embassy Madrid</a>
+<a href='/origin/82_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/30_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/27_0.html'>Embassy Ouagadougou</a>
+<a href='/origin/28_0.html'>Embassy Ottawa</a>
+<a href='/origin/29_0.html'>Embassy Oslo</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/23_0.html'>Embassy Prague</a>
+<a href='/origin/24_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/25_0.html'>Embassy Paris</a>
+<a href='/origin/26_0.html'>Embassy Panama</a>
+<a href='/origin/81_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/20_0.html'>Embassy Rome</a>
+<a href='/origin/21_0.html'>Embassy Riyadh</a>
+<a href='/origin/22_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/15_0.html'>Embassy Stockholm</a>
+<a href='/origin/16_0.html'>Embassy Singapore</a>
+<a href='/origin/17_0.html'>Embassy Seoul</a>
+<a href='/origin/18_0.html'>Embassy Santiago</a>
+<a href='/origin/19_0.html'>Embassy Sanaa</a>
+<a href='/origin/78_0.html'>Consulate Shenyang</a>
+<a href='/origin/79_0.html'>Consulate Shanghai</a>
+<a href='/origin/80_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy The Hague</a>
+<a href='/origin/11_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/12_0.html'>Embassy Tehran</a>
+<a href='/origin/13_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/14_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/77_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AEC_0.html'>AEC</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AFIN_0.html'>AFIN</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+<a href='/tag/AS_0.html'>AS</a>
+<a href='/tag/ABLD_0.html'>ABLD</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BO_0.html'>BO</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/COUNTER_0.html'>COUNTER</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CACM_0.html'>CACM</a>
+<a href='/tag/CDB_0.html'>CDB</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/COUNTERTERRORISM_0.html'>COUNTERTERRORISM</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CG_0.html'>CG</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EINDETRD_0.html'>EINDETRD</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ET_0.html'>ET</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/ELECTIONS_0.html'>ELECTIONS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/EINVEFIN_0.html'>EINVEFIN</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FBI_0.html'>FBI</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+<a href='/tag/FREEDOM_0.html'>FREEDOM</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GV_0.html'>GV</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GA_0.html'>GA</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HU_0.html'>HU</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/INRA_0.html'>INRA</a>
+<a href='/tag/INRO_0.html'>INRO</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/ITALY_0.html'>ITALY</a>
+<a href='/tag/ITALIAN_0.html'>ITALIAN</a>
+<a href='/tag/IRAQI_0.html'>IRAQI</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JUS_0.html'>JUS</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KDEMAF_0.html'>KDEMAF</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KGIC_0.html'>KGIC</a>
+<a href='/tag/KRAD_0.html'>KRAD</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KIPR_0.html'>KIPR</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPWR_0.html'>KPWR</a>
+<a href='/tag/KFIN_0.html'>KFIN</a>
+<a href='/tag/KSUM_0.html'>KSUM</a>
+<a href='/tag/KPIN_0.html'>KPIN</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KR_0.html'>KR</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KE_0.html'>KE</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KAWC_0.html'>KAWC</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LG_0.html'>LG</a>
+<a href='/tag/LU_0.html'>LU</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MK_0.html'>MK</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/MIL_0.html'>MIL</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MEPP_0.html'>MEPP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MTCR_0.html'>MTCR</a>
+<a href='/tag/MA_0.html'>MA</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NAR_0.html'>NAR</a>
+<a href='/tag/NO_0.html'>NO</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+<a href='/tag/NL_0.html'>NL</a>
+<a href='/tag/NATIONAL_0.html'>NATIONAL</a>
+<a href='/tag/NG_0.html'>NG</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OFDP_0.html'>OFDP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+<a href='/tag/OPDC_0.html'>OPDC</a>
+<a href='/tag/OVP_0.html'>OVP</a>
+<a href='/tag/OSCI_0.html'>OSCI</a>
+<a href='/tag/OAS_0.html'>OAS</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OREP_0.html'>OREP</a>
+<a href='/tag/ODIP_0.html'>ODIP</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PECON_0.html'>PECON</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/POLITICS_0.html'>POLITICS</a>
+<a href='/tag/PO_0.html'>PO</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RW_0.html'>RW</a>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RO_0.html'>RO</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SM_0.html'>SM</a>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SI_0.html'>SI</a>
+<a href='/tag/SG_0.html'>SG</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TSPA_0.html'>TSPA</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TIP_0.html'>TIP</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TERRORISM_0.html'>TERRORISM</a>
+<a href='/tag/TPHY_0.html'>TPHY</a>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TW_0.html'>TW</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UE_0.html'>UE</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+<a href='/tag/WI_0.html'>WI</a>
+<a href='/tag/WTRO_0.html'>WTRO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XM_0.html'>XM</a>
+<a href='/tag/XR_0.html'>XR</a>
+<a href='/tag/XS_0.html'>XS</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+<a href='/tag/YE_0.html'>YE</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F12%2F09BRASILIA1411.html%20%2309BRASILIA1411'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F12%2F09BRASILIA1411.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 09BRASILIA1411, BRAZIL: SCENESETTER FOR THE DECEMBER 13-14 VISIT OF WHA</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#09BRASILIA1411</b>.
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2009/12/09BRASILIA1411.html'>09BRASILIA1411</a>
+</td>
+<td>
+<a href='/date/2009-12_0.html'>2009-12-10 16:04</a>
+</td>
+<td>
+<a href='/reldate/2010-12-05_0.html'>2010-12-05 12:12</a>
+</td>
+<td>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+</td>
+<td>
+<a href='/origin/61_0.html'>Embassy Brasilia</a>
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXYZ0105&#x000A;RR RUEHWEB&#x000A;&#x000A;DE RUEHBR #1411/01 3441608&#x000A;ZNY CCCCC ZZH&#x000A;R 101608Z DEC 09&#x000A;FM AMEMBASSY BRASILIA&#x000A;TO RUEHC/SECSTATE WASHDC 0068&#x000A;INFO RUEHAC/AMEMBASSY ASUNCION&#x000A;RUEHBO/AMEMBASSY BOGOTA&#x000A;RUEHBR/AMEMBASSY BRASILIA&#x000A;RUEHBU/AMEMBASSY BUENOS AIRES&#x000A;RUEHCV/AMEMBASSY CARACAS&#x000A;RUEHGE/AMEMBASSY GEORGETOWN&#x000A;RUEHLP/AMEMBASSY LA PAZ&#x000A;RUEHMN/AMEMBASSY MONTEVIDEO&#x000A;RUEHPE/AMEMBASSY LIMA&#x000A;RUEHPO/AMEMBASSY PARAMARIBO&#x000A;RUEHQT/AMEMBASSY QUITO&#x000A;RUEHSG/AMEMBASSY SANTIAGO</pre></code>
+<code><pre>C O N F I D E N T I A L BRASILIA 001411&#x000A;&#x000A;SIPDIS&#x000A;FOR ASSISTANT SECRETARY ARTURO VALENZUELA&#x000A;FROM CHARGE D'AFFAIRES LISA KUBISKE&#x000A;&#x000A;E.O. 12958: DECL: 2019/12/10&#x000A;TAGS: <a href='/tag/PREL_0.html'>PREL</a> <a href='/tag/OVIP_0.html'>OVIP</a> <a href='/tag/BR_0.html'>BR</a>&#x000A;SUBJECT: BRAZIL: SCENESETTER FOR THE DECEMBER 13-14 VISIT OF WHA&#x000A;ASSISTANT SECRETARY ARTURO VALENZUELA&#x000A;&#x000A;REF: BRASILIA 1412 (EPD SCENESETTER)&#x000A;&#x000A;CLASSIFIED BY: Lisa Kubiske, Charge d'Affaires, a.i.; REASON: 1.4(D)&#x000A;&#x000A;Introduction: New Impetus to a Growing Relationship&#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (C) Mission Brazil warmly welcomes your visit to Brasilia. It&#x000A;is more than a courtesy to say that your trip comes at a&#x000A;significant time for U.S.-Brazil relations. A promising start with&#x000A;the new U.S. Administration is beginning to ebb as high-level&#x000A;initiatives have been delayed and Brazil has staked out positions&#x000A;at odds with USG views on such issues as Honduras,&#x000A;Colombia/Venezuela, Iran, non-proliferation, and the Middle East&#x000A;peace process. At the same time, as Brazil continues its rapid&#x000A;transformation from a regional to a global power, USG engagement&#x000A;with Brazil has continued to expand on a growing range of issues of&#x000A;importance to the United States, including global trade and&#x000A;finance, climate change, alternative fuels, regional energy&#x000A;integration, food security, UN Security Council matters, and&#x000A;trilateral cooperation in Haiti, Africa and elsewhere. The GOB&#x000A;remains eager to deepen bilateral engagement, and the possibilities&#x000A;to expand our productive economic engagement into other areas&#x000A;remain ample. As the Lula Government heads into its final year,&#x000A;your visit provides the opportunity to provide new impetus to the&#x000A;still-considerable positive momentum in our relationship, and to&#x000A;lay the groundwork for a more strategic partnership with a new&#x000A;Brazilian government.&#x000A;&#x000A;A Rapidly Emerging Global Power...&#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (SBU) Brazil's status as one of the world's top-ten economies&#x000A;has received a boost over the past year from the continuation of&#x000A;solid economic management and better-than-expected performance&#x000A;through the global financial crisis and economic downturn.&#x000A;Brazil's growing economic clout and potential for an estimated 5%&#x000A;annual GDP growth during the next several years, combined with an&#x000A;aggressive effort by the Lula government to increase the country's&#x000A;international reach and the new prominence on the multilateral&#x000A;agenda of issues such as climate change on which Brazil is a&#x000A;necessary player, is encouraging this former global wallflower to&#x000A;make its presence felt on the world stage in ways that would have&#x000A;seemed unlikely only a decade ago.&#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (SBU) Brazil's ascendancy is being driven by a strong and still&#x000A;strengthening democracy, a more open and stable economy, a&#x000A;competitive inward- and outward-looking private sector, a deepening&#x000A;S&T capability, and an ample natural resource base. Brazil is now&#x000A;the world's third largest agricultural exporter after the United&#x000A;States and the European Union and the second-largest issuer of ADRs&#x000A;on the New York Stock Exchange. Already a global leader in&#x000A;alternative fuels and self-sufficient in oil, recent discoveries of&#x000A;offshore (so-called "pre-salt") oil, while difficult to exploit,&#x000A;give Brazil the potential to become a major global oil producer and&#x000A;exporter over the next decade. Over the past two years, Brazil has&#x000A;played a critical role in shaping the international economic system&#x000A;through its participation in the Doha Round and its leadership in&#x000A;the G20. Brazil is making a transition from a recipient to a&#x000A;provider of assistance, mostly through technical cooperation.&#x000A;Brazil officially became an IMF "creditor" country this year and&#x000A;has pledged to increase its contribution to the IMF. (For&#x000A;additional background on Brazil's economy and economic positions,&#x000A;see the scenesetter for the bilateral Economic Policy Dialogue,&#x000A;reftel.)&#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (C) Under Lula, the GOB has dramatically increased its contacts&#x000A;with and presence in Africa, Asia (including North Korea), and the&#x000A;Middle East (especially Iran), opening some 48 posts abroad over&#x000A;the last seven years and increasing its diplomatic corps by 50%.&#x000A;While maintaining its focus on South American integration through&#x000A;MERCOSUL and UNASUL-institutions largely of its making--and&#x000A;preserving its longstanding multilateral encounters with the United&#x000A;States through the Summit of the Americas, with the EU through both&#x000A;regional and bilateral dialogues, and with Spain and Portugal&#x000A;through the Ibero-American Summit, Brazil has been the driving&#x000A;force behind a series of new multilateral gatherings, including the&#x000A;BRIC (Brazil, Russia, India, China), IBSA (India, Brazil, South&#x000A;Africa), ASSA (Southern Africa-South America), ASPA (South&#x000A;&#x000A;America-Arab Countries), and CALC (Summit of Latin America and the&#x000A;Caribbean). Brazil's top foreign policy priority remains obtaining&#x000A;a seat on the UN Security Council and, as it takes its place in&#x000A;January as a non-permanent UNSC member for the tenth time, it is&#x000A;aware that its actions will be closely watched.&#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. (C) Brazil has begun to take more visible and assertive&#x000A;positions on a broader range of issues of interest to the United&#x000A;States-sometimes helpfully, often not. Brazil's participation in&#x000A;the Doha Round, G20 talks, and, more recently, the preparations for&#x000A;the UNFCCC COP-15, has been serious and generally constructive.&#x000A;Unlike the other two giant emerging economies, China and India,&#x000A;Brazil is bringing to Copenhagen a goal to reduce its greenhouse&#x000A;gas emissions: a reduction of between 36-39% by 2020 compared with&#x000A;"business as usual," which translates to about a 25% decline&#x000A;compared with 2005. (The USG is proposing a 17% decline for 2020&#x000A;compared with 2005.) Brazil's own military and civilian nuclear&#x000A;programs have made it more difficult to work with on&#x000A;non-proliferation, and have led to the GOB's refusal to sign an&#x000A;Additional Protocol and lop-sided advocacy of Iran's rights to&#x000A;civilian nuclear technology. Even further from Brazil's historical&#x000A;interests, high-level exchanges of visits with Iran and&#x000A;increasingly intense engagement in the Middle East peace process&#x000A;are among recent high-profile forays into new areas of global&#x000A;import. Statements on North Korean missile tests, China's&#x000A;crackdown in Tibet, and elections in Zimbabwe are other instances&#x000A;where Brazil has stepped into new territory.&#x000A;&#x000A;...With the Emphasis on "Emerging"&#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (C) If Brazil's rapid emergence on the global stage is&#x000A;unquestionable, it is also true that it is very much still&#x000A;emerging. Brazil's clear sense of purpose in South America, where&#x000A;the overriding importance of maintaining stability on its poorly&#x000A;protected borders has led to an emphasis on dialogue and&#x000A;integration with its ten neighbors, is not in evidence on most&#x000A;extra-regional issues. Brazil's objective in achieving a seat at&#x000A;the table on many global issues seems to stop at the seat itself.&#x000A;In part, this stems from a general Brazilian disposition to prefer&#x000A;dialogue with other countries to confrontation or isolation. It is&#x000A;also driven by Lula's determination to develop and maintain&#x000A;friendly relations with all global players as Brazil seeks a&#x000A;permanent seat on the UN Security Council. The end result is that&#x000A;Brazil often remains reticent to take firm positions on key global&#x000A;issues and generally seeks ways to avoid them. More often than&#x000A;not, the GOB eschews positions of leadership that might require&#x000A;overtly choosing sides. Its discomfort with the spotlight has been&#x000A;on full display in the aftermath of the Honduras coup: thrust into&#x000A;the center of the crisis when President Zelaya appeared on its&#x000A;embassy doorstep, Brazil did very little to extricate itself or to&#x000A;actively pursue a resolution, instead handing responsibility to the&#x000A;United States.&#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (C) Less obviously, Brazil remains uncomfortable in its&#x000A;leadership on MINUSTAH. To the constant refrain of "we cannot&#x000A;continue this indefinitely," Brazil has been increasingly insistent&#x000A;that international efforts to promote security must go hand in hand&#x000A;with commitments to economic and social development-a theme it will&#x000A;take to the UNSC in January. Brazil maintains a frustrating&#x000A;double-standard on democracy and human rights. Although a founding&#x000A;member of the Community of Democracies and Partnership for&#x000A;Democratic Governance, Brazil rarely stands firm on these issues;&#x000A;even its stubbornly rigid support of Zelaya (more so than&#x000A;democracy) in Honduras stands in stark contrast to Lula's&#x000A;unquestioning acceptance of Iranian President Ahmadinejad's&#x000A;re-election. And in the wake of what it considered a&#x000A;near-disastrous brush with election observation in Zimbabwe last&#x000A;year, the GOB has opted to focus on technical cooperation related&#x000A;to running elections, in lieu of observing them. In the UN, Brazil&#x000A;generally chooses to abstain even on resolutions regarding the most&#x000A;egregious human rights abuses-such as those in Iran, North Korea,&#x000A;and Sudan-unless it considers evidence of non-cooperation with&#x000A;international human rights bodies to be clear-cut (as in Burma, for&#x000A;example).&#x000A;&#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (C) Where Brazil's policy is not hesitant, it is often&#x000A;ill-informed or straight-jacketed by the policies of the past. As&#x000A;it steps out on Middle East issues, the GOB does so with a lack of&#x000A;expertise on the region. Inclined to take assertions from the&#x000A;Syrians, Iranians, and Hizbullah at face value, it insists that&#x000A;peace can be achieved only if all players are at the table, and&#x000A;seeks to position itself as a neutral party, "the country who can&#x000A;talk to everyone," over against what it perceives as the biased&#x000A;U.S. and European efforts. This penchant for dialogue stands&#x000A;together with respect for sovereignty and non-intervention in&#x000A;internal affairs as the hallmarks of Brazilian foreign policy. But&#x000A;as Brazil plays in a growing number of international arenas, it is&#x000A;finding it more difficult to remain true to these principles, and&#x000A;more difficult to hide its inconsistencies.&#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (C) Brazil's uneven foreign policy is mirrored by continued&#x000A;growing pains at home. Impressive strides over the last twenty&#x000A;years in establishing stable democratic institutions are tarnished&#x000A;by a dysfunctional judicial system, lack of enforcement capability,&#x000A;and persistent and widespread corruption. Even as Brazil's middle&#x000A;class continues to grow, the income gap remains significant and the&#x000A;country is still home to the largest number of poor in the&#x000A;hemisphere, with some 50 million concentrated in the northeast.&#x000A;Brazil's successful multinationals and vibrant entrepreneurial&#x000A;class are constrained by an inhospitable business climate, a costly&#x000A;and intrusive but inefficient government bureaucracy, R&D spending&#x000A;that focuses on producing articles for publications rather than&#x000A;innovation, and inadequate national transportation, communications,&#x000A;and energy infrastructure networks. Although it is heading to&#x000A;Copenhagen with an ambitious proposal to reduce greenhouse gas&#x000A;emissions and the lowest rates of deforestation on record, the GOB&#x000A;has made very little headway in straightening out the land&#x000A;ownership issues in the Amazon (where only about four percent of&#x000A;the land is clearly titled) or in providing sustainable economic&#x000A;activities for the more than 25 million people living in the&#x000A;region. Without resolving those issues, the pressure to clear the&#x000A;Amazon to support one's family will remain as great as ever.&#x000A;Though proud of its status as a "melting pot" in which different&#x000A;cultures and races exist side-by-side, racism remains a real and&#x000A;largely unacknowledged problem, and Brazil's indigenous population&#x000A;of some 700,000 individuals, scattered across the country in 225&#x000A;different societies, continues to suffer from prejudice, violence,&#x000A;and marginalization.&#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (C) Nonetheless, Brazil continues to make progress across the&#x000A;board. Although the average Brazilian remains inward-looking and&#x000A;often ignorant of world developments, a burgeoning public interest&#x000A;in the United States has made Brazil one of the four largest&#x000A;visa-issuing and -adjudicating U.S. missions worldwide. Brazil&#x000A;continues to struggle with unresolved military dictatorship-era&#x000A;human rights violations, but is nonetheless moving successfully to&#x000A;reintegrate the military into the mainstream of national policy.&#x000A;Organized crime, urban murder rates often ten times those in the&#x000A;most violent U.S. cities, and the second largest consumption of&#x000A;cocaine in the world are in need of urgent attention, but Brazil's&#x000A;professional, well-trained Federal Police works as an effective&#x000A;partner with USG law enforcement agencies. Public education&#x000A;remains sub-standard, the Landless Movement (MST) continues to&#x000A;attract the rural disenfranchised, and the government is largely&#x000A;absent from the favelas of Sao Paulo, Rio de Janeiro, and other&#x000A;major cities, whose millions of residents are often caught between&#x000A;criminal gangs and corrupt civil and military (uniformed) police.&#x000A;But Brazil has developed innovative social programs, and its Bolsa&#x000A;Familia conditional-transfer program is considered an international&#x000A;example.&#x000A;&#x000A;Relations with the United States: Can Brazil Overcome Its&#x000A;Inferiority Complex?&#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (SBU) This Mission has been saying in its scenesetters that&#x000A;bilateral relations are as good as they have ever been-certainly in&#x000A;decades. This is true, and the evidence is ample: a burgeoning set&#x000A;of government-to-government dialogues covering economic,&#x000A;commercial, scientific, defense, and foreign policy has led to&#x000A;rapidly expanding cooperation: an MOU on biofuels cooperation,&#x000A;&#x000A;increased numbers of joint exercises between our militaries,&#x000A;trilateral cooperation in Africa and Haiti on such issues as&#x000A;health, food security, and institutional strengthening, and an&#x000A;innovative agreement to fight racial and ethnic discrimination.&#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (C) At the same time, we face significant historical baggage in&#x000A;the way Brazil's foreign policy establishment views the United&#x000A;States, which slows our ability to build a fully cooperative&#x000A;relationship with Brazil. Much of Brazil's foreign policy&#x000A;establishment remains cautious and mistrustful toward the United&#x000A;States. Bilaterally, a growing and pragmatic interest in&#x000A;cooperating with the United States on a range of technical and&#x000A;practical issues is often caught up in fears that Brazil will lose&#x000A;sovereign control or will find itself a junior partner on its own&#x000A;soil to better funded, staffed, and organized USG partners. This&#x000A;has led to persistent problems with visas for U.S. law enforcement&#x000A;agencies (particularly, but not exclusively, on counterterrorism&#x000A;issues), refusal to accept USG assistance, and seemingly&#x000A;unreasonable demands and strictures on various types of&#x000A;cooperation. More concerted Mission efforts to reach out to&#x000A;non-traditional executive branch agencies and non-executive branch&#x000A;partners-state and municipal governments, the judiciary,&#x000A;prosecutors, legislators, the private sector, and civil&#x000A;society-have sometimes been greeted with concern, suspicion, and&#x000A;occasional opposition by a Foreign Ministry jealous of its&#x000A;historical lead on all international issues and self-designated&#x000A;role as both definer and protector of Brazil's national interests&#x000A;vis-C -vis the world.&#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (C) Within South America, Brazil sees the United States as a&#x000A;competitor and remains deeply suspicious of our motives and&#x000A;intentions. Although the notion that the United States harbors&#x000A;plans to invade or internationalize the Amazon or to seize Brazil's&#x000A;offshore oil may seem preposterous to Americans, concerns about&#x000A;such plans surface regularly among senior Brazilian officials,&#x000A;academics, and journalists, and are only the most outlandish&#x000A;manifestation of generalized mistrust and insecurity with regard to&#x000A;the United States presence in the region. Brazil's reaction to the&#x000A;U.S. base agreement with Colombia reflected, in large measure, just&#x000A;such concerns, as have its veiled efforts to scuttle the 3+1&#x000A;Security Dialogue with Paraguay and Argentina. The United States&#x000A;is not the only one subject to the Brazilian mistrust; The GOB now&#x000A;requires all NGOs operating in the Amazon region to be registered&#x000A;and has tightened controls related to land ownership by foreigners&#x000A;in the area.&#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. (C) Outside South America, Brazil's discomfort with the United&#x000A;States is less in evidence, but it is careful to avoid any&#x000A;suggestion that it is toeing a U.S. line, is intent on avoiding&#x000A;situations in which it might be perceived as a junior partner, and&#x000A;tends to see an "independent" position-i.e., independent of the&#x000A;United States in the first instance, and wealthy countries more&#x000A;generally-as the preferred default. Nor does Brazil want to be&#x000A;lumped in with the mass of developing countries. In multilateral&#x000A;settings, Brazil prefers to position itself as a "bridge" between&#x000A;the wealthy and developing nations. In cooperating with us in&#x000A;Africa, it has been careful to limit cooperation to those areas&#x000A;where it can act plausibly as an equal partner. Across the board,&#x000A;engagement with the United States has been pragmatic, rather than&#x000A;strategic. As it looks for strategic partners, Brazil is showing a&#x000A;clear preference for other "independent" emerging powers-South&#x000A;Africa, Turkey, Ukraine, Iran, China, India-and for one&#x000A;"independent" world power: France. This (long-standing) affinity&#x000A;for the French, which has been amply reciprocated by President&#x000A;Sarkozy and his government, has been most evident in the FX-2&#x000A;fighter competition, in which both Lula and Defense Minister Nelson&#x000A;Jobim have expressed a clear preference for the French aircraft&#x000A;despite Brazilian Air Force evaluations that show the clear&#x000A;superiority and cheaper price of the U.S. fighter.&#x000A;&#x000A;An Eager Brazil Gives Us the Opportunity to Invest for the&#x000A;Long-Term&#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (SBU) In spite of their reticence, Brazilians continue to show&#x000A;a genuine interest in deepening relations with the United States.&#x000A;&#x000A;Economic issues are proving to be the easiest pathway to more&#x000A;productive engagement with the GOB, both because, as a large&#x000A;emerging economy, Brazil is beginning to have a natural seat at the&#x000A;table and because the GOB sees most easily how global economic&#x000A;issues directly impact its own well-being and national security.&#x000A;The GOB has shown itself a willing partner in efforts on bilateral&#x000A;investment and trade issues that will increase business&#x000A;opportunities, job growth, and economic development. At the same&#x000A;time, we are cooperating with Brazil to address the regulatory,&#x000A;legal and infrastructure challenges that constrain Brazil's growth&#x000A;and social inclusion goals and hurt U.S. exporters and investors.&#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (C) We are also building these partnerships with the goal of&#x000A;promote regional and global economic and social inclusion&#x000A;goals--among them, addressing the global financial crisis, opening&#x000A;trade, and stimulating cooperation on economic development.&#x000A;Brazil's interest in taking on a mantle of global economic&#x000A;leadership offers numerous opportunities for engagement, as we&#x000A;encourage Brazil to take on increasingly responsible roles&#x000A;globally. As always, it is important to frame approaches to the GOB&#x000A;as a partner, and not a junior partner. However, constructive&#x000A;engagement in the G20 has given Brazil increased confidence that it&#x000A;can and should engage in issues outside its own borders, and the&#x000A;GOB takes deserved pride in having overcome many experiences&#x000A;(previous financial crises, addressing GINI inequalities,&#x000A;infrastructure impact on growth, etc) common to developing country,&#x000A;and sees itself as uniquely placed to use its "lessons learned" to&#x000A;help other developing countries tackle their own challenges. The&#x000A;GOB has been receptive to partnering with us on development&#x000A;cooperation, including a newly developing initiative in Mozambique&#x000A;and Haiti on agriculture, health and infrastructure development.&#x000A;We continue to work with Brazil to build consensus for WTO trade&#x000A;liberalization; to promote enhanced cooperation in fora such as&#x000A;OECD, WHO, and ICAO; and to create the conditions for global&#x000A;development and prosperity.&#x000A;&#x000A;<a id='par17' href='#par17'>¶</a>17. (C) Our economic engagement provides a bridge to building our&#x000A;relationship with the GOB on other issues. Although they generally&#x000A;require more careful groundwork and legwork to ensure success, the&#x000A;possibilities to do so remain ample. In a country that seeks&#x000A;nothing so much as recognition of its "rightful" place on the&#x000A;international stage, there is widespread understanding that no&#x000A;other country can legitimize Brazil's aspirations in so meaningful&#x000A;a way as the United States. More immediately, the prospect for&#x000A;advancing beyond a pragmatic partnership received a significant&#x000A;boost with the election of President Obama. Although Brazilians&#x000A;generally admire the United States and maintain a strong interest&#x000A;in our culture and politics, from President Lula to the man on the&#x000A;street they see in the President a kindred spirit whom they are&#x000A;eager to engage. The Administration's early statements and actions&#x000A;with regard to Latin America-the President's meeting with UNASUL&#x000A;and efforts to reach out at the Summit of the Americas, the spirit&#x000A;of negotiation at the OAS General Assembly, efforts to reinitiate&#x000A;dialogue with Cuba, Venezuela, and Bolivia-were all well received&#x000A;in Brazil, and heightened expectations of an even closer&#x000A;relationship. Brazilian officials were impressed by what they&#x000A;heard from General Jones, Under Secretary Tauscher, and other&#x000A;senior officials during their visit in August.&#x000A;&#x000A;<a id='par18' href='#par18'>¶</a>18. (C) In the intervening months, both official and non-official&#x000A;Brazilians have become increasingly disappointed with what they&#x000A;perceive as a lack of attention from the United States. While&#x000A;acknowledging that the United States has pressing domestic and&#x000A;international priorities, Brazilians feel more than ever that their&#x000A;successes-their performance through the financial crisis,&#x000A;constructive engagement in the WTO and Copenhagen, creative social&#x000A;programs, and even their successful bids for the 2014 World Cup and&#x000A;the 2016 Summer Olympics-have earned them a more prominent place on&#x000A;the U.S. agenda. With regard to the GOB in particular, the&#x000A;Colombia bases problem seemed to be evidence of a lack on the part&#x000A;of the USG both of transparency in our dealings in the region and&#x000A;of consideration regarding matters that have a direct impact on&#x000A;Brazil's security. Although initially pleased with the USG&#x000A;response to the coup in Honduras, and despite having publicly&#x000A;insisted the problem was ours to resolve, the GOB saw our position&#x000A;&#x000A;in support of Honduran democratic process (rather than a firm&#x000A;insistence on Zelaya's restoration) as a step away from&#x000A;consensus-building in the region.&#x000A;&#x000A;<a id='par19' href='#par19'>¶</a>19. (C) Despite this frustration, the GOB remains eager to engage,&#x000A;and holds out continued hope that Brazil will receive a visit from&#x000A;President Obama in the coming months. The Foreign Ministry is in&#x000A;the process of creating and increasing staffing for a higher level&#x000A;department (equivalent to a Department of State bureau) to handle&#x000A;United States, Canada, and Inter-American Affairs.&#x000A;Uncharacteristically, the Foreign Ministry has extended a series of&#x000A;new offers and taken up others it has long delayed: it is eager to&#x000A;launch the proposed high-level dialogue, has sought to replicate&#x000A;the success of the Joint Action Plan to Fight Racial Discrimination&#x000A;by proposing an MOU on gender issues, is moving forward on a&#x000A;Defense Cooperation Agreement, Pol-Mil talks, trilateral&#x000A;cooperation in Haiti and Africa, and a Tropical Forest Conservation&#x000A;Act agreement, has offered an MOU on climate change, and has&#x000A;expressed repeated interest in establishing joint counternarcotics&#x000A;cooperation with Bolivia. While getting to yes on these&#x000A;initiatives will undoubtedly require the same patience and care to&#x000A;avoid Brazilian sensitivities that mark almost all of our daily&#x000A;interactions with the GOB, the evident interest at senior levels of&#x000A;the presidency and foreign ministry in building up the relationship&#x000A;should help smooth the way over the next months.&#x000A;&#x000A;<a id='par20' href='#par20'>¶</a>20. (C) As keen as they are to cultivate the Obama Administration,&#x000A;GOB officials are also driven by the knowledge that their timeframe&#x000A;for making meaningful progress is short. There is little more than&#x000A;a year left of the Lula government; only ten months until elections&#x000A;for president, all 27 governors, two-thirds of the senate, and all&#x000A;federal and state deputies; just over six months before official&#x000A;campaigning begins; and less than four months until ministers who&#x000A;intend to run for office-perhaps as many as half of Lula's&#x000A;cabinet-must resign. This election-year calendar will be further&#x000A;complicated by the traditional slowdown during Brazil's extended&#x000A;summer/Christmas/Carnival break. Nonetheless, the continuity&#x000A;provided by Brazil's influential diplomatic corps and the&#x000A;likelihood of broad continuity on both foreign and domestic policy&#x000A;under either of the two strongest contenders to succeed Lula on&#x000A;January 1, 2011 means that initiatives put into place now will lay&#x000A;the groundwork for the new Brazilian government.&#x000A;&#x000A;<a id='par21' href='#par21'>¶</a>21. (C) The GOB will be looking for signs in your visit that USG&#x000A;interest in engaging Brazil as a global partner has not waned.&#x000A;While GOB officials are unlikely to give on the issues that have&#x000A;proved contentious over the last months, they will value the&#x000A;opportunity to explain their views, will want to hear the&#x000A;Administration's perspective and aspirations with regard to Brazil,&#x000A;and will seriously entertain suggestions for additional engagement.&#x000A;Your visit provides the opportunity to forge a durable working&#x000A;relationship over the next year and to lay the foundation for a&#x000A;strategic bilateral relationship with the next Brazilian government&#x000A;that will also be essential to influencing the direction of&#x000A;Brazil's development as a maturing global actor.&#x000A;KUBISKE</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

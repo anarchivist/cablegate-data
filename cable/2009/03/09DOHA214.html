@@ -1,0 +1,803 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/support.html'>
+<img alt='Keep Us Strong' src='/img/ja-cg.jpg' />
+</a>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 931 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/EUA-tentaram-usar-Saito-e-Jobim.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/Har-blir-vi-blasta.html">Sweden</a>
+<a href="/articles/2010/PayPal-freezes-WikiLeaks-donations.html"> Editorial</a>
+<a href="/articles/2010/U-S-Empire-Shopping-List.html">United States</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-05_0.html'>2010/12/05</a>
+<a href='/reldate/2010-12-04_0.html'>2010/12/04</a>
+<a href='/reldate/2010-12-03_0.html'>2010/12/03</a>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1988' onclick="return swap('year_1988');">88</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1988'>
+<a href='/date/1988-01_0.html'>1988/01</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-06_0.html'>2004/06</a>
+<a href='/date/2004-09_0.html'>2004/09</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-02_0.html'>2005/02</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-06_0.html'>2008/06</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/69_0.html'>Embassy Asuncion</a>
+<a href='/origin/70_0.html'>Embassy Astana</a>
+<a href='/origin/71_0.html'>Embassy Ashgabat</a>
+<a href='/origin/72_0.html'>Embassy Ankara</a>
+<a href='/origin/73_0.html'>Embassy Amman</a>
+<a href='/origin/74_0.html'>Embassy Algiers</a>
+<a href='/origin/75_0.html'>Embassy Addis Ababa</a>
+<a href='/origin/76_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/57_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/58_0.html'>Embassy Bucharest</a>
+<a href='/origin/59_0.html'>Embassy Brussels</a>
+<a href='/origin/60_0.html'>Embassy Bridgetown</a>
+<a href='/origin/61_0.html'>Embassy Brasilia</a>
+<a href='/origin/62_0.html'>Embassy Bishkek</a>
+<a href='/origin/63_0.html'>Embassy Berlin</a>
+<a href='/origin/64_0.html'>Embassy Beirut</a>
+<a href='/origin/65_0.html'>Embassy Beijing</a>
+<a href='/origin/66_0.html'>Embassy Bangkok</a>
+<a href='/origin/67_0.html'>Embassy Baku</a>
+<a href='/origin/68_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/52_0.html'>Embassy Conakry</a>
+<a href='/origin/53_0.html'>Embassy Colombo</a>
+<a href='/origin/54_0.html'>Embassy Chisinau</a>
+<a href='/origin/55_0.html'>Embassy Caracas</a>
+<a href='/origin/56_0.html'>Embassy Cairo</a>
+<a href='/origin/87_0.html'>Consulate Casablanca</a>
+<a href='/origin/88_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/47_0.html'>Embassy Dushanbe</a>
+<a href='/origin/48_0.html'>Embassy Dublin</a>
+<a href='/origin/49_0.html'>Embassy Doha</a>
+<a href='/origin/50_0.html'>Embassy Djibouti</a>
+<a href='/origin/51_0.html'>Embassy Damascus</a>
+<a href='/origin/86_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/46_0.html'>Embassy Harare</a>
+<a href='/origin/85_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/45_0.html'>Embassy Islamabad</a>
+<a href='/origin/84_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/83_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/41_0.html'>Embassy Kyiv</a>
+<a href='/origin/42_0.html'>Embassy Kuwait</a>
+<a href='/origin/43_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/44_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/36_0.html'>Embassy Luxembourg</a>
+<a href='/origin/37_0.html'>Embassy London</a>
+<a href='/origin/38_0.html'>Embassy Lisbon</a>
+<a href='/origin/39_0.html'>Embassy Lima</a>
+<a href='/origin/40_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/31_0.html'>Embassy Muscat</a>
+<a href='/origin/32_0.html'>Embassy Moscow</a>
+<a href='/origin/33_0.html'>Embassy Mexico</a>
+<a href='/origin/34_0.html'>Embassy Manama</a>
+<a href='/origin/35_0.html'>Embassy Madrid</a>
+<a href='/origin/82_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/30_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/27_0.html'>Embassy Ouagadougou</a>
+<a href='/origin/28_0.html'>Embassy Ottawa</a>
+<a href='/origin/29_0.html'>Embassy Oslo</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/23_0.html'>Embassy Prague</a>
+<a href='/origin/24_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/25_0.html'>Embassy Paris</a>
+<a href='/origin/26_0.html'>Embassy Panama</a>
+<a href='/origin/81_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/20_0.html'>Embassy Rome</a>
+<a href='/origin/21_0.html'>Embassy Riyadh</a>
+<a href='/origin/22_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/15_0.html'>Embassy Stockholm</a>
+<a href='/origin/16_0.html'>Embassy Singapore</a>
+<a href='/origin/17_0.html'>Embassy Seoul</a>
+<a href='/origin/18_0.html'>Embassy Santiago</a>
+<a href='/origin/19_0.html'>Embassy Sanaa</a>
+<a href='/origin/78_0.html'>Consulate Shenyang</a>
+<a href='/origin/79_0.html'>Consulate Shanghai</a>
+<a href='/origin/80_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy The Hague</a>
+<a href='/origin/11_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/12_0.html'>Embassy Tehran</a>
+<a href='/origin/13_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/14_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/77_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AEC_0.html'>AEC</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AFIN_0.html'>AFIN</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+<a href='/tag/AS_0.html'>AS</a>
+<a href='/tag/ABLD_0.html'>ABLD</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BO_0.html'>BO</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/COUNTER_0.html'>COUNTER</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CACM_0.html'>CACM</a>
+<a href='/tag/CDB_0.html'>CDB</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/COUNTERTERRORISM_0.html'>COUNTERTERRORISM</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CG_0.html'>CG</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EINDETRD_0.html'>EINDETRD</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ET_0.html'>ET</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/ELECTIONS_0.html'>ELECTIONS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/EINVEFIN_0.html'>EINVEFIN</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FBI_0.html'>FBI</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+<a href='/tag/FREEDOM_0.html'>FREEDOM</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GV_0.html'>GV</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GA_0.html'>GA</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HU_0.html'>HU</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/INRA_0.html'>INRA</a>
+<a href='/tag/INRO_0.html'>INRO</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/ITALY_0.html'>ITALY</a>
+<a href='/tag/ITALIAN_0.html'>ITALIAN</a>
+<a href='/tag/IRAQI_0.html'>IRAQI</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JUS_0.html'>JUS</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KDEMAF_0.html'>KDEMAF</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KGIC_0.html'>KGIC</a>
+<a href='/tag/KRAD_0.html'>KRAD</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KIPR_0.html'>KIPR</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPWR_0.html'>KPWR</a>
+<a href='/tag/KFIN_0.html'>KFIN</a>
+<a href='/tag/KSUM_0.html'>KSUM</a>
+<a href='/tag/KPIN_0.html'>KPIN</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KR_0.html'>KR</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KE_0.html'>KE</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KAWC_0.html'>KAWC</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LG_0.html'>LG</a>
+<a href='/tag/LU_0.html'>LU</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MK_0.html'>MK</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/MIL_0.html'>MIL</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MEPP_0.html'>MEPP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MTCR_0.html'>MTCR</a>
+<a href='/tag/MA_0.html'>MA</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NAR_0.html'>NAR</a>
+<a href='/tag/NO_0.html'>NO</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+<a href='/tag/NL_0.html'>NL</a>
+<a href='/tag/NATIONAL_0.html'>NATIONAL</a>
+<a href='/tag/NG_0.html'>NG</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OFDP_0.html'>OFDP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+<a href='/tag/OPDC_0.html'>OPDC</a>
+<a href='/tag/OVP_0.html'>OVP</a>
+<a href='/tag/OSCI_0.html'>OSCI</a>
+<a href='/tag/OAS_0.html'>OAS</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OREP_0.html'>OREP</a>
+<a href='/tag/ODIP_0.html'>ODIP</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PECON_0.html'>PECON</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/POLITICS_0.html'>POLITICS</a>
+<a href='/tag/PO_0.html'>PO</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RW_0.html'>RW</a>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RO_0.html'>RO</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SM_0.html'>SM</a>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SI_0.html'>SI</a>
+<a href='/tag/SG_0.html'>SG</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TSPA_0.html'>TSPA</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TIP_0.html'>TIP</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TERRORISM_0.html'>TERRORISM</a>
+<a href='/tag/TPHY_0.html'>TPHY</a>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TW_0.html'>TW</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UE_0.html'>UE</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+<a href='/tag/WI_0.html'>WI</a>
+<a href='/tag/WTRO_0.html'>WTRO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XM_0.html'>XM</a>
+<a href='/tag/XR_0.html'>XR</a>
+<a href='/tag/XS_0.html'>XS</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+<a href='/tag/YE_0.html'>YE</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F03%2F09DOHA214.html%20%2309DOHA214'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F03%2F09DOHA214.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 09DOHA214, QATAR: 2009 CI/KR RESPONSE FOR S/CT</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#09DOHA214</b>.
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2009/03/09DOHA214.html'>09DOHA214</a>
+</td>
+<td>
+<a href='/date/2009-03_0.html'>2009-03-26 13:01</a>
+</td>
+<td>
+<a href='/reldate/2010-12-05_0.html'>2010-12-05 17:05</a>
+</td>
+<td>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+</td>
+<td>
+<a href='/origin/49_0.html'>Embassy Doha</a>
+</td>
+</tr>
+</table>
+<code><pre>Stephen H Rogerson  12/02/2009 11:08:08 AM  From  DB/Inbox:  Search &#x000A;Results&#x000A;&#x000A;Cable &#x000A;Text:                                                                      &#x000A;                                                                           &#x000A;      &#x000A;S E C R E T        DOHA 00214&#x000A;CXDOHA:&#x000A;    ACTION: AMB&#x000A;    INFO:   RSO RAO P/E OMC LEGATT DAO DCM&#x000A;&#x000A;DISSEMINATION: AMB /1&#x000A;CHARGE: PROG&#x000A;&#x000A;APPROVED: AMB:JLABARON&#x000A;DRAFTED: P/E:MZEBLEY&#x000A;CLEARED: P/E: DFABRYCKY, P/E: RICE, DCM: MRATNEY&#x000A;&#x000A;VZCZCDOI550&#x000A;RR RUEHC RHMFISS RUEAIIA RHMFISS RULSSGG RHMFISS&#x000A;RHEFDIA RHMFISS&#x000A;DE RUEHDO #0214/01 0851341&#x000A;ZNY SSSSS ZZH&#x000A;R 261341Z MAR 09&#x000A;FM AMEMBASSY DOHA&#x000A;TO RUEHC/SECSTATE WASHDC 8904&#x000A;INFO RHMFISS/DEPT OF ENERGY WASHINGTON DC//NNSA//&#x000A;RUEAIIA/CIA WASHINGTON DC&#x000A;RHMFISS/DEPT OF ENERGY WASHINGTON DC&#x000A;RULSSGG/COMDT COGARD WASHINGTON DC&#x000A;RHMFISS/DEPT OF HOMELAND SECURITY WASHINGTON DC&#x000A;RHEFDIA/DIA WASHINGTON DC&#x000A;RHMFISS/HQ USCENTCOM MACDILL AFB FL</pre></code>
+<code><pre>S E C R E T SECTION 01 OF 05 DOHA 000214  &#x000A;&#x000A;NOFORN  &#x000A;&#x000A;S/CT FOR SHARRI R.  CLARK AND BRUCE AVERILL NEA/ARP FOR MATT BLONG DOE/NNSA FOR OFFICE OF  THE SECOND LINE OF DEFENSE U.S. COAST GUARD FOR ASSISTANT COMMANDANT FOR  MARINE SAFETY, SECURITY AND STEWARDSHIP  &#x000A;&#x000A;E.O. 12958: DECL: 01/29/2019  &#x000A;&#x000A;TAG: PTER, PREL, PGOV, ECON, ETTC, EAID, EFIN, EAGR, ASEC, KCIP, ENRG,  QA &#x000A;&#x000A;SUBJECT: QATAR: 2009 CI/KR RESPONSE FOR S/CT  &#x000A;&#x000A;REF: A. SECSTATE 15113       B. DOHA 152 (08)      C. DOHA 75 (08)      D. DOHA 311 (07)   &#x000A;&#x000A;Classified By: Amb. LeBaron for Reasons 1.4 (b) and (d).   &#x000A;&#x000A;----------------- &#x000A;(S/NF) KEY POINTS &#x000A;-----------------  &#x000A;&#x000A;--  Post  assesses that U.S. investments in Qatar's energy industry, coupled with  the onset of regular liquefied natural gas (LNG) exports to the U.S.  2009-12, constitute the main critical infrastructure and key resources  in Qatar, which if destroyed, disrupted or exploited might have an  immediate and deleterious effect on the United States. &#x000A;--  Embassy Doha  continues to engage Government of Qatar entities across the spectrum to  increase awareness and implement increased security procedures to  identify and protect critical infrastructure.  These entities include  Qatar Petroleum and its Industrial Security Directorate, the Ministry of  Interior, and the Qatar Armed Forces.  &#x000A;--  Key Qatari officials have  recently made overtures of their willingness to embrace USG offers for  assistance or requests for information/transparency on their current  vulnerabilities and infrastructure protection programs. Embassy Doha  assesses that there is considerable scope for cooperation with the GOQ  on this issue, considerably more than at any time over the past three  years.  &#x000A;-- Embassy Doha is currently preparing an interagency plan to  engage GOQ entities in a synchronized fashion on this issue.  End Key  Points.  &#x000A;&#x000A;---------------------------- &#x000A;QATAR'S KEY ENERGY RESOURCES  &#x000A;----------------------------  &#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (C) Qatar shares with Iran the largest  non-associated gas field in the world. Qatar's portion contains an  estimated 900 trillion cubic feet of natural gas, giving it the  third-largest reserves of natural gas in the world.  Qatar is believed  to have an agreement with Iran providing a set extraction limit in the  field; however, the details of this arrangement are not known to us.  By  2009, Qatar's share of hydrocarbon revenue from natural gas and  derivatives was about equal to that derived from oil. At 30 metric tons  per annum (mta), Qatar is already the world leader in LNG exports.   Current estimates are that by 2012 Qatar will produce 77 million tons  of LNG annually, roughly a third of which Qatar hopes to export to the  U.S. market. About half of the new global LNG capacity coming online in  the next four years will be in Qatar. (Note:  Per British Petroleum  calculations, 1 million metric tons of LNG equals 48.7 billion cubic  feet of natural gas.)  &#x000A;&#x000A;----------------------------------- &#x000A;QATAR'S  CRITICAL INDUSTRIAL CENTERS&#x000A;-----------------------------------  &#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (C)  There are three main industrial facilities of interest that if  destroyed, or if their production is disrupted, could have an immediate  effect on U.S. national economic security. In order of priority, these  are Ras Laffan Industrial City (RLIC), Mesaieed Industrial City (MIC)  and port complex, and Dukhan Industrial City.  All three industrial  centers are under the control and supervision of Qatar Petroleum (QP), a  semi-autonomous government organization whose Chairman, Abdullah bin  Hamad Al-Attiyah, is also the Deputy Prime Minister and Minister of  Energy and Industry.  Natural gas production is primarily centered  around the coast and offshore areas in the northeast of Qatar, in and  round Ras Laffan; while, oil production is concentrated on the western  coast near Dukhan as well as offshore platforms.  &#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (C) Ras Laffan is  Qatar's flag-ship industrial center, predominantly focused on the  production of Liquefied Natural Gas (LNG) and derivative petrochemicals  obtained during the natural gas extraction process.  Destruction or an  attack disrupting production at RLIC would cause exceptionally grave damage  to the world market and U.S. national economic security interests.  As  of 2008, Qatar LNG production for export to Japan and South Korean  represented over 60 percent of those respective countries internal  natural gas consumption; by 2012 a third of Qatari LNG produced could be  destined for the U.S. market, at which time it is estimated that Qatar  will be the largest source of imported LNG to the U.S. market. The  current drop in global demand for gas will also result in more LNG being  sent to the U.S. as the flexible market and storage capacity give the  U.S. the ability to soak up excess global supply in the short-term.  &#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4.  (C) QP operating units QatarGas and RasGas are responsible for LNG  production in Ras Laffan.  QatarGas production trains three and four  will produce LNG equivalent to 2.8 billion cubic feet of gas per day,  and RasGas is currently building two trains at Ras Laffan with 7.8  million tons of annual capacity each.  ("Trains" are the liquefaction  plants which draw gas pumped at offshore platforms, liquefy it, and load  it onto LNG tankers.)  These four trains will be among the largest in  the world, and their production will be allocated in part to U.S.  markets.  In addition, major U.S. energy companies such as ExxonMobil  and ConocoPhillips partner with Qatar and currently have over $13  billion invested in Qatar's natural gas industry.  Therefore, Ras  Laffan's importance as a critical facility will continue to grow as  production and exports to the U.S. increase.  &#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5.  (S/NF) As of early  2009, Qatar Petroleum Industrial Security Directorate has continued  security infrastructure improvements at RLIC and the expansive Ras  Laffan Industrial City Port complex, after a series of security  assessments conducted since 2005 by several western security firms.  These improvements have included redesign and construction of a new main  entry control point for RLIC, plans for redesign of existing port  boundaries under the International Maritime Organization (IMO)  International Shipping and Port Security (ISPS) code, construction of a  new port entry control point equipped with radiological and nuclear  material detection monitors and container screening portals, and  incorporation of ground-based radar, overlapping CCTV coverage and  biometric enabled identification.  &#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (S/NF) Mesaieed Industrial City  (MIC) and port complex, located approximately 40 km south of Doha, was  officially established in 1996 and is the main shipping point for oil  from Dukhan to the international market.  Destruction or disruption of  port services would effectively shut down oil shipments from Qatar,  potentially affecting half of Qatar's petroleum revenue.  In addition,  the port complex is a key choke point for U.S. and coalition military  equipment, munitions and bulk aviation fuel delivery to Al-Udeid Air  Base and Camp As Sayliyah, the two Qatari military installations hosting  U.S. Coalition forces.  Any disruption to port operations would  severely limit U.S. military operations throughout the U.S. Central  Command AOR.  As an example, in September-October 2007, strategic fuel  reserves at Al Udeid Airbase were depleted because unscheduled,  uncoordinated road construction caused increased transit time for fuel  tankers.  The situation continued for 30 days until resolved.  Had the  situation not been resolved, there would have been an impact on  theater-wide combat and airlift operations.  &#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (C/NF) Mesaieed is also  the location of most of Qatar's light, medium and support petrochemical  facilities; producing fertilizer, fuel additives, lubricants, plastics  and vinyl for domestic consumption and export.  The facility comprises  four major treatment plants as well as a specialized holding area to  store and export products.  Natural Gas Liquids Plants 1 and 2 are  designed to separate and fractionate LNG extracted from various  production areas into a number of fractionated final products.  Natural  Gas Liquids Plant 3 is composed of separate units to treat gas and  condensates, and plant 4 is an expansion and development of QP,s gas  treatment capacity alongside the fractionation and treatment facilities  in Mesaieed.  All of these plants are directly adjacent to the port  facilities, and a major incident at any of them could effectively shut  down port operations.  &#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8.  (S/NF)  The QP subsidiary Qatar Aluminum  Company (QATALUM) plant currently under construction at Mesaieed is  planned as the world,s largest aluminum production facility once  completed and operational (circa 2011).  In addition, subsidiary Qatar  Chemical Company (QChem) plans to begin construction on the world,s  largest chemical derivatives plant, and there are plans for a  construction of a new Qatar Petroleum oil refinery, the Al Shaheen  refinery, to fully satisfy internal consumption needs and begin export  of refined product at a greater price than traditional crude export.   Construction on both of these projects at Mesaieed was slated to begin  in 2009, but has since been delayed due to the current economic downturn  and high costs of building materials.  &#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (C) Dukhan industrial city  currently accounts for the majority of Qatar,s oil production.  The  destruction or disruption of production at Dukhan would have a severe  impact on the Qatari economy and may affect global and U.S. economies.   &#x000A;&#x000A;-------------- &#x000A;USG ENGAGEMENT &#x000A;--------------  &#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (C/NF) Embassy Doha  and the State Department have continued to identify Qatar's increasingly  important role as a world producer in the oil and LNG sectors and its  inherent high value as a potential terrorism target as points of  concern.  Qatar's expectation of becoming the world's LNG and  gas-to-liquids (GTL) leader by 2012 necessitates a comprehensive energy  infrastructure security program.  Post assesses that Qatar's attention  to energy infrastructure has improved since the previous CI/KR report,  but is far from complete.  While the Qataris have adequately planned a  production and shipping infrastructure for the booming business, it  appears they are still in the beginning stages to consider how to  protect it.  However, recent overtures made by the Director of Qatar  Petroleum,s Industrial Security Directorate, Ministry of Interior  Brigadier Abdulaziz Al-Ansari, to increased dialogue and cooperation  have renewed Post,s efforts to engage GOQ officials on critical energy  infrastructure security.  &#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (C) Post has a DCM-led working group  comprising Pol/Econ, DAO, GRPO, OMC, FCS, and RSO to lay the ground work  for, and synchronize, engagement with the GOQ on critical  infrastructure protection.  This group met most recently to discuss  results of the mid-March 2009 U.S. Coast Guard International Shipping  and Port Security (ISPS) team visit to Ras Laffan, Mesaieed and Doha  ports.  The team recommended a reciprocal Qatari visit to a U.S. port in  June 2009, as well as the possible establishment of a bilateral  security agreement with Qatar specifically addressing dedicated LNG  shipments between the two countries.   Post also wishes to restart the  engagement process with the Qataris on the DOS/DOE Critical Energy  Infrastructure program (CEIP) based on recent, positive signals from the  host government.  &#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (C) In addition, Post through the Department of  Energy,s National Nuclear Security Administration (NNSA), Second Line of  Defense Office, has been working with the Qatari Ministry of  Environment,s Department of Nuclear Energy and Radiological Protection  to provide training and equipment selection for Qatar's nascent  radiological detection and response program since April 2008.  In July  2008, Qatar sent 10 mid- to senior level personnel from the Ministry of  Interior, Qatar State Security, Internal Security Force and Qatar  Petroleum Security to a workshop on nuclear detection and monitoring at  the HAMMER facility at the Pacific Northwest National Lab (PNNL) in  Washington state.  Qatar intends to place vehicle and pedestrian  radiological and nuclear material detection monitors at ports in Ras  Laffan, Mesaieed and Doha, as well as Doha International Airport and the  land border crossing with Saudi Arabia at Abu Samra.  &#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (S/NF) Post  is formatting a detailed multifaceted response on a way forward in our  efforts to engage Qatar that would leverage the various agencies of the  country team (septel).  This response will address a three-prong  approach to various Qatari governmental and energy-related organizations  featuring political/economic engagement, military to military training  and assistance with the Qatari Armed Forces and Ministry of Interior,  and the leveraging of commercial contacts with Qatar Petroleum and the  Ministry of Energy.  Post will be preparing a plan bringing together  each of the various threads of this engagement.   &#x000A;&#x000A;------------------------- &#x000A;U.S./QATARI JOINT EFFORTS  &#x000A;-------------------------  &#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. (C/NF) As a result of an S/CT and DS/ATA  June 2007 visit, Post drafted a joint working group framework to  continue dialogue on energy infrastructure security.  To date, the GOQ  has been slow in embracing the framework agreement; however, Post,  Department and USG concerns have not fallen on deaf ears.  GOQ officials  have expressed their own concerns, identifying a risk associated with  critical infrastructure, during meetings with Post officials and USG  visitors since early 2007.  In January 2009 meetings with Qatar  Petroleum Security,s Brigadier Al-Ansari and Poloff Zebley, Al-Ansari  indicated he had received a read-out of the November 2007 USG-GOQ  sponsored Gulf Security Dialogue from the Ministry of Foreign Affairs  and wanted to discuss further cooperation with the USG.  Al-Ansari, who  concurrently serves as the number three uniformed member of the Ministry  of Interior as MOI Director of Logistics, appears to be the key  decision maker on all critical industrial infrastructure issues at our  identified key facilities ) Ras Laffan Industrial City and Mesaieed  Industrial City.  &#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (C) The Qatari government's appreciation of U.S.  training and technology presents numerous prospects for U.S. engagement.   We know that Qatar will need trainers, assistance on selection of  physical security equipment (such as delta pop-up barriers, fences and  anti-vehicle berms), nonlethal weapons and tactics, and other  technological equipment (CCTV, etc).  Offshore protection is an area  with the greatest potential; Qatar will need additional and more  advanced offshore patrol vessels, plus enhanced maritime surveillance  and communications equipment, weapons and trained crews.  There is  currently a lack of standardized security practices; however, the Qatari  government has identified gaps in security infrastructure and has  worked with U.S. and European commercial firms to begin acquisition and  training in the use of technical security equipment.   &#x000A;&#x000A;---------------------- &#x000A;GOQ INTEREST AND PLANS &#x000A;----------------------   &#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (S/NF) In 2005, the GOQ contracted with a U.S. security and safety  company to perform a top-down, zero-based review of critical  infrastructure protection; the study encompassed organizational lines of  command and control for the security services and industrial facility  security at the three facilities identified previously.  The resultant  report finished by the U.S. company in 2007, which has not been shared  with the USG and  remains highly classified by the GOQ, reportedly  identified and prioritized deficient areas and provided recommendations  in each.  Subsequent to the report, Qatar Petroleum Security Directorate  placed a tender for a detailed security infrastructure assessment in  March 2009.  The assessment will identify needed technical and security  equipment and related facilities (security control buildings,  barricades, etc).  &#x000A;&#x000A;------------------------------------- &#x000A;Qatari  Strategic Security Initiatives &#x000A;-------------------------------------   &#x000A;&#x000A;<a id='par17' href='#par17'>¶</a>17. (S) As detailed in the Ref C January 2008 meeting between  Department of Energy Assistant Secretary Kevin Kolevar and Minister of  State for Energy and Industry Mohammed Saleh Al-Sada, the Heir Apparent  had established an Industrial Security Steering Committee, under the  Ministry of Interior and headed by Brigadier Al-Ansari, charged with  managing the current nationwide industrial security apparatus and  improving overall security capacity.  The creation of the steering  committee was part of the Heir Apparent's strategic security  initiatives, which include the planned establishment of an integrated  National Command Center (NCC) and development of the National Security  Shield (NSS).  The NCC would provide coordinated command and control of  security and civil defense units in response to national emergencies,  while the NSS would create a series of interconnected fixed and mobile  radar platforms to identify threats by sea, air and land.  &#x000A;&#x000A;<a id='par18' href='#par18'>¶</a>18. (S/NF) As  of mid-March 2009, the NCC was under the operational control of the MOI  and co-located at Camp Duheil with the MOI,s Police Training Center.   The center was staffed 24/7 by various Qatari civil defense, heath and  security organizations and maintained direct contact with Qatar  Petroleum Security officials.  &#x000A;&#x000A;<a id='par19' href='#par19'>¶</a>19. (S/NF) In February 2009, the NSS  placed a tender for the construction of the first-phase of the NSS,  which consisted of the construction of 18 80-meter metal lattice towers  for placement of integrated European Aeronautics, Defense, and Space  Corporation (EADS) radars for interlocking coverage along the land  border with Saudi Arabia and coasts.  However, Post has been unable to  ascertain specifics on the radar system and/or the ultimate Qatari  organization responsible for management of the program, even though,  select coverage provided by the NSS would be shared with Qatar Petroleum  Security and integrated within the NCC.  &#x000A;&#x000A;<a id='par20' href='#par20'>¶</a>20. (S/NF) The Qatar Armed  Forces have for several years been considering adopting an integrated  air defense system that could include the Patriot PAC-3 missile system.   The Qatar Armed Forces have made clear that a major purpose of an air  defense system would be the protection of their critical energy  infrastructure.  To that end, the Qataris have asked us to explore ways  in which the coverage area for U.S. military-controlled Patriots  currently in Qatar could be expanded to include the LNG facilities at  Ras Laffan. Qatar's interest in an air defense system presents another  opportunity for U.S.-Qatar engagement on critical infrastructure  protection. LeBaron</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

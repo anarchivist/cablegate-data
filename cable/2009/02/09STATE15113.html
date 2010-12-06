@@ -1,0 +1,803 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/support.html'>
+<img alt='Keep Us Strong' src='/img/ja-cg.jpg' />
+</a>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 931 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/EUA-tentaram-usar-Saito-e-Jobim.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/Har-blir-vi-blasta.html">Sweden</a>
+<a href="/articles/2010/PayPal-freezes-WikiLeaks-donations.html"> Editorial</a>
+<a href="/articles/2010/U-S-Empire-Shopping-List.html">United States</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-05_0.html'>2010/12/05</a>
+<a href='/reldate/2010-12-04_0.html'>2010/12/04</a>
+<a href='/reldate/2010-12-03_0.html'>2010/12/03</a>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1988' onclick="return swap('year_1988');">88</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1988'>
+<a href='/date/1988-01_0.html'>1988/01</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-06_0.html'>2004/06</a>
+<a href='/date/2004-09_0.html'>2004/09</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-02_0.html'>2005/02</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-06_0.html'>2008/06</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/69_0.html'>Embassy Asuncion</a>
+<a href='/origin/70_0.html'>Embassy Astana</a>
+<a href='/origin/71_0.html'>Embassy Ashgabat</a>
+<a href='/origin/72_0.html'>Embassy Ankara</a>
+<a href='/origin/73_0.html'>Embassy Amman</a>
+<a href='/origin/74_0.html'>Embassy Algiers</a>
+<a href='/origin/75_0.html'>Embassy Addis Ababa</a>
+<a href='/origin/76_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/57_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/58_0.html'>Embassy Bucharest</a>
+<a href='/origin/59_0.html'>Embassy Brussels</a>
+<a href='/origin/60_0.html'>Embassy Bridgetown</a>
+<a href='/origin/61_0.html'>Embassy Brasilia</a>
+<a href='/origin/62_0.html'>Embassy Bishkek</a>
+<a href='/origin/63_0.html'>Embassy Berlin</a>
+<a href='/origin/64_0.html'>Embassy Beirut</a>
+<a href='/origin/65_0.html'>Embassy Beijing</a>
+<a href='/origin/66_0.html'>Embassy Bangkok</a>
+<a href='/origin/67_0.html'>Embassy Baku</a>
+<a href='/origin/68_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/52_0.html'>Embassy Conakry</a>
+<a href='/origin/53_0.html'>Embassy Colombo</a>
+<a href='/origin/54_0.html'>Embassy Chisinau</a>
+<a href='/origin/55_0.html'>Embassy Caracas</a>
+<a href='/origin/56_0.html'>Embassy Cairo</a>
+<a href='/origin/87_0.html'>Consulate Casablanca</a>
+<a href='/origin/88_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/47_0.html'>Embassy Dushanbe</a>
+<a href='/origin/48_0.html'>Embassy Dublin</a>
+<a href='/origin/49_0.html'>Embassy Doha</a>
+<a href='/origin/50_0.html'>Embassy Djibouti</a>
+<a href='/origin/51_0.html'>Embassy Damascus</a>
+<a href='/origin/86_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/46_0.html'>Embassy Harare</a>
+<a href='/origin/85_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/45_0.html'>Embassy Islamabad</a>
+<a href='/origin/84_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/83_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/41_0.html'>Embassy Kyiv</a>
+<a href='/origin/42_0.html'>Embassy Kuwait</a>
+<a href='/origin/43_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/44_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/36_0.html'>Embassy Luxembourg</a>
+<a href='/origin/37_0.html'>Embassy London</a>
+<a href='/origin/38_0.html'>Embassy Lisbon</a>
+<a href='/origin/39_0.html'>Embassy Lima</a>
+<a href='/origin/40_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/31_0.html'>Embassy Muscat</a>
+<a href='/origin/32_0.html'>Embassy Moscow</a>
+<a href='/origin/33_0.html'>Embassy Mexico</a>
+<a href='/origin/34_0.html'>Embassy Manama</a>
+<a href='/origin/35_0.html'>Embassy Madrid</a>
+<a href='/origin/82_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/30_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/27_0.html'>Embassy Ouagadougou</a>
+<a href='/origin/28_0.html'>Embassy Ottawa</a>
+<a href='/origin/29_0.html'>Embassy Oslo</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/23_0.html'>Embassy Prague</a>
+<a href='/origin/24_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/25_0.html'>Embassy Paris</a>
+<a href='/origin/26_0.html'>Embassy Panama</a>
+<a href='/origin/81_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/20_0.html'>Embassy Rome</a>
+<a href='/origin/21_0.html'>Embassy Riyadh</a>
+<a href='/origin/22_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/15_0.html'>Embassy Stockholm</a>
+<a href='/origin/16_0.html'>Embassy Singapore</a>
+<a href='/origin/17_0.html'>Embassy Seoul</a>
+<a href='/origin/18_0.html'>Embassy Santiago</a>
+<a href='/origin/19_0.html'>Embassy Sanaa</a>
+<a href='/origin/78_0.html'>Consulate Shenyang</a>
+<a href='/origin/79_0.html'>Consulate Shanghai</a>
+<a href='/origin/80_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy The Hague</a>
+<a href='/origin/11_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/12_0.html'>Embassy Tehran</a>
+<a href='/origin/13_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/14_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/77_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AEC_0.html'>AEC</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AFIN_0.html'>AFIN</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+<a href='/tag/AS_0.html'>AS</a>
+<a href='/tag/ABLD_0.html'>ABLD</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BO_0.html'>BO</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/COUNTER_0.html'>COUNTER</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CACM_0.html'>CACM</a>
+<a href='/tag/CDB_0.html'>CDB</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/COUNTERTERRORISM_0.html'>COUNTERTERRORISM</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CG_0.html'>CG</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EINDETRD_0.html'>EINDETRD</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ET_0.html'>ET</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/ELECTIONS_0.html'>ELECTIONS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/EINVEFIN_0.html'>EINVEFIN</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FBI_0.html'>FBI</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+<a href='/tag/FREEDOM_0.html'>FREEDOM</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GV_0.html'>GV</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GA_0.html'>GA</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HU_0.html'>HU</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/INRA_0.html'>INRA</a>
+<a href='/tag/INRO_0.html'>INRO</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/ITALY_0.html'>ITALY</a>
+<a href='/tag/ITALIAN_0.html'>ITALIAN</a>
+<a href='/tag/IRAQI_0.html'>IRAQI</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JUS_0.html'>JUS</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KDEMAF_0.html'>KDEMAF</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KGIC_0.html'>KGIC</a>
+<a href='/tag/KRAD_0.html'>KRAD</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KIPR_0.html'>KIPR</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPWR_0.html'>KPWR</a>
+<a href='/tag/KFIN_0.html'>KFIN</a>
+<a href='/tag/KSUM_0.html'>KSUM</a>
+<a href='/tag/KPIN_0.html'>KPIN</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KR_0.html'>KR</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KE_0.html'>KE</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KAWC_0.html'>KAWC</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LG_0.html'>LG</a>
+<a href='/tag/LU_0.html'>LU</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MK_0.html'>MK</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/MIL_0.html'>MIL</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MEPP_0.html'>MEPP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MTCR_0.html'>MTCR</a>
+<a href='/tag/MA_0.html'>MA</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NAR_0.html'>NAR</a>
+<a href='/tag/NO_0.html'>NO</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+<a href='/tag/NL_0.html'>NL</a>
+<a href='/tag/NATIONAL_0.html'>NATIONAL</a>
+<a href='/tag/NG_0.html'>NG</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OFDP_0.html'>OFDP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+<a href='/tag/OPDC_0.html'>OPDC</a>
+<a href='/tag/OVP_0.html'>OVP</a>
+<a href='/tag/OSCI_0.html'>OSCI</a>
+<a href='/tag/OAS_0.html'>OAS</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OREP_0.html'>OREP</a>
+<a href='/tag/ODIP_0.html'>ODIP</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PECON_0.html'>PECON</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/POLITICS_0.html'>POLITICS</a>
+<a href='/tag/PO_0.html'>PO</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RW_0.html'>RW</a>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RO_0.html'>RO</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SM_0.html'>SM</a>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SI_0.html'>SI</a>
+<a href='/tag/SG_0.html'>SG</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TSPA_0.html'>TSPA</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TIP_0.html'>TIP</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TERRORISM_0.html'>TERRORISM</a>
+<a href='/tag/TPHY_0.html'>TPHY</a>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TW_0.html'>TW</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UE_0.html'>UE</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+<a href='/tag/WI_0.html'>WI</a>
+<a href='/tag/WTRO_0.html'>WTRO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XM_0.html'>XM</a>
+<a href='/tag/XR_0.html'>XR</a>
+<a href='/tag/XS_0.html'>XS</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+<a href='/tag/YE_0.html'>YE</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F02%2F09STATE15113.html%20%2309STATE15113'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F02%2F09STATE15113.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 09STATE15113, REQUEST FOR INFORMATION:CRITICAL FOREIGN DEPENDENCIES (CRITICAL INFRASTRUCTURE AND KEY RESOURCES LOCATED ABROAD)</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#09STATE15113</b>.
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2009/02/09STATE15113.html'>09STATE15113</a>
+</td>
+<td>
+<a href='/date/2009-02_0.html'>2009-02-18 23:11</a>
+</td>
+<td>
+<a href='/reldate/2010-12-05_0.html'>2010-12-05 21:09</a>
+</td>
+<td>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+</td>
+<td>
+<a href='/origin/3_0.html'>Secretary of State</a>
+</td>
+</tr>
+</table>
+<code><pre>INFO  LOG-00   MFA-00   EEB-00   AF-00    AGRE-00  AIT-00   AMAD-00  &#x000A;      AOP-00   AEX-00   AS-00    A-00     ACQ-00   CIAE-00  CIP-00   &#x000A;      COME-00  CCOE-00  CPR-00   INL-00   DNI-00   DIM-00   DODE-00  &#x000A;      DOEE-00  WHA-00   PERC-00  DS-00    EAP-00   DHSE-00  EUR-00   &#x000A;      FBIE-00  VCI-00   FSI-00   OBO-00   TEDE-00  INR-00   IO-00    &#x000A;      CAC-00   MED-07   MFLO-00  MMP-00   MOFM-00  MOF-00   M-00     &#x000A;      CDC-00   VCIE-00  NEA-00   DCP-00   NRC-00   NSAE-00  ISN-00   &#x000A;      OES-00   OIG-00   NIMA-00  PM-00    P-00     ISNE-00  DOHS-00  &#x000A;      FMPC-00  IRM-00   SSO-00   SS-00    MR-00    TRSE-00  CBP-00   &#x000A;      EPAE-00  SCRS-00  PMB-00   DSCC-00  PRM-00   DRL-00   G-00     &#x000A;      ALM-00   SCA-00   SAS-00   FA-00    PMA-00   SWCI-00    /007R&#x000A;&#x000A;&#x000A;P 182318Z FEB 09&#x000A;FM SECSTATE WASHDC&#x000A;TO PAGE 02        STATE   015113  182333Z &#x000A;ALL DIPLOMATIC POSTS COLLECTIVE PRIORITY&#x000A;AMEMBASSY TRIPOLI PRIORITY</pre></code>
+<code><pre>S E C R E T STATE 015113  &#x000A;&#x000A;NOFORN, NOT FOR INTERNET DISTRIBUTION &#x000A;&#x000A;E.O. 12958: DECL: 1/29/2019 &#x000A;TAG PTER, PGOV, ASEC, EFIN, ENRG, KCIP &#x000A;SUBJECT: REQUEST FOR INFORMATION:CRITICAL FOREIGN DEPENDENCIES (CRITICAL INFRASTRUCTURE AND KEY RESOURCES LOCATED ABROAD)  &#x000A;&#x000A;REF: STATE 6461  PLEASE PASS TO RSO, POLOFF, ECON, and MANAGEMENT (GSO and IT).  Classified by S/CT DAS, Susan F. Burk, Reason: 1/4 (B), (D), (E), and (G)    &#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (U//FOUO) This is an action request; see Para. 13.    &#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (U//FOUO) Under the direction of the Department of Homeland Security (DHS), the National Infrastructure Protection Plan (NIPP) was written to provide the unifying structure for the integration of critical infrastructure and key resources (CI/KR) protection into a single national program. The overarching goal of the NIPP is to build a safer, more secure, and more resilient America by enhancing protection of the nation's CI/KR to prevent, deter, neutralize or mitigate the effects of deliberate efforts by terrorists to destroy, incapacitate or exploit them; and to strengthen national preparedness, timely response, and rapid recovery in the event of an attack, natural disaster or other emergency.    &#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (U//FOUO) In addition to a list of critical domestic CI/KR, the NIPP requires compilation and annual update of a comprehensive inventory of CI/KR that are located outside U.S. borders and whose loss could critically impact the public health, economic security, and/or national and homeland security of the United States. DHS in collaboration with State developed the Critical Foreign Dependencies Initiative (CFDI)to identify these critical U.S. foreign dependencies -- foreign CI/KR that may affect systems within the U.S. directly or indirectly. State is coordinating with DHS to develop the 2009 inventory, and the action request in Para. 13 represents the initial step in this process.    &#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (U//FOUO) The NIPP does not define CI/KR. Homeland Security Presidential Directive 7 (HSPD 7) references definitions in two separate statutes. In the USA Patriot Act of 2001 (42 U.S.C. 5195(e)) "critical infrastructure" is defined as systems and assets, whether physical or virtual, so vital to the United States the incapacitation or destruction of such systems and assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters. In the Homeland Security Act of 2002 (6 U.S.C. 101(9)) "key resources" are defined as publicly or privately controlled resources essential to the minimal operations of the economy and government.    &#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. (U//FOUO) The NIPP identifies 18 CI/KR sectors: agriculture and food; defense industrial base; energy; healthcare and public health; national monuments and icons; banking and finance; drinking water and water treatment systems; chemical; commercial facilities; dams; emergency services; commercial nuclear reactors, materials, and waste; information technology; communications; postal and shipping; transportation and systems; government facilities; and critical manufacturing. Obviously some of these sectors are more likely to have international components than other sectors.    &#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (U//FOUO) Department is surveying posts for their input on critical infrastructure and key resources within their host country which, if destroyed, disrupted or exploited, would likely have an immediate and deleterious effect on the United States. We expect posts, after consultation among all sections and agencies, will in many instances immediately recognize whether such CI/KR exist in their host country. Posts are not/not being asked to consult with host governments with respect to this request.    &#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (U//FOUO) Building upon the initial survey completed in 2008, Department requests each post reassess and update information about infrastructure and resources in each host country whose loss could immediately affect the public health, economic security, and/or national and homeland security of the United States. This reassessment may include suggestions from posts for removing, modifying, or adding CI/KR to the list developed in 2008 (see the list of CI/KR identified in 2008 in Para. 15 below).    &#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (U//FOUO) The following three categories should be considered when determining whether critical foreign dependencies exist in the host country: 1) direct physical linkages (e.g., pipelines, undersea telecommunications cables, and assets located in close enough proximity to the U.S. border their destruction could cause cross-border consequences, such as damage to dams and chemical facilities); 2) sole or predominantly foreign/host-country sourced goods and services (e.g., minerals or chemicals critical to U.S. industry, a critical finished product manufactured in one or only a small number of countries, or a telecom hub whose destruction might seriously disrupt global communications); and 3) critical supply chain nodes (e.g., the Strait of Hormuz and Panama Canal, as well as any ports or shipping lanes in the host-country critical to the functioning of the global supply chain).    &#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (U//FOUO) Although they are important issues, Department is not/not seeking information at this time on second-order effects (e.g., public morale and confidence, and interdependency effects that might cascade from a disruption).    &#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (U//FOUO) Posts do not need to report government facilities overseas managed by State or war fighting facilities managed by other departments or agencies.    &#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (U//FOUO) The following general information should be addressed when nominating elements for inclusion, removal, or modification:  -- (U//FOUO) Name and physical location of the asset, system, or supply chain node.  -- (U//FOUO) Post's rationale for including, modifying, or removing an asset, system, or supply chain node.  -- (U//FOUO) Any information Post has regarding conditions in country causing Post to believe the CI/KR is an active target or especially vulnerable due to natural circumstances.  -- (U//FOUO) Any information Post has regarding CIP activities in country and who/what agency is responsible for those activities.    &#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (U//FOUO) Questions can be directed to Sharri R. Clark in S/CT: ClarkSR@state.sgov.gov; ClarkSR@state.gov; 202-647-1514. Alternatively, questions can be directed to S. Gail Robertson in S/CT: RobertsonSG2@state.sgov.gov; RobertsonSG@state.gov, 202-647-3769.    &#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (U//FOUO) ACTION REQUEST: Posts are requested to report by March 20, 2009 on CI/KR in their host country meeting the criteria outlined above and a brief explanation of why posts believes the asset meets the criteria. Due to the potential sensitivity of assets identified, posts are asked to consider the necessity of classifying their responses appropriately. Please note the list in its entirety is classified S/NF. If post determines there are no such CI/KR in its host country, a negative report is requested. Please send replies to the attention of Sharri R. Clark in S/CT and use the subject line "CI/KR Response for S/CT".    &#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. (U//FOUO) Posts' assistance with providing input to the first list created in 2008 was invaluable, and Department appreciates Posts' continuing cooperation.    &#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (S//NF) Following is the 2008 Critical Foreign Dependencies Initiative (CFDI) list (CI/KR organized by region):  [BEGIN TEXT OF LIST]    &#x000A;&#x000A;AFRICA Congo (Kinshasa): Cobalt (Mine and Plant)  Gabon: Manganese - Battery grade, natural; battery grade, synthetic; chemical grade; ferro; metallurgical grade  Guinea: Bauxite (Mine)  South Africa: BAE Land System OMC, Benoni, South Africa Brown David Gear Industries LTD, Benoni, South Africa Bushveld Complex (chromite mine) Ferrochromium Manganese - Battery grade, natural; battery grade, synthetic; chemical grade; ferro; metallurgical grade Palladium Mine and Plant Platinum Mines Rhodium    EAST ASIA AND THE PACIFIC  Australia: Southern Cross undersea cable landing, Brookvale, Australia Southern Cross undersea cable landing, Sydney, Australia Manganese - Battery grade, natural; battery grade, synthetic; chemical grade; ferro; metallurgical grade Nickel Mines Maybe Faulding Mulgrave Victoria, Australia: Manufacturing facility for Midazolam injection. Mayne Pharma (fill/finish), Melbourne, Australia:  Sole suppliers of Crotalid Polyvalent Antivenin (CroFab).  China: C2C Cable Network undersea cable landing, Chom Hom Kok, Hong Kong C2C Cable Network undersea cable landing Shanghai, China China-US undersea cable landing, Chongming, China China-US undersea cable landing Shantou, China EAC undersea cable landing Tseung Kwan O, Hong Kong FLAG/REACH North Asia Loop undersea cable landing Tong Fuk, Hong Kong Hydroelectric Dam Turbines and Generators Fluorspar (Mine) Germanium Mine Graphite Mine Rare Earth Minerals/Elements Tin Mine and Plant Tungsten - Mine and Plant Polypropylene Filter Material for N-95 Masks Shanghai Port Guangzhou Port Hong Kong Port Ningbo Port Tianjin Port  Fiji: Southern Cross undersea cable landing, Suva, Fiji  Indonesia: Tin Mine and Plant Straits of Malacca  Japan: C2C Cable Network undersea cable landing, Chikura, Japan C2C Cable Network undersea cable landing, Shima, Japan China-US undersea cable, Okinawa, Japan EAC undersea cable landing Ajigaura, Japan EAC undersea cable landing Shima, Japan FLAG/REACH North Asia Loop undersea cable landing Wada, Japan FLAG/REACH North Asia Loop undersea cable landing Wada, Japan Japan-US undersea cable landing, Maruyama, Japan Japan-US undersea cable landing Kitaibaraki, Japan KJCN undersea cable landing Fukuoka, Japan KJCN undersea cable landing Kita-Kyushu, Japan Pacific Crossing-1 (PC-1) undersea cable landing Ajigaura, Japan Pacific Crossing-1 (PC-1) undersea cable landing Shima, Japan Tyco Transpacific undersea cable landing, Toyohashi, Japan Tyco Transpacific undersea cable landing Emi, Japan Hitachi, Hydroelectric Dam Turbines and Generators Port of Chiba Port of Kobe Port of Nagoya Port of Yokohama Iodine Mine Metal Fabrication Machines Titanium Metal (Processed) Biken, Kanonji City, Japan Hitachi Electrical Power Generators and Components Large AC Generators above 40 MVA  Malaysia: Straits of Malacca  New Zealand: Southern Cross undersea cable landing, Whenuapai, New Zealand Southern Cross undersea cable landing, Takapuna, New Zealand  Philippines: C2C Cable Network undersea cable landing, Batangas, Philippines EAC undersea cable landing Cavite, Philippines  Republic of Korea: C2C Cable Network undersea cable landing, Pusan, Republic of Korea. EAC undersea cable landing Shindu-Ri, Republic of Korea FLAG/REACH North Asia Loop undersea cable landing Pusan, Republic of Korea KJCN undersea cable landing Pusan, Republic of Korea Hitachi Large Electric Power Transformers 230 - 500 kV Busan Port  Singapore: C2C Cable Network undersea cable landing, Changi, Singapore EAC undersea cable landing Changi North, Singapore Port of Singapore Straits of Malacca  Taiwan: C2C Cable Network undersea cable landing, Fangshan, Taiwan C2C Cable Network undersea cable landing, Tanshui, Taiwan China-US undersea cable landing Fangshan, Taiwan EAC undersea cable landing Pa Li, Taiwan FLAG/REACH North Asia Loop undersea cable landing Toucheng, Taiwan Kaohsiung Port    EUROPE AND EURASIA  Europe (Unspecified): Metal Fabrication Machines: Small number of Turkish companies (Durma, Baykal, Ermaksan)  Austria: Baxter AG, Vienna, Austria: Immune Globulin Intravenous (IGIV) Octapharma Pharmazeutika, Vienna, Austria: Immune Globulin Intravenous (IGIV)  Azerbaijan: Sangachal Terminal Baku-Tbilisi-Ceyhan Pipeline  Belarus: Druzhba Oil Pipeline  Belgium: Germanium Mine Baxter SA, Lessines, Belgium: Immune Globulin Intravenous (IGIV) Glaxo Smith Kline, Rixensart, Belgium: Acellular Pertussis Vaccine Component GlaxoSmithKline Biologicals SA, Wavre, Belgium: Acellular Pertussis Vaccine Component Port of Antwerp  Denmark: TAT-14 undersea cable landing, Blaabjerg, Denmark Bavarian Nordic (BN), Hejreskovvej, Kvistgard, Denmark: Smallpox Vaccine Novo Nordisk Pharmaceuticals, Inc. Bagsvaerd, Denmark: Numerous formulations of insulin Novo Nordisk Insulin Manufacturer: Global insulin supplies Statens Serum Institut, Copenhagen, Denmark:  DTaP (including D and T components) pediatric version  France: APOLLO undersea cable, Lannion, France FA-1 undersea cable, Plerin, France TAT-14 undersea cable landing St. Valery, France Sanofi-Aventis Insulin Manufacturer: Global insulin supplies Foot and Mouth Disease Vaccine finishing Alstrom, Hydroelectric Dam Turbines and Generators Alstrom Electrical Power Generators and Components EMD Pharms Semoy, France: Cyanokit Injection GlaxoSmithKline, Inc. Evreux, France: Influenza neurominidase inhibitor RELENZA (Zanamivir) Diagast, Cedex, France: Olympus (impacts blood typing ability) Genzyme Polyclonals SAS (bulk), Lyon, France: Thymoglobulin Sanofi Pasteur SA, Lyon, France: Rabies virus vaccine  Georgia: Baku-Tbilisi-Ceyhan Pipeline  Germany: TAT-14 undersea cable landing, Nodren, Germany. Atlantic Crossing-1 (AC-1) undersea cable landing Sylt, Germany BASF Ludwigshafen: World's largest integrated chemical complex Siemens Erlangen: Essentially irreplaceable production of key chemicals Siemens, GE, Hydroelectric Dam Turbines and Generators Draeger Safety AG & Co., Luebeck, Germany: Critical to gas detection capability Junghans Fienwerktechnik Schramberg, Germany: Critical to the production of mortars TDW-Gasellschaft Wirksysteme, Schroebenhausen, Germany: Critical to the production of the Patriot Advanced Capability Lethality Enhancement Assembly Siemens, Large Electric Power Transformers 230 - 500 kV Siemens, GE Electrical Power Generators and Components Druzhba Oil Pipeline Sanofi Aventis Frankfurt am Main, Germany: Lantus Injection (insulin) Heyl Chemish-pharmazeutische Fabrik GmbH: Radiogardase (Prussian blue) Hameln Pharmaceuticals, Hameln, Germany: Pentetate Calcium Trisodium (Ca DTPA) and Pentetate Zinc Trisodium (Zn DTPA) for contamination with plutonium, americium, and curium IDT Biologika GmbH, Dessau Rossiau, Germany: BN Small Pox Vaccine. Biotest AG, Dreiech, Germany: Supplier for TANGO (impacts automated blood typing ability) CSL Behring GmbH, Marburg, Germany: Antihemophilic factor/von Willebrand factor Novartis Vaccines and Diagnostics GmbH, Marburg, Germany: Rabies virus vaccine Vetter Pharma Fertigung GmbH & Co KG, Ravensburg, Germany (filling): Rho(D) IGIV Port of Hamburg  Ireland: Hibernia Atlantic undersea cable landing, Dublin Ireland Genzyme Ireland Ltd. (filling), Waterford, Ireland: Thymoglobulin  Italy: Glaxo Smith Kline SpA (fill/finish), Parma, Italy: Digibind (used to treat snake bites) Trans-Med gas pipeline  Netherlands: Atlantic Crossing-1 (AC-1) undersea cable landing Beverwijk, Netherlands TAT-14 undersea cable landing, Katwijk, Netherlands Rotterdam Port  Norway: Cobalt Nickel Mine  Poland: Druzhba Oil Pipeline  Russia: Novorossiysk Export Terminal Primorsk Export Terminal. Nadym Gas Pipeline Junction: The most critical gas facility in the world Uranium Nickel Mine: Used in certain types of stainless steel and superalloys Palladium Mine and Plant Rhodium  Spain: Strait of Gibraltar Instituto Grifols, SA, Barcelona, Spain: Immune Globulin Intravenous (IGIV) Maghreb-Europe (GME) gas pipeline, Algeria  Sweden: Recip AB Sweden: Thyrosafe (potassium iodine)  Switzerland: Hoffman-LaRoche, Inc. Basel, Switzerland: Tamiflu (oseltamivir) Berna Biotech, Berne, Switzerland: Typhoid vaccine CSL Behring AG, Berne, Switzerland: Immune Globulin Intravenous (IGIV)  Turkey: Metal Fabrication Machines: Small number of Turkish companies (Durma, Baykal, Ermaksan) Bosporus Strait Baku-Tbilisi-Ceyhan Pipeline  Ukraine: Manganese - Battery grade, natural; battery grade, synthetic; chemical grade; ferro; metallurgical grade  United Kingdom: Goonhilly Teleport, Goonhilly Downs, United Kingdom Madley Teleport, Stone Street, Madley, United Kingdom Martelsham Teleport, Ipswich, United Kingdom APOLLO undersea cable landing Bude, Cornwall Station, United Kingdom Atlantic Crossing-1 (AC-1) undersea cable landing Whitesands Bay FA-1 undersea cable landing Skewjack, Cornwall Station Hibernia Atlantic undersea cable landing, Southport, United Kingdom TAT-14 undersea cable landing Bude, Cornwall Station, United Kingdom Tyco Transatlantic undersea cable landing, Highbridge, United Kingdom Tyco Transatlantic undersea cable landing, Pottington, United Kingdom. Yellow/Atlantic Crossing-2  (AC-2)  undersea cable landing  Bude, United Kingdom Foot and Mouth Disease Vaccine finishing BAE Systems (Operations) Ltd., Presont, Lancashire, United Kingdom: Critical to the F-35 Joint Strike Fighter BAE Systems Operations Ltd., Southway, Plymouth Devon, United Kingdom: Critical to extended range guided munitions BAE Systems RO Defense, Chorley, United Kingdom: Critical to the Joint Standoff Weapon (JSOW) AGM-154C (Unitary Variant) MacTaggart Scott, Loanhead, Edinburgh, Lothian, Scotland, United Kingdom: Critical to the Ship Submersible Nuclear (SSN)    NEAR/MIDDLE EAST  Djibouti: Bab al-Mendeb: Shipping lane is a critical supply chain node  Egypt: 'Ayn Sukhnah-SuMEd Receiving Import Terminal 'Sidi Kurayr-SuMed Offloading Export Terminal Suez Canal  Iran: Strait of Hormuz Khark (Kharg) Island Sea Island Export Terminal Khark Island T-Jetty  Iraq: Al-Basrah Oil Terminal  Israel: Rafael Ordnance Systems Division, Haifa, Israel: Critical to Sensor Fused Weapons (SFW), Wind Corrected Munitions Dispensers (WCMD), Tail Kits, and batteries  Kuwait: Mina' al Ahmadi Export Terminal  Morocco: Strait of Gibraltar Maghreb-Europe (GME) gas pipeline, Morocco  Oman: Strait of Hormuz  Qatar: Ras Laffan Industrial Center: By 2012 Qatar will be the largest source of imported LNG to U.S.  Saudi Arabia: Abqaiq Processing Center: Largest crude oil processing and stabilization plant in the world Al Ju'aymah Export Terminal: Part of the Ras Tanura complex As Saffaniyah Processing Center Qatif Pipeline Junction Ras at Tanaqib Processing Center Ras Tanura Export Terminal Shaybah Central Gas-oil Separation Plant  Tunisia: Trans-Med Gas Pipeline  United Arab Emirates (UAE): Das Island Export Terminal Jabal Zannah Export Terminal Strait of Hormuz  Yemen: Bab al-Mendeb: Shipping lane is a critical supply chain node  SOUTH AND CENTRAL ASIA  Kazakhstan: Ferrochromium Khromtau Complex, Kempersai, (Chromite Mine)  India: Orissa (chromite mines) and Karnataka (chromite mines) Generamedix Gujurat, India: Chemotherapy agents, including florouracil and methotrexate    WESTERN HEMISPHERE  Argentina: Foot and Mouth Disease Vaccine finishing  Bermuda: GlobeNet (formerly Bermuda US-1 (BUS-1) undersea cable landing Devonshire, Bermuda  Brazil: Americas-II undersea cable landing Fortaleza, Brazil GlobeNet undersea cable landing Fortaleza, Brazil GlobeNet undersea cable landing Rio de Janeiro, Brazil Iron Ore from Rio Tinto Mine Manganese - Battery grade, natural; battery grade, synthetic; chemical grade; ferro; metallurgical grade Niobium (Columbium), Araxa, Minas Gerais State (mine) Ouvidor and Catalao I, Goias State: Niobium  Chile: Iodine Mine  Canada: Hibernia Atlantic undersea cable landing Halifax , Nova Scotia, Canada James Bay Power Project, Quebec: monumental hydroelectric power development Mica Dam, British Columbia: Failure would impact the Columbia River Basin. Hydro Quebec, Quebec: Critical irreplaceable source of power to portions of Northeast U. S. Robert Moses/Robert H. Saunders Power, Ontario: Part of the St. Lawrence Power Project, between Barnhart Island, New York, and Cornwall, Ontario Seven Mile Dam, British Columbia: Concrete gravity dam between two other hydropower dams along the Pend d'Oreille River Pickering Nuclear Power Plant, Ontario, Canada Chalk River Nuclear Facility, Ontario: Largest supplier of medical radioisotopes in the world Hydrofluoric Acid Production Facility, Allied Signal, Amherstburg, Ontario Enbridge Pipeline Alliance Pipeline: Natural gas transmission from Canada Maritime and Northeast Pipeline: Natural gas transmission from Canada Transcanada Gas: Natural gas transmission from Canada Alexandria Bay POE, Ontario: Northern border crossing Ambassador Bridge POE, Ontario: Northern border crossing Blaine POE, British Columbia: Northern border crossing Blaine Washington Rail Crossing, British Columbia Blue Water Bridge POE, Ontario: Northern border crossing Champlain POE, Quebec: Northern border crossing CPR Tunnel Rail Crossing, Ontario (Michigan Central Rail Crossing) International Bridge Rail Crossing, Ontario International Railway Bridge Rail Crossing Lewiston-Queenstown POE, Ontario: Northern border crossing Peace Bridge POE, Ontario: Northern border crossing Pembina POE, Manitoba: Northern border crossing North Portal Rail Crossing, Saskatchewan St. Claire Tunnel Rail Crossing, Ontario Waneta Dam, British Columbia: Earthfill/concrete hydropower dam Darlington Nuclear Power Plant, Ontario, Canada. E-ONE Moli Energy, Maple Ridge, Canada: Critical to production of various military application electronics General Dynamics Land Systems - Canada, London Ontario, Canada: Critical to the production of the Stryker/USMC LAV Vehicle Integration Raytheon Systems Canada Ltd. ELCAN Optical Technologies Division, Midland, Ontario, Canada: Critical to the production of the AGM-130 Missile Thales Optronique Canada, Inc., Montreal, Quebec: Critical optical systems for ground combat vehicles Germanium Mine Graphite Mine Iron Ore Mine Nickel Mine Niobec Mine, Quebec, Canada:  Niobium Cangene, Winnipeg, Manitoba: Plasma Sanofi Pasteur Ltd., Toronto, Canada: Polio virus vaccine GlaxoSmithKile Biologicals, North America, Quebec, Canada: Pre-pandemic influenza vaccines  French Guiana: Americas-II undersea cable landing Cayenne, French Guiana  Martinique: Americas-II undersea cable landing Le Lamentin, Martinique  Mexico: FLAG/REACH North Asia Loop undersea cable landing Tijuana, Mexico Pan-American Crossing (PAC) undersea cable landing Mazatlan, Mexico Amistad International Dam: On the Rio Grande near Del Rio, Texas and Ciudad Acuna, Coahuila, Mexico Anzalduas Dam: Diversion dam south of Mission, Texas, operated jointly by the U.S. and Mexico for flood control Falcon International Dam: Upstream of Roma, Texas and Miguel Aleman, Tamaulipas, Mexico Retamal Dam: Diversion dam south of Weslaco, Texas, operated jointly by the U.S. and Mexico for flood control GE Hydroelectric Dam Turbines and Generators: Main source for a large portion of larger components Bridge of the Americas: Southern border crossing Brownsville POE: Southern border crossing Calexico East POE: Southern border crossing Columbia Solidarity Bridge: Southern border crossing Kansas City Southern de Mexico (KCSM) Rail Line, (Mexico) Nogales POE: Southern border crossing Laredo Rail Crossing Eagle Pass Rail Crossing Otay Mesa Crossing: Southern border crossing Pharr International Bridge: Southern border crossing World Trade Bridge: Southern border crossing Ysleta Zaragosa Bridge: Southern border crossing Hydrofluoric Acid Production Facility Graphite Mine GE Electrical Power Generators and Components General Electric, Large Electric Power Transformers 230 - 500 kV  Netherlands Antilles: Americas-II undersea cable landing Willemstad, Netherlands Antilles.  Panama: FLAG/REACH North Asia Loop undersea cable landing Fort Amador, Panama Panama Canal  Peru: Tin Mine and Plant  Trinidad and Tobago: Americas-II undersea cable landing Port of Spain Atlantic LNG: Provides 70% of U.S. natural gas import needs  Venezuela: Americas-II undersea cable landing Camuri, Venezuela GlobeNet undersea cable landing, Punta Gorda, Venezuela GlobeNet undersea cable landing Catia La Mar, Venezuela GlobeNet undersea cable landing Manonga, Venezuela  [END TEXT OF LIST]    &#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (U//FOUO) Minimize considered. CLINTON</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

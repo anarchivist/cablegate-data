@@ -1,0 +1,803 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/support.html'>
+<img alt='Keep Us Strong' src='/img/ja-cg.jpg' />
+</a>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 931 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/EUA-tentaram-usar-Saito-e-Jobim.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/Har-blir-vi-blasta.html">Sweden</a>
+<a href="/articles/2010/PayPal-freezes-WikiLeaks-donations.html"> Editorial</a>
+<a href="/articles/2010/U-S-Empire-Shopping-List.html">United States</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-05_0.html'>2010/12/05</a>
+<a href='/reldate/2010-12-04_0.html'>2010/12/04</a>
+<a href='/reldate/2010-12-03_0.html'>2010/12/03</a>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1988' onclick="return swap('year_1988');">88</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1988'>
+<a href='/date/1988-01_0.html'>1988/01</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-06_0.html'>2004/06</a>
+<a href='/date/2004-09_0.html'>2004/09</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-02_0.html'>2005/02</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-06_0.html'>2008/06</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/69_0.html'>Embassy Asuncion</a>
+<a href='/origin/70_0.html'>Embassy Astana</a>
+<a href='/origin/71_0.html'>Embassy Ashgabat</a>
+<a href='/origin/72_0.html'>Embassy Ankara</a>
+<a href='/origin/73_0.html'>Embassy Amman</a>
+<a href='/origin/74_0.html'>Embassy Algiers</a>
+<a href='/origin/75_0.html'>Embassy Addis Ababa</a>
+<a href='/origin/76_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/57_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/58_0.html'>Embassy Bucharest</a>
+<a href='/origin/59_0.html'>Embassy Brussels</a>
+<a href='/origin/60_0.html'>Embassy Bridgetown</a>
+<a href='/origin/61_0.html'>Embassy Brasilia</a>
+<a href='/origin/62_0.html'>Embassy Bishkek</a>
+<a href='/origin/63_0.html'>Embassy Berlin</a>
+<a href='/origin/64_0.html'>Embassy Beirut</a>
+<a href='/origin/65_0.html'>Embassy Beijing</a>
+<a href='/origin/66_0.html'>Embassy Bangkok</a>
+<a href='/origin/67_0.html'>Embassy Baku</a>
+<a href='/origin/68_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/52_0.html'>Embassy Conakry</a>
+<a href='/origin/53_0.html'>Embassy Colombo</a>
+<a href='/origin/54_0.html'>Embassy Chisinau</a>
+<a href='/origin/55_0.html'>Embassy Caracas</a>
+<a href='/origin/56_0.html'>Embassy Cairo</a>
+<a href='/origin/87_0.html'>Consulate Casablanca</a>
+<a href='/origin/88_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/47_0.html'>Embassy Dushanbe</a>
+<a href='/origin/48_0.html'>Embassy Dublin</a>
+<a href='/origin/49_0.html'>Embassy Doha</a>
+<a href='/origin/50_0.html'>Embassy Djibouti</a>
+<a href='/origin/51_0.html'>Embassy Damascus</a>
+<a href='/origin/86_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/46_0.html'>Embassy Harare</a>
+<a href='/origin/85_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/45_0.html'>Embassy Islamabad</a>
+<a href='/origin/84_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/83_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/41_0.html'>Embassy Kyiv</a>
+<a href='/origin/42_0.html'>Embassy Kuwait</a>
+<a href='/origin/43_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/44_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/36_0.html'>Embassy Luxembourg</a>
+<a href='/origin/37_0.html'>Embassy London</a>
+<a href='/origin/38_0.html'>Embassy Lisbon</a>
+<a href='/origin/39_0.html'>Embassy Lima</a>
+<a href='/origin/40_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/31_0.html'>Embassy Muscat</a>
+<a href='/origin/32_0.html'>Embassy Moscow</a>
+<a href='/origin/33_0.html'>Embassy Mexico</a>
+<a href='/origin/34_0.html'>Embassy Manama</a>
+<a href='/origin/35_0.html'>Embassy Madrid</a>
+<a href='/origin/82_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/30_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/27_0.html'>Embassy Ouagadougou</a>
+<a href='/origin/28_0.html'>Embassy Ottawa</a>
+<a href='/origin/29_0.html'>Embassy Oslo</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/23_0.html'>Embassy Prague</a>
+<a href='/origin/24_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/25_0.html'>Embassy Paris</a>
+<a href='/origin/26_0.html'>Embassy Panama</a>
+<a href='/origin/81_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/20_0.html'>Embassy Rome</a>
+<a href='/origin/21_0.html'>Embassy Riyadh</a>
+<a href='/origin/22_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/15_0.html'>Embassy Stockholm</a>
+<a href='/origin/16_0.html'>Embassy Singapore</a>
+<a href='/origin/17_0.html'>Embassy Seoul</a>
+<a href='/origin/18_0.html'>Embassy Santiago</a>
+<a href='/origin/19_0.html'>Embassy Sanaa</a>
+<a href='/origin/78_0.html'>Consulate Shenyang</a>
+<a href='/origin/79_0.html'>Consulate Shanghai</a>
+<a href='/origin/80_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy The Hague</a>
+<a href='/origin/11_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/12_0.html'>Embassy Tehran</a>
+<a href='/origin/13_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/14_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/77_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AEC_0.html'>AEC</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AFIN_0.html'>AFIN</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+<a href='/tag/AS_0.html'>AS</a>
+<a href='/tag/ABLD_0.html'>ABLD</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BO_0.html'>BO</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/COUNTER_0.html'>COUNTER</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CACM_0.html'>CACM</a>
+<a href='/tag/CDB_0.html'>CDB</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/COUNTERTERRORISM_0.html'>COUNTERTERRORISM</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CG_0.html'>CG</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EINDETRD_0.html'>EINDETRD</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ET_0.html'>ET</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/ELECTIONS_0.html'>ELECTIONS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/EINVEFIN_0.html'>EINVEFIN</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FBI_0.html'>FBI</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+<a href='/tag/FREEDOM_0.html'>FREEDOM</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GV_0.html'>GV</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GA_0.html'>GA</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HU_0.html'>HU</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/INRA_0.html'>INRA</a>
+<a href='/tag/INRO_0.html'>INRO</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/ITALY_0.html'>ITALY</a>
+<a href='/tag/ITALIAN_0.html'>ITALIAN</a>
+<a href='/tag/IRAQI_0.html'>IRAQI</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JUS_0.html'>JUS</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KDEMAF_0.html'>KDEMAF</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KGIC_0.html'>KGIC</a>
+<a href='/tag/KRAD_0.html'>KRAD</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KIPR_0.html'>KIPR</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPWR_0.html'>KPWR</a>
+<a href='/tag/KFIN_0.html'>KFIN</a>
+<a href='/tag/KSUM_0.html'>KSUM</a>
+<a href='/tag/KPIN_0.html'>KPIN</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KR_0.html'>KR</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KE_0.html'>KE</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KAWC_0.html'>KAWC</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LG_0.html'>LG</a>
+<a href='/tag/LU_0.html'>LU</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MK_0.html'>MK</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/MIL_0.html'>MIL</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MEPP_0.html'>MEPP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MTCR_0.html'>MTCR</a>
+<a href='/tag/MA_0.html'>MA</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NAR_0.html'>NAR</a>
+<a href='/tag/NO_0.html'>NO</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+<a href='/tag/NL_0.html'>NL</a>
+<a href='/tag/NATIONAL_0.html'>NATIONAL</a>
+<a href='/tag/NG_0.html'>NG</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OFDP_0.html'>OFDP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+<a href='/tag/OPDC_0.html'>OPDC</a>
+<a href='/tag/OVP_0.html'>OVP</a>
+<a href='/tag/OSCI_0.html'>OSCI</a>
+<a href='/tag/OAS_0.html'>OAS</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OREP_0.html'>OREP</a>
+<a href='/tag/ODIP_0.html'>ODIP</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PECON_0.html'>PECON</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/POLITICS_0.html'>POLITICS</a>
+<a href='/tag/PO_0.html'>PO</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RW_0.html'>RW</a>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RO_0.html'>RO</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SM_0.html'>SM</a>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SI_0.html'>SI</a>
+<a href='/tag/SG_0.html'>SG</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TSPA_0.html'>TSPA</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TIP_0.html'>TIP</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TERRORISM_0.html'>TERRORISM</a>
+<a href='/tag/TPHY_0.html'>TPHY</a>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TW_0.html'>TW</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UE_0.html'>UE</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+<a href='/tag/WI_0.html'>WI</a>
+<a href='/tag/WTRO_0.html'>WTRO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XM_0.html'>XM</a>
+<a href='/tag/XR_0.html'>XR</a>
+<a href='/tag/XS_0.html'>XS</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+<a href='/tag/YE_0.html'>YE</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F10%2F09BRASILIA1206.html%20%2309BRASILIA1206'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F10%2F09BRASILIA1206.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 09BRASILIA1206, BRAZIL: POLICE PUBLICLY ADMIT AL QAEDA'S PRESENCE;</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#09BRASILIA1206</b>.
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2009/10/09BRASILIA1206.html'>09BRASILIA1206</a>
+</td>
+<td>
+<a href='/date/2009-10_0.html'>2009-10-01 15:03</a>
+</td>
+<td>
+<a href='/reldate/2010-12-05_0.html'>2010-12-05 12:12</a>
+</td>
+<td>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+</td>
+<td>
+<a href='/origin/61_0.html'>Embassy Brasilia</a>
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXRO9250&#x000A;RR RUEHRG&#x000A;DE RUEHBR #1206/01 2741515&#x000A;ZNY CCCCC ZZH&#x000A;R 011515Z OCT 09&#x000A;FM AMEMBASSY BRASILIA&#x000A;TO RUEHC/SECSTATE WASHDC 5163&#x000A;INFO RUEHAC/AMEMBASSY ASUNCION 0018&#x000A;RUEHBU/AMEMBASSY BUENOS AIRES 6366&#x000A;RUEHMN/AMEMBASSY MONTEVIDEO 7828&#x000A;RUEHZP/AMEMBASSY PANAMA 0343&#x000A;RUEHRG/AMCONSUL RECIFE 9985&#x000A;RUEHRI/AMCONSUL RIO DE JANEIRO 8248&#x000A;RUEHSO/AMCONSUL SAO PAULO 4607&#x000A;RUEAIIA/CIA WASHDC//DI//&#x000A;RUEAIIA/CIA WASHDC&#x000A;RHEHNSC/NSC WASHDC&#x000A;RUEAWJA/DEPT OF JUSTICE WASHDC</pre></code>
+<code><pre>C O N F I D E N T I A L SECTION 01 OF 05 BRASILIA 001206&#x000A;&#x000A;SIPDIS&#x000A;&#x000A;DEPARTMENT FOR S/CT SHARI VILLAROSA AND WHA.&#x000A;&#x000A;E.O. 12958: DECL: 09/29/2019&#x000A;TAGS: <a href='/tag/PREL_0.html'>PREL</a> <a href='/tag/PGOV_0.html'>PGOV</a> <a href='/tag/PTER_0.html'>PTER</a> <a href='/tag/PINR_0.html'>PINR</a> <a href='/tag/BR_0.html'>BR</a>&#x000A;SUBJECT: BRAZIL: POLICE PUBLICLY ADMIT AL QAEDA'S PRESENCE;&#x000A;GOB DENIES TERRORISM A THREAT&#x000A;&#x000A;Classified By: Charge d' Affaires, a.i. Lisa Kubiske, reason: 1.4 (b) a&#x000A;nd (d)&#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (U) Summary: The head of the Brazilian Federal Police,s&#x000A;(DPF) intelligence division admitted publicly during a&#x000A;Brazilian Chamber of Deputies, hearing on terrorism July 7&#x000A;that an individual arrested in April on hate crimes-related&#x000A;charges was in fact linked to al Qaeda (AQ), the first time a&#x000A;Brazilian government official has gone on record admitting&#x000A;this link. The admission followed earlier denials by non-DPF&#x000A;Brazilian government officials responding to press reports&#x000A;that the individual was linked to the terrorist group.&#x000A;During the hearing, Minister Jorge Felix, head of the Office&#x000A;of the Presidency,s Institutional Security Cabinet (a&#x000A;combination DNI, ONDCP, with some NSC-like attributes), stuck&#x000A;to the usual script, despite the admission, and denied there&#x000A;was any evidence that terrorists had or would be interested&#x000A;in establishing a presence in Brazil, even as he asserted&#x000A;that Brazil remained vigilant to the threat. As part of this&#x000A;vigilance, Felix reported during the hearing that GSI had&#x000A;created a new counter-terrorism (CT)-focused entity within&#x000A;its structure as well as an interagency working group to&#x000A;draft a new national security law, which could end up&#x000A;addressing Brazil,s single biggest inadequacy when it comes&#x000A;to its CT efforts: lack of CT legislation. While Felix, the&#x000A;DPF, and members of Congress agreed on the need for CT&#x000A;legislation, there is a lack of will in the GOB to expend the&#x000A;political capital to do push it, as a result of ideological&#x000A;and historical concerns that such legislation might be used&#x000A;against legitimate opposition and social movements. Concerned&#x000A;to maintain Brazil,s position as a racially, ethnically, and&#x000A;religiously harmonious society, the GOB is hesitant to engage&#x000A;in what it thinks might be perceived as provocative foreign&#x000A;and domestic policy. Nonetheless, post believes that the good&#x000A;operational cooperation on CT between our law enforcement&#x000A;agencies enjoy and Brazil,s general commitment to&#x000A;international counterterrorism norms provide a basis to&#x000A;engage the GOB and spur gradual change in Brazil,s mindset.&#x000A;In light of Brazil,s growing global clout, this could pay&#x000A;dividends well beyond Brazil. End summary.&#x000A;&#x000A;- - - - - - - - - - - - - - - - - - - -&#x000A;We have and have had Al Qaeda in Brazil&#x000A;- - - - - - - - - - - - - - - - - - - -&#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (SBU) During a 7 July hearing of the Chamber of Deputies&#x000A;Organized Crime and Public Security Committee, Daniel Lorenz&#x000A;de Azevedo, head of the DPF,s intelligence division publicly&#x000A;admitted for the first time that the DPF believed the&#x000A;individual arrested on April 26 for hate crimes in Sao Paulo,&#x000A;Khaled Hussein Ali was, in fact, believed by the DPF to be&#x000A;closely linked to al Qaeda. As global head of the Jihad&#x000A;Media Battalion, Lorenz noted during the hearing that Ali had&#x000A;performed duties for the terrorist group, from propaganda to&#x000A;logistics, recruitment, and other activities. (Note: In late&#x000A;May, the press started reporting on the 26 April arrest of&#x000A;the then unidentified Ali,s links to AQ, which were followed&#x000A;by quick statements by the prosecutor denying that the&#x000A;individual had any ties to terrorism. That same week, during&#x000A;a meeting with CODEL Thompson, General Felix categorically&#x000A;denied the terrorism and AQ connection, even as he noted that&#x000A;it was a DPF matter. End note.)&#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (U) Lorenz further stated that Ali was not the first or&#x000A;only AQ-linked individual to have lived in or transited&#x000A;through Brazil. He mentioned Khalid Sheikh Mohammed,s trip&#x000A;to Foz de Iguacu in 1995 (subject of a cover story in Veja&#x000A;magazine several years ago). He further noted that the DPF&#x000A;has monitored several other "extremists" that have transited&#x000A;through Brazil or had taken up residence in the country.&#x000A;- - - - - - - - - - - - - - - - - - - - - -&#x000A;General Felix: We will never admit anything&#x000A;- - - - - - - - - - - - - - - - - - - - - -&#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (U) During the hearing, Felix testified that it was the&#x000A;government,s belief that terrorists could potentially use&#x000A;Brazilian territory for transit, to exploit its resources, or&#x000A;for safehaven. He further added that, even as Brazil has&#x000A;maintained an aggressive posture to prevent such activity&#x000A;&#x000A;BRASILIA 00001206 002 OF 005&#x000A;&#x000A;&#x000A;from taking place, "we haven,t seen any confirmation that&#x000A;such activity has ever taken place, even if the media claims&#x000A;otherwise."&#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. (U) Faced with questions from Members of Congress who were&#x000A;keying off of Lorenz testimony, Felix added that Brazil,s&#x000A;public stance regarding the presence of terrorism is part of&#x000A;a deliberate strategy on the part of GSI and an assessment of&#x000A;what is in Brazil,s best long-term interest. Felix noted&#x000A;that over the years he has had the opportunity to meet with&#x000A;officials from various countries at all levels, including&#x000A;those who affirm that there may be terrorists in Foz de&#x000A;Iguacu and Sao Paulo, and to date none of these countries&#x000A;that make these statements, going back to the AMIA bombing,&#x000A;have ever provided Brazil with evidence that this is the&#x000A;case. He further added, with emphasis, that "even if a&#x000A;problem were to appear, we won,t admit that the problem&#x000A;exists." According to Felix, this "denialism" is a posture&#x000A;that he believes will "protect" Brazil. He observed that&#x000A;modifying this language could provoke actions by unwelcome&#x000A;elements and could set back a policy that, while it&#x000A;repudiates terrorism, seeks to avoid inviting or importing&#x000A;threats.&#x000A;&#x000A;- - - - - - - - - -&#x000A;Yet, Threats Abound&#x000A;- - - - - - - - - -&#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (U) Felix characterized the theoretical risks Brazil faces&#x000A;as pretty low. He added that, "because of our external&#x000A;policy, our domestic characteristics, our international&#x000A;projection, our image of a positive peaceful country with&#x000A;various ethnicities and religions interacting peacefully in&#x000A;harmony" there is little risk of attacks against Brazil. At&#x000A;the same time, Felix recognized that the risks are not the&#x000A;same when discussing foreign structures within Brazil. The&#x000A;situation in those cases is different, particularly when it&#x000A;comes to ideological or religious terrorism, which does not&#x000A;respect frontiers. He cited Argentina,s experience, which&#x000A;suffered two attacks in the 1990,s against its Jewish&#x000A;community. It shows, according to Felix, that even in a&#x000A;country that faces reduced risks against its own interests,&#x000A;it can suffer attacks against foreign interests in that&#x000A;country. Felix also added that, because of Brazil,s vast&#x000A;territory and porous borders, it can be difficult to monitor&#x000A;the movement or activities of terrorists within Brazilian&#x000A;territory.&#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (U) Lorenz disagreed with Felix,s characterization of the&#x000A;level of risk Brazil faces. He noted that the DPF has&#x000A;followed terrorism since 1995, a year after the AMIA bombing.&#x000A;In that time, DPF has seen several phases in the evolution&#x000A;of the terrorist threat in Brazil. First, DPF began with the&#x000A;notion that terrorists could be transiting or hiding in&#x000A;Brazil, but that there was no threat of attacks in Brazil.&#x000A;Lorenz used KSM,s travel through Foz de Iguacu in December&#x000A;of 1995 to illustrate this phase. Then the DPF started&#x000A;noticing that some of those who were transiting or hiding&#x000A;were beginning to establish residency in Brazil by marrying&#x000A;Brazilian women and adopting Brazilian children. In a third&#x000A;stage, DPF began seeing that some Brazilians began to be&#x000A;captivated by extremist ideology and the idea of martyrdom.&#x000A;Some Brazilians have left Brazil for what the DPF believes is&#x000A;extremist religious instruction in Iran and other places in&#x000A;the Middle East. Finally, the DPF has begun to see some of&#x000A;those foreigners that achieved permanent residency start&#x000A;preparations for acts outside the country and helping&#x000A;terrorist groups with recruitment, training, logistics&#x000A;support, and reconnaissance for terrorist actions not in&#x000A;Brazil. This last stage, added Lorenz, was what the DPF saw&#x000A;in Ali,s case. He added that the DPF,s perception is that&#x000A;things are evolving and that in this continuing evolution of&#x000A;activity, which still remains outwardly focused, could&#x000A;perhaps evolve in a different direction eventually.&#x000A;&#x000A;- - - - - - - - - - - - - - - - - - - - -&#x000A;Consensus on one thing: TBA not a problem&#x000A;- - - - - - - - - - - - - - - - - - - - -&#x000A;&#x000A;&#x000A;BRASILIA 00001206 003 OF 005&#x000A;&#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (U) While offering differing views in some areas, both&#x000A;Lorenz and Felix agreed that the Triborder Area (TBA) is not&#x000A;a problem anymore. According to Lorenz, the question of&#x000A;financing for groups for Islamic groups out of the TBA is a&#x000A;non-issue, adding that "we have found that Zakat is a normal&#x000A;thing." He criticized attacks on Brazil from foreign&#x000A;countries, including the United States, that accuse Brazil of&#x000A;ignoring this fundraising, especially after the DPF has found&#x000A;that most of the money that goes from the TBA passes through&#x000A;the United States on its way to Lebanon. "We have told the&#x000A;Americans, I can guarantee that this money that goes to&#x000A;Lebanon passes through the United States, I can prove it"if&#x000A;you think this money is for terrorism, why won,t you stop it&#x000A;yourselves," adding, we can give you the names and bank&#x000A;accounts.," Lorenz continued, "people who know TBA in the&#x000A;1990s, like I did, know that it is not now what it once was.&#x000A;It is now the Chinese criminal networks who are the most&#x000A;active there, not the Arabs."&#x000A;&#x000A;- - - - - - - - - - - - - - -&#x000A;Lack of Legislation a Problem&#x000A;- - - - - - - - - - - - - - -&#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (U) Federal Deputy Raul Jungmann (PPS, Socialist People's&#x000A;Party, opposition; of Pernambuco) questioned Felix on&#x000A;Brazil,s failure to pass terrorism legislation. He told the&#x000A;story of talking to an advisor to Minister of Justice Tarso&#x000A;Genro who told Jungmann that passing anti-terrorism&#x000A;legislation could actually invite terrorism into Brazil. He&#x000A;finally asked Felix if Brazil could condemn terrorism in its&#x000A;constitution and various other laws, sign all 13&#x000A;international conventions against terrorism, have&#x000A;anti-terrorism divisions in the DPF and ABIN, why couldn,t&#x000A;it have it legislation dealing with terrorism? Without&#x000A;directly answering Jungmann, both Felix and Lorenz&#x000A;acknowledged that the lack of terrorism legislation is a&#x000A;limitation for Brazil. The DPF acts, noted Lorenz, via&#x000A;connected crimes. Lorenz stated that the DPF looks to see if&#x000A;terrorists are committing crimes related to terrorism, such&#x000A;as preparatory acts. For example, he noted, a terrorist&#x000A;could enter the country to commit a terrorist act and the DPF&#x000A;would look at whether he used fraudulent documents or had&#x000A;immigration violations; if he were to use a car bomb, they&#x000A;would see if he stole a car. In some cases, he added, the&#x000A;DPF has already used this approach to neutralize people with&#x000A;Islamic extremist leanings.&#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (U) In the case of Ali, he used the LAN house (or&#x000A;cybercafe) he ran to lead and coordinate the activities of&#x000A;Jihad Media Battalion. At the beginning, noted Lorenz, he&#x000A;used it for to perform propaganda on behalf of AQ,s cause.&#x000A;Later it turned ito a space for recruitment, support,&#x000A;training, communications, operational security, and battle&#x000A;orers for actions outside Brazil. The DPF started te&#x000A;investigation after the FBI passed them an IP ddress used by&#x000A;a person in Brazil. But, Lorenz dded, we arrested him not&#x000A;because of these activities, and not because of the battle&#x000A;orders to case places for actions outside Brazil, but through&#x000A;technical surveillance to decipher and break encryption his&#x000A;messages, which allowed us to find instances of hate crime,&#x000A;such as anti-Semitism and preaching hate against West. Ali&#x000A;was not just engaging in hate crimes, Lorenz hastened to add,&#x000A;but that was enough to charge him for a crime, even if it was&#x000A;a lesser crime with low penalties.&#x000A;&#x000A;- - - - - - - - - - - -&#x000A;Building new structures&#x000A;- - - - - - - - - - - -&#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (U) Responding to Congressional questions of what&#x000A;measures Brazil has taken to prevent terrorist activities in&#x000A;Brazil, Felix responded that in addition to signing all 13 UN&#x000A;and OAS conventions on the topic, which require actions by&#x000A;GOB, Brazil has cooperative relations with police and&#x000A;intelligence units with many countries. In addition, he&#x000A;added, Brazil has been active in monitoring entry points and&#x000A;has progressively improved capabilities in this area. Brazil&#x000A;has also focused on of military, federal police, and state&#x000A;police forces focused on combating terrorism. Brazil,&#x000A;&#x000A;BRASILIA 00001206 004 OF 005&#x000A;&#x000A;&#x000A;according to Felix, has closely studied the Spanish model,&#x000A;particularly in the area of responding to attacks. Felix&#x000A;noted that the Spanish response to the Madrid train bombings&#x000A;was very effective, as the trains were running shortly after&#x000A;the attacks.&#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (U) Brazil is also, according to Felix, currently&#x000A;elaborating a bill for the "defense of sovereignty", which&#x000A;will update the old national security law. The GSI-chaired&#x000A;Council on Foreign Relations and National Defense is working&#x000A;with MoJ on this proposal. (Note: the Council on Foreign&#x000A;Relations and National Defense, or CREDN, is a National&#x000A;Security Council-like body not to be confused with the&#x000A;Foreign Relations and National Defense Committees in Congress&#x000A;which also use CREDN for their initials. End Note.).&#x000A;According to Felix, the CREDN working group is going to try&#x000A;to come up with a list of crimes that constitute terrorism,&#x000A;and noted that "eventual punishments are less important; more&#x000A;tricky is which crimes should be included." He added that&#x000A;there were still some weeks to go before the working group&#x000A;finishes up its work, but that they would soon submit the&#x000A;proposal to the ministries and after that to the President&#x000A;for approval before being introduced before Congress.&#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (U) Felix also discussed the newly created Nucleus of the&#x000A;Center for the Coordination of Activities for the Prevention&#x000A;and Combat of Terrorism, to be housed within GSI. According&#x000A;to Felix, this nucleus emerged from discussions the GOB had&#x000A;in 2004-05 as part of a project to create a national&#x000A;counterterrorism authority, which would have created a&#x000A;national agency to prevent and combat terrorism. In the end,&#x000A;noted Felix, they concluded that the attributes of an&#x000A;anti-terrorism "agency" would render it unworkable within the&#x000A;Brazilian system, so GSI decided on creating a "center."&#x000A;However, because of bureaucratic difficulties in creating&#x000A;such a center, GSI went ahead and proposed the creation of&#x000A;this nucleus.&#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. (U) The problem for GSI in creating a "center" is that it&#x000A;does not have its own personnel. GSI officials are all&#x000A;seconded from other agencies. According to Felix, GSI will&#x000A;be sending proposal to Congress to allow GSI to have its own&#x000A;personnel. It will be staffed on a part-time basis by the&#x000A;officers that are detailed to GSI. The nucleus will follow&#x000A;actions related to terrorism; promote threat assessment&#x000A;studies; and provide coordination among the various&#x000A;ministries. (Comment: The "center" Felix referred to does&#x000A;not exist. GSI needs statutory authority to be able to&#x000A;create a center that will have its own staff. The newly&#x000A;created "nucleus" is in essence a proto-center, similar to&#x000A;the U.S. Terrorist Threat Integration Center, that could,&#x000A;after gaining statutory authority, eventually morph into a&#x000A;"center", or something somewhat equivalent to the U.S.,s&#x000A;National Counterterrorism Center. End comment.)&#x000A;- - - - - - - - - - - - - - - - - -&#x000A;Comment: Long-Term Engagement Needed&#x000A;- - - - - - - - - - - - - - - - - -&#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (C) Lorenz,s admission represented a rare instance in&#x000A;which a Brazilian public official admits that AQ-linked&#x000A;individuals are either in, or have transited through, Brazil.&#x000A;That it was admitted publicly by one of Brazil,s top&#x000A;authorities on the subject of terrorism should give the&#x000A;United States some cover when engaging in&#x000A;counterterrorism-related dialogues with Brazil, including at&#x000A;the 3 Plus 1. It will also be helpful as we engage Brazilian&#x000A;audiences on the issue of passing CT legislation. In a&#x000A;surprising public admission, Felix, Lorenz, and members of&#x000A;Congress present at the hearing all agreed on the need to&#x000A;pass anti-terrorism legislation, with Lorenz stating point&#x000A;blank that the reason the Jihad Media Battalion,s Ali could&#x000A;not be charged with a more serious crime was inadequacy of&#x000A;current laws.&#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (C) Unfortunately, the admission appears unlikely to&#x000A;change Brazil,s public posture. While there appears to be&#x000A;an agreement in the GOB on the need to pass CT legislation,&#x000A;there is a lack of will to expend the political capital to do&#x000A;so. General Felix stuck to the script even as he was being&#x000A;&#x000A;BRASILIA 00001206 005 OF 005&#x000A;&#x000A;&#x000A;contradicted, a script we have also heard from interlocutors&#x000A;at Brazil,s foreign ministry. Revealingly, Felix admitted&#x000A;that no matter what evidence is presented Brazil,s posture&#x000A;is deliberate and will not change. The argument boils down&#x000A;to this: Brazil is a racially, ethnically, and religiously&#x000A;harmonious society that engages in a correct and&#x000A;un-provocative foreign policy. As a result, Brazil is not a&#x000A;target of terrorists. In order to maintain this position,&#x000A;Brazil must do nothing that will make it a target, such as&#x000A;taking a higher-profile or more confrontational approach to&#x000A;counterterrorism efforts or actively looking to pass&#x000A;anti-terrorism legislation.&#x000A;&#x000A;<a id='par17' href='#par17'>¶</a>17. (C) To further complicate matters, many senior officials&#x000A;in both the government and the opposition were labeled&#x000A;terrorists and suffered exile, prison, or in some cases&#x000A;torture, under the military regime that ended in 1985. This&#x000A;is the case, for example, of the two most prominent&#x000A;presidential candidates to replace Lula in 2011, Lula,s&#x000A;minister of the Civil Household Dilma Rousseff and Sao&#x000A;Paulo,s opposition governor Jose Serra. In addition, many&#x000A;in the current government fear that members of what they&#x000A;consider to be legitimate social movements fighting for a&#x000A;more just society might be branded terrorists. Finally,&#x000A;Brazilians express concern that anti-terrorism legislation&#x000A;would be viewed as directed at Arab-Brazilians or Foz do&#x000A;Iguacu, and thus would become a divisive issues. As a&#x000A;result, many Brazilian officials are uncomfortable with&#x000A;giving the state greater authority to fight terrorism.&#x000A;&#x000A;<a id='par18' href='#par18'>¶</a>18. (C) This mindset presents serious challenges to our&#x000A;efforts to enhance counterterrorism cooperation or promote&#x000A;passage of anti-terrorism legislation. At the same time, with&#x000A;good operational cooperation on the issue between our law&#x000A;enforcement agencies, Brazil,s stated commitment to&#x000A;international anti-terrorism regimes, and work underway to&#x000A;draft a new national security law, there is every reason to&#x000A;enhance our engagement with the Brazilian government on this&#x000A;issue. Although there is little chance of an immediate&#x000A;change in posture or that a new national security law will be&#x000A;seriously considered in Congress before the 2010 presidential&#x000A;elections, we should begin engaging the GOB now on this&#x000A;issue. Securing passage of anti-terrorism legislation,&#x000A;changing the mindset of senior officials with regard to the&#x000A;threat that terrorism poses, and finding acceptable ways to&#x000A;cooperate on terrorism will be a long-term effort requiring&#x000A;commitment and creativity on our part. In light of Brazil,s&#x000A;role as a regional leader and its growing role as a global&#x000A;power, the investment will likely pay dividends well beyond&#x000A;Brazil.&#x000A;KUBISKE</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

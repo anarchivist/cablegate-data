@@ -1,0 +1,803 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/support.html'>
+<img alt='Keep Us Strong' src='/img/ja-cg.jpg' />
+</a>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 931 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/EUA-tentaram-usar-Saito-e-Jobim.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/Har-blir-vi-blasta.html">Sweden</a>
+<a href="/articles/2010/PayPal-freezes-WikiLeaks-donations.html"> Editorial</a>
+<a href="/articles/2010/U-S-Empire-Shopping-List.html">United States</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-05_0.html'>2010/12/05</a>
+<a href='/reldate/2010-12-04_0.html'>2010/12/04</a>
+<a href='/reldate/2010-12-03_0.html'>2010/12/03</a>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1988' onclick="return swap('year_1988');">88</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1988'>
+<a href='/date/1988-01_0.html'>1988/01</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-06_0.html'>2004/06</a>
+<a href='/date/2004-09_0.html'>2004/09</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-02_0.html'>2005/02</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-06_0.html'>2008/06</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/69_0.html'>Embassy Asuncion</a>
+<a href='/origin/70_0.html'>Embassy Astana</a>
+<a href='/origin/71_0.html'>Embassy Ashgabat</a>
+<a href='/origin/72_0.html'>Embassy Ankara</a>
+<a href='/origin/73_0.html'>Embassy Amman</a>
+<a href='/origin/74_0.html'>Embassy Algiers</a>
+<a href='/origin/75_0.html'>Embassy Addis Ababa</a>
+<a href='/origin/76_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/57_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/58_0.html'>Embassy Bucharest</a>
+<a href='/origin/59_0.html'>Embassy Brussels</a>
+<a href='/origin/60_0.html'>Embassy Bridgetown</a>
+<a href='/origin/61_0.html'>Embassy Brasilia</a>
+<a href='/origin/62_0.html'>Embassy Bishkek</a>
+<a href='/origin/63_0.html'>Embassy Berlin</a>
+<a href='/origin/64_0.html'>Embassy Beirut</a>
+<a href='/origin/65_0.html'>Embassy Beijing</a>
+<a href='/origin/66_0.html'>Embassy Bangkok</a>
+<a href='/origin/67_0.html'>Embassy Baku</a>
+<a href='/origin/68_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/52_0.html'>Embassy Conakry</a>
+<a href='/origin/53_0.html'>Embassy Colombo</a>
+<a href='/origin/54_0.html'>Embassy Chisinau</a>
+<a href='/origin/55_0.html'>Embassy Caracas</a>
+<a href='/origin/56_0.html'>Embassy Cairo</a>
+<a href='/origin/87_0.html'>Consulate Casablanca</a>
+<a href='/origin/88_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/47_0.html'>Embassy Dushanbe</a>
+<a href='/origin/48_0.html'>Embassy Dublin</a>
+<a href='/origin/49_0.html'>Embassy Doha</a>
+<a href='/origin/50_0.html'>Embassy Djibouti</a>
+<a href='/origin/51_0.html'>Embassy Damascus</a>
+<a href='/origin/86_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/46_0.html'>Embassy Harare</a>
+<a href='/origin/85_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/45_0.html'>Embassy Islamabad</a>
+<a href='/origin/84_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/83_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/41_0.html'>Embassy Kyiv</a>
+<a href='/origin/42_0.html'>Embassy Kuwait</a>
+<a href='/origin/43_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/44_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/36_0.html'>Embassy Luxembourg</a>
+<a href='/origin/37_0.html'>Embassy London</a>
+<a href='/origin/38_0.html'>Embassy Lisbon</a>
+<a href='/origin/39_0.html'>Embassy Lima</a>
+<a href='/origin/40_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/31_0.html'>Embassy Muscat</a>
+<a href='/origin/32_0.html'>Embassy Moscow</a>
+<a href='/origin/33_0.html'>Embassy Mexico</a>
+<a href='/origin/34_0.html'>Embassy Manama</a>
+<a href='/origin/35_0.html'>Embassy Madrid</a>
+<a href='/origin/82_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/30_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/27_0.html'>Embassy Ouagadougou</a>
+<a href='/origin/28_0.html'>Embassy Ottawa</a>
+<a href='/origin/29_0.html'>Embassy Oslo</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/23_0.html'>Embassy Prague</a>
+<a href='/origin/24_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/25_0.html'>Embassy Paris</a>
+<a href='/origin/26_0.html'>Embassy Panama</a>
+<a href='/origin/81_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/20_0.html'>Embassy Rome</a>
+<a href='/origin/21_0.html'>Embassy Riyadh</a>
+<a href='/origin/22_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/15_0.html'>Embassy Stockholm</a>
+<a href='/origin/16_0.html'>Embassy Singapore</a>
+<a href='/origin/17_0.html'>Embassy Seoul</a>
+<a href='/origin/18_0.html'>Embassy Santiago</a>
+<a href='/origin/19_0.html'>Embassy Sanaa</a>
+<a href='/origin/78_0.html'>Consulate Shenyang</a>
+<a href='/origin/79_0.html'>Consulate Shanghai</a>
+<a href='/origin/80_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy The Hague</a>
+<a href='/origin/11_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/12_0.html'>Embassy Tehran</a>
+<a href='/origin/13_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/14_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/77_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AEC_0.html'>AEC</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AFIN_0.html'>AFIN</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+<a href='/tag/AS_0.html'>AS</a>
+<a href='/tag/ABLD_0.html'>ABLD</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BO_0.html'>BO</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/COUNTER_0.html'>COUNTER</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CACM_0.html'>CACM</a>
+<a href='/tag/CDB_0.html'>CDB</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/COUNTERTERRORISM_0.html'>COUNTERTERRORISM</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CG_0.html'>CG</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EINDETRD_0.html'>EINDETRD</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ET_0.html'>ET</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/ELECTIONS_0.html'>ELECTIONS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/EINVEFIN_0.html'>EINVEFIN</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FBI_0.html'>FBI</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+<a href='/tag/FREEDOM_0.html'>FREEDOM</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GV_0.html'>GV</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GA_0.html'>GA</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HU_0.html'>HU</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/INRA_0.html'>INRA</a>
+<a href='/tag/INRO_0.html'>INRO</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/ITALY_0.html'>ITALY</a>
+<a href='/tag/ITALIAN_0.html'>ITALIAN</a>
+<a href='/tag/IRAQI_0.html'>IRAQI</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JUS_0.html'>JUS</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KDEMAF_0.html'>KDEMAF</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KGIC_0.html'>KGIC</a>
+<a href='/tag/KRAD_0.html'>KRAD</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KIPR_0.html'>KIPR</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPWR_0.html'>KPWR</a>
+<a href='/tag/KFIN_0.html'>KFIN</a>
+<a href='/tag/KSUM_0.html'>KSUM</a>
+<a href='/tag/KPIN_0.html'>KPIN</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KR_0.html'>KR</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KE_0.html'>KE</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KAWC_0.html'>KAWC</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LG_0.html'>LG</a>
+<a href='/tag/LU_0.html'>LU</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MK_0.html'>MK</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/MIL_0.html'>MIL</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MEPP_0.html'>MEPP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MTCR_0.html'>MTCR</a>
+<a href='/tag/MA_0.html'>MA</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NAR_0.html'>NAR</a>
+<a href='/tag/NO_0.html'>NO</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+<a href='/tag/NL_0.html'>NL</a>
+<a href='/tag/NATIONAL_0.html'>NATIONAL</a>
+<a href='/tag/NG_0.html'>NG</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OFDP_0.html'>OFDP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+<a href='/tag/OPDC_0.html'>OPDC</a>
+<a href='/tag/OVP_0.html'>OVP</a>
+<a href='/tag/OSCI_0.html'>OSCI</a>
+<a href='/tag/OAS_0.html'>OAS</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OREP_0.html'>OREP</a>
+<a href='/tag/ODIP_0.html'>ODIP</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PECON_0.html'>PECON</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/POLITICS_0.html'>POLITICS</a>
+<a href='/tag/PO_0.html'>PO</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RW_0.html'>RW</a>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RO_0.html'>RO</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SM_0.html'>SM</a>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SI_0.html'>SI</a>
+<a href='/tag/SG_0.html'>SG</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TSPA_0.html'>TSPA</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TIP_0.html'>TIP</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TERRORISM_0.html'>TERRORISM</a>
+<a href='/tag/TPHY_0.html'>TPHY</a>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TW_0.html'>TW</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UE_0.html'>UE</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+<a href='/tag/WI_0.html'>WI</a>
+<a href='/tag/WTRO_0.html'>WTRO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XM_0.html'>XM</a>
+<a href='/tag/XR_0.html'>XR</a>
+<a href='/tag/XS_0.html'>XS</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+<a href='/tag/YE_0.html'>YE</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F12%2F09BRASILIA1447.html%20%2309BRASILIA1447'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F12%2F09BRASILIA1447.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 09BRASILIA1447, WHA A/S VALENZUELA RECEIVED BY EAGER BRAZILIAN GOVERNMENT</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#09BRASILIA1447</b>.
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2009/12/09BRASILIA1447.html'>09BRASILIA1447</a>
+</td>
+<td>
+<a href='/date/2009-12_0.html'>2009-12-29 17:05</a>
+</td>
+<td>
+<a href='/reldate/2010-12-05_0.html'>2010-12-05 12:12</a>
+</td>
+<td>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+</td>
+<td>
+<a href='/origin/61_0.html'>Embassy Brasilia</a>
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXRO7348&#x000A;RR RUEHAO RUEHCD RUEHGD RUEHHO RUEHMC RUEHNG RUEHNL RUEHRD RUEHRS&#x000A;RUEHTM&#x000A;DE RUEHBR #1447/01 3631716&#x000A;ZNY CCCCC ZZH&#x000A;R 291716Z DEC 09&#x000A;FM AMEMBASSY BRASILIA&#x000A;TO RUEHC/SECSTATE WASHDC 0225&#x000A;INFO WESTERN HEMISPHERIC AFFAIRS DIPL POSTS&#x000A;RUEHRI/AMCONSUL RIO DE JANEIRO&#x000A;RUEHSO/AMCONSUL SAO PAULO</pre></code>
+<code><pre>C O N F I D E N T I A L SECTION 01 OF 05 BRASILIA 001447 &#x000A;&#x000A;SIPDIS &#x000A;DEPARTMENT FOR WHA &#x000A;AMEMBASSY BRASILIA PASS TO AMCONSUL RECIFE &#x000A;AMEMBASSY BRIDGETOWN PASS TO AMEMBASSY GRENADA &#x000A;AMEMBASSY OTTAWA PASS TO AMCONSUL QUEBEC &#x000A;&#x000A;E.O. 12958: DECL: 2019/12/29 &#x000A;TAGS: <a href='/tag/PREL_0.html'>PREL</a> <a href='/tag/BR_0.html'>BR</a>&#x000A;SUBJECT: WHA A/S VALENZUELA RECEIVED BY EAGER BRAZILIAN GOVERNMENT &#x000A;&#x000A;CLASSIFIED BY: Lisa Kubiske, charge d'affaires a.i.; REASON: 1.4(D) &#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (C) Summary. On his first visit to Brazil as Assistant &#x000A;Secretary, Arturo Valenzuela was received December 14 by senior &#x000A;government officials eager to minimize differences and demonstrate &#x000A;their interest in working with the USG on a range of topics. &#x000A;Meetings with the Presidential Foreign Policy Advisor, Foreign &#x000A;Ministry (Itamaraty) officials, and Defense Minister addressed &#x000A;shared concerns with resolving the crisis in Honduras, the need to &#x000A;lower tensions in South America (particularly between Colombia and &#x000A;Venezuela), interest in working together in Haiti, and &#x000A;possibilities for counternarcotics cooperation in Bolivia. Whereas &#x000A;the Presidency highlighted Lula's efforts related to Iran and the &#x000A;Middle East peace process, Itamaraty focused on the need to expand &#x000A;our bilateral, regional, and trilateral cooperation, as well as our &#x000A;discussions on global issues into new areas. The worried media &#x000A;reports highlighting "tensions" in the U.S.-Brazil relationship &#x000A;prior to A/S Valenzuela's arrival were replaced following his visit &#x000A;with upbeat stories regarding the renewed possibilities for &#x000A;cooperation. End summary. &#x000A;&#x000A;&#x000A;&#x000A;Presidential Foreign Policy Advisor Garcia Focuses on Honduras... &#x000A;&#x000A;&#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (C) In a long and friendly meeting, Presidential Foreign Policy &#x000A;Advisor Marco Aurelio Garcia laid out Brazil's position and ongoing &#x000A;concerns regarding Honduras. He said President Zelaya's decision &#x000A;to go abroad had given Brazil greater "flexibility" in dealing with &#x000A;the crisis. Brazil believes it is essential for de facto leader &#x000A;Micheletti to step down, and Garcia expressed his hopes that the &#x000A;USG would "turn the screws" on him. Personally, Garcia said he &#x000A;thought a constituent assembly would be a way to give legitimacy to &#x000A;the political solution being crafted. &#x000A;&#x000A;&#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (C) A/S Valenzuela disagreed with Garcia's assertion that the &#x000A;Honduras crisis had created "a division" between the United States &#x000A;and Latin America. Rather, he said the failed effort by Mexico to &#x000A;gain safe passage for Zelaya out of the country, of which the USG &#x000A;had not been informed and which had negatively affected other &#x000A;efforts on Zelaya's behalf, demonstrated the need for more fluid &#x000A;communication. In later discussions at Itamaraty, Honduras was &#x000A;also a leading topic of conversation. There, officials insisted &#x000A;that they had no contact with the Micheletti regime and that their &#x000A;ability to influence Zelaya was limited. &#x000A;&#x000A;&#x000A;&#x000A;...Proposes U.S. Visit to Venezuela... &#x000A;&#x000A;&#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (C) Garcia made a point to reiterate a suggestion he had made to &#x000A;NSA General Jones, that Valenzuela should go to Caracas to &#x000A;establish a "direct link" and relationship with President Chavez. &#x000A;Without such a move, Garcia said, "Chavez will respond to everyone" &#x000A;(i.e., to USG officials whatever their position); "he has no sense &#x000A;of proportion." Garcia said that, because of "ambiguity" and "a &#x000A;bad process," the issue of the Colombia bases had complicated &#x000A;matters in the region. Although the November 27 meeting of the &#x000A;South American Defense Council (SADC) had reduced tensions, the &#x000A;idea that the bases might be used to launch an action against &#x000A;Venezuela "was common." Neither Colombia nor Venezuela was willing &#x000A;to make a goodwill gesture toward the other, and Brazil's efforts &#x000A;to mediate had been rebuffed by both sides. He predicted that &#x000A;Venezuela "will maintain the pressure" on Colombia for several &#x000A;months. Venezuelan FM Maduro had indicated to Garcia that a visit &#x000A;by A/S Valenzuela would be "no problem" to arrange; Garcia felt it &#x000A;would help reduce tensions and improve dialogue with the region. &#x000A;A/S Valenzuela was noncommittal, and noted that it is difficult to &#x000A;ignore both the provocative statements by Chavez and his &#x000A;authoritarian tendencies. &#x000A;&#x000A;&#x000A;&#x000A;...Assesses Regional Developments... &#x000A;&#x000A;&#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. (C) Over the course of the conversation, Garcia expressed a &#x000A;&#x000A;BRASILIA 00001447 002 OF 005 &#x000A;&#x000A;&#x000A;preference for former President Frei in Chile's elections; &#x000A;described Ecuador's and Bolivia's political systems as "rotten"; &#x000A;said that Mujica's election in Uruguay was good as he would be &#x000A;"more active"; and called the future of Argentina "a big question &#x000A;mark," depending on whether the Kirchners recover or not, although &#x000A;he did not foresee problems for relations with Brazil. Garcia &#x000A;hoped to "revive Mercosur" during the upcoming Argentine &#x000A;presidency. With regard to relations with the United States, &#x000A;Garcia noted that the "delay" in USG initiatives toward the region &#x000A;caused frustration and disappointment. &#x000A;&#x000A;&#x000A;&#x000A;... And Indicates Middle East Peace and Iran Top Brazil's Global &#x000A;Agenda &#x000A;&#x000A;&#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (C) Beyond Latin America, Garcia described Brazil's priorities &#x000A;as climate change and expanding participation in the Middle East &#x000A;peace process "to put more air" into them. Brazil is concerned &#x000A;with the success of the Israel-Palestine peace process both because &#x000A;of the impact on its own global interests and because it &#x000A;"contaminates" other issues in the region-including Iran, &#x000A;Afghanistan, and Pakistan. Garcia said Brazil has encouraged Iran &#x000A;to use its influence with Hamas to help move the process forward. &#x000A;With regard to Iran itself, Garcia described Brazil's engagement as &#x000A;"a bet" that might not work. In light of President Obama's request &#x000A;to help, Brazil is trying to build a relationship with Iran. He &#x000A;described Brazil's reception of President Ahmadinejad in November &#x000A;as "not warm" and stressed that President Lula had delivered &#x000A;"direct messages." Brazil is encouraging Iran to "submit to the &#x000A;rules," regarding non-proliferation, but Brazil had abstained on &#x000A;the recent IAEA vote on Iran as because of the timing; a vote in &#x000A;favor at that moment would have neutralized their efforts to sway &#x000A;Iran. In Brazil's view, the worst thing to do is to further &#x000A;isolate Iran. A/S Valenzuela welcomed Brazil's efforts to &#x000A;encourage Iran to comply with its international obligations but &#x000A;expressed serious concerns with their nuclear aspirations. He &#x000A;emphasized that Iran had a deficit of trust with the international &#x000A;community but assured Garcia that the Administration would continue &#x000A;to try to engage Iran, despite the difficulties. &#x000A;&#x000A;&#x000A;&#x000A;Itamaraty: Eager to Move Forward Bilaterally... &#x000A;&#x000A;&#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (C) Over lunch with Under Secretary for Political Affairs Vera &#x000A;Machado and acting Under Secretary for Latin America GonC'alo &#x000A;MourC#o, and in a separate meeting with newly installed Deputy &#x000A;Minister and former ambassador to the United States AntC4nio &#x000A;Patriota, Brazilian officials stressed the need to move forward in &#x000A;expanding our bilateral relationship. Patriota cited the &#x000A;high-level dialogue we are hoping to start and said the GOB is glad &#x000A;there is a broadening of the bilateral political agenda to match &#x000A;the excellent dialogue on the economic side. With regard to &#x000A;current cooperation, he praised the Economic Policy Dialogue, under &#x000A;way at the same time in Washington, and said that Civilian &#x000A;Household (Prime) Minister Dilma Rousseff wants to see more &#x000A;bilateral cooperation on biofuels. He highlighted the success of &#x000A;the Joint Action Plan to eliminate racial and ethnic discrimination &#x000A;(JAPER) and suggested creating linkages with the CEO Forum. Both &#x000A;he and Machado said Brazil has much to learn from the United States &#x000A;regarding inclusion of civil society and the private sector in such &#x000A;initiatives. Patriota noted the meeting of the Brazil Studies &#x000A;Association (BRASA) next year as a good opportunity to do some &#x000A;cross-fertilization between private sector and social initiatives. &#x000A;Patriota hoped we could increase discussions on other social &#x000A;issues, including human rights and advancement of women. &#x000A;&#x000A;&#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (C) Patriota and Machado both expressed interest in moving &#x000A;forward with the Defense Cooperation Agreement (DCA) and asked for &#x000A;serious consideration of language Brazil had just proposed on &#x000A;"guarantees" of respect for sovereignty of third countries, which &#x000A;Brazil was seeking to add in light of concerns over the &#x000A;U.S.-Colombia DCA and commitments made at the November 27 meeting &#x000A;of the South America Defense Council. &#x000A;&#x000A;BRASILIA 00001447 003 OF 005 &#x000A;&#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (C) Although even the suggestion of work on terrorism-related &#x000A;programs has caused problems in Brazil for some USG agencies, &#x000A;Machado acknowledged that Brazil would need to address potential &#x000A;terrorism issues with Brazil's hosting of the 2014 World Cup and &#x000A;the 2016 Olympics. A/S Valenzuela said the USG is willing to &#x000A;cooperate and assist in any way we can and he suggested that State &#x000A;and Itamaraty should increase our effort to coordinate cooperation &#x000A;among our various agencies in advance of these events. ChargC) &#x000A;d'Affaires Kubiske noted that the Olympics also open an avenue for &#x000A;cooperation to advance social issues, for example, by ensuring that &#x000A;efforts are made to secure English training and jobs for minorities &#x000A;and the poor. &#x000A;&#x000A;&#x000A;&#x000A;...Regionally... &#x000A;&#x000A;&#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (C) A/S Valenzuela stressed that Secretary Clinton is committed &#x000A;to working closely and more intently on Haiti. The United States &#x000A;can benefit from Brazil's expertise in Haiti and the region, he &#x000A;said. Acting U/S MourC#o said Brazil's focus in Haiti is on &#x000A;policing, as it is important to strengthen Haiti's law enforcement &#x000A;capabilities. Patriota noted the efforts of USAID and Brazil's &#x000A;Cooperation Agency (ABC) to establish joint projects. He recalled &#x000A;that, in the second paragraph of President Lula's letter to &#x000A;President Obama last month, he had mentioned the priority of &#x000A;constructing a hydroelectric dam and plant. Although the letter &#x000A;had suggested a cost of $150 million to build, Patriota believed it &#x000A;would actually cost $250 million. He felt this would be an &#x000A;important project for the United States and Brazil to work on &#x000A;jointly. &#x000A;&#x000A;&#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (C) During lunch, Machado asked if Bolivia might be &#x000A;re-certified next year for counternarcotics cooperation. A/S &#x000A;Valenzuela noted some very strong U.S. opposition to this, but said &#x000A;that strong communication with the Morales government is essential &#x000A;and suggested that there is now an opportunity for trilateral &#x000A;cooperation on counternarcotics. Machado raised the 3+1 Security &#x000A;Dialogue between Brazil, Argentina, Paraguay, and the United &#x000A;States, saying the name of the talks should be changed to avoid a &#x000A;sense of opposition. &#x000A;&#x000A;&#x000A;&#x000A;...And Globally &#x000A;&#x000A;&#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (C) Patriota indicated Brazil's interest in expanding &#x000A;"trilateral cooperation" between Brazil, the United States, and &#x000A;third countries as a particularly valuable form of engagement, &#x000A;particularly in Africa. As Brazil is entering the Security Council &#x000A;in January, the GOB wants to coordinate agendas with the USG and &#x000A;engage more on Security Council reform. Looking ahead to the NPT &#x000A;Review Conference and Nuclear Security Summit, Patriota described &#x000A;President Obama's speech in Prague on nuclear non-proliferation and &#x000A;disarmament as "groundbreaking" and said it was very well received &#x000A;in Brazil. For her part, Machado praised the U.S. announcement of &#x000A;voluntary measures related to climate change, which had inspired &#x000A;"moderate enthusiasm" and preserved the possibility for &#x000A;"non-failure" at Copenhagen. She highlighted agreement for Brazil &#x000A;to host a "Rio + 20" next year, which would allow for more &#x000A;comprehensive debate. &#x000A;&#x000A;&#x000A;&#x000A;Defense Minister Jobim Describes Brazil's Concern with Regional &#x000A;Stability... &#x000A;&#x000A;&#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (C) Following a one-on-one meeting, a friendly and engaged &#x000A;DefMin Jobim was joined by senior military personnel for a broad &#x000A;discussion of regional issues. Jobim raised the U.S.-Colombia DCA, &#x000A;saying that, from a strictly Brazilian point of view, there was no &#x000A;problem. The region was "sensitive," however, and as Brazil has no &#x000A;&#x000A;BRASILIA 00001447 004 OF 005 &#x000A;&#x000A;&#x000A;problems with any of its neighbors, it tries to be a "moderator" &#x000A;among them. Jobim had made an enormous effort, along with &#x000A;Itamaraty and President Lula, to visit all South American countries &#x000A;to gain agreement to establish the South American Defense Council, &#x000A;which would help create a regional identity on defense issues, &#x000A;advance "military diplomacy," link defense to the real economy by &#x000A;establishing niches for each country in defense industries, and &#x000A;encourage exchanges among military academies. &#x000A;&#x000A;&#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. (C) Noting our common concern with stability in the region, A/S &#x000A;Valenzuela asked how Jobim viewed the situation between Colombia &#x000A;and Venezuela and the situation in Paraguay. Jobim said that he &#x000A;did not see the tensions escalating, but that Lula's efforts to &#x000A;mediate a discussion between Chavez and Uribe had not been &#x000A;successful. With regard to Paraguay, he said that for political &#x000A;reasons Brazil had made concessions on the price it was paying for &#x000A;energy from Itaipu and would finance the construction of a &#x000A;transmission facility on the Paraguayan side of the border. "This &#x000A;is part of the game" with Paraguay, he said. Jobim encouraged A/S &#x000A;Valenzuela to continue this dialogue on regional stability. He &#x000A;said the United States needs to be "re-introduced" to Latin &#x000A;America; although it might be a false impression, there is a &#x000A;feeling in the region that the United States needs to build more &#x000A;trust following a "difficult era" in the Bush Administration. &#x000A;&#x000A;&#x000A;&#x000A;...And Provides an Update on FX2 Fighter Competition &#x000A;&#x000A;&#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (C) Jobim noted that delay in a decision on the FX2 fighter &#x000A;competition, saying that he would be studying documents from the &#x000A;Brazilian Air Force (BRAF) over the holidays and that the National &#x000A;Defense Council would meet to make its recommendation after &#x000A;congress reconvenes in early February. He was awaiting additional &#x000A;documentation from Boeing later in the week and was particularly &#x000A;intrigued by the possibilities of the Global Super Hornet program. &#x000A;Jobim noted the importance of the purchase in Brazil's national &#x000A;defense strategy, adding that technology transfer is the main &#x000A;consideration and the U.S. "precedents" on this score are not good; &#x000A;but he acknowledged that the portfolio of transfer items was large &#x000A;and that it was a new U.S. government. Jobim reiterated the five &#x000A;criteria they will be using to make a decision: the quality of the &#x000A;platform, the technology being offered, the training being offered, &#x000A;the price, and the life-cycle cost. A/S Valenzuela assured him the &#x000A;Boeing was best on all counts. &#x000A;&#x000A;&#x000A;&#x000A;Political Analysts See Less Aggressive Foreign Policy Post-Lula &#x000A;&#x000A;&#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (U) Three leading political analysts told A/S Valenzuela that &#x000A;Dilma Rousseff, President Lula's choice to succeed him in 2011, has &#x000A;at least a break-even chance of winning the October 2010 elections, &#x000A;despite Serra's lead in the polls. They expect that many of the &#x000A;GOB's current foreign policy positions - including on Iran and &#x000A;Honduras - are facilitated by Lula's strong internal position and &#x000A;personal reputation, and will not outlast his presidency. They &#x000A;described in detail the failure of the delegation of Iranian &#x000A;businessmen that accompanied Ahmadinejad, and argued that attempts &#x000A;by Rousseff or anyone other than Lula to engage authoritarian &#x000A;states in such a high-profile manner would not be tolerated &#x000A;domestically, as it is seen as a departure from Brazil's &#x000A;traditionally cautious approach to such matters. A Serra &#x000A;presidency, they believed, would not alter Brazil's basic economic &#x000A;strategy but would lead to a return to more traditional Brazilian &#x000A;foreign policy stances, especially in Latin America. &#x000A;&#x000A;&#x000A;&#x000A;Media Coverage Goes From Nervous and Negative to Hopeful and &#x000A;Positive &#x000A;&#x000A;&#x000A;&#x000A;<a id='par17' href='#par17'>¶</a>17. (SBU) In advance of A/S Valenzuela's trip, media coverage &#x000A;focused on "tensions" in the bilateral relationship, highlighting &#x000A;&#x000A;BRASILIA 00001447 005 OF 005 &#x000A;&#x000A;&#x000A;differences over Honduras, Iran, climate change, and &#x000A;non-proliferation. However, following a press roundtable by A/S &#x000A;Valenzuela with leading news dailies and weeklies and comments to &#x000A;the press by both Garcia and Itamaraty officials, press reports on &#x000A;Tuesday, December 15 highlighted apparent points of agreement on &#x000A;Honduras and Iran. BrasC-lia daily Correio Braziliense ran one of &#x000A;the most powerful headlines: "Disagreements Between Good Allies." &#x000A;These reports were reinforced by equally positive headlines in &#x000A;online coverage from major news portals such as UOL and Terra. &#x000A;&#x000A;&#x000A;&#x000A;<a id='par18' href='#par18'>¶</a>18. (U) Although articles began to reappear within days reporting &#x000A;views from both Washington and BrasC-lia that tensions persist in &#x000A;the bilateral relationship, prominent columnists have supported the &#x000A;conclusion that Valenzuela's visit put the U.S.-Brazil relationship &#x000A;on a new footing. One of the more forceful columns came from Folha &#x000A;de SC#o Paulo's Eliane Catanhede, who highlighted the contrast &#x000A;between the prior expressions of "frustration" and "disappointment" &#x000A;from Amorim and Garcia, and the much more friendly remarks they &#x000A;made during his visit. Her conclusion was that the GOB knows who &#x000A;is really in charge on issues such as Honduras, Iran, and &#x000A;Copenhagen: "This is how diplomacy is done: Valenzuela was in &#x000A;BrasC-lia yesterday; Secretary Hillary Clinton is on her way; Obama &#x000A;should be here early in 2010. Deep down, Lula, Amorim, Jobim, &#x000A;Garcia, and [former Itamaraty Secretary General; current Minister &#x000A;of Strategic Planning] Samuel [Pinheiro Guimaraes] may bark, but &#x000A;they never bite. And the 'pitbull' [the United States] knows its &#x000A;own strength." &#x000A;&#x000A;&#x000A;&#x000A;Youth Ambassadors Meeting Opens the Door for New Media Outreach &#x000A;&#x000A;&#x000A;&#x000A;<a id='par19' href='#par19'>¶</a>19. (U) A/S Valenzuela met with alumni of the Youth Ambassadors, &#x000A;Student Leader Exchange, and English Immersion programs in an &#x000A;informal gathering hosted by CDA Kubiske. Valenzuela explained his &#x000A;role in over-seeing policy for the Western Hemisphere and fielded &#x000A;questions from the young leaders on issues ranging from the value &#x000A;of youth exchange programs, to the Obama administration's approach &#x000A;to U.S.-Brazil relations and the best way to work with the various &#x000A;types of democratic systems found in the region. "I think it was a &#x000A;great opportunity to meet Dr. Valenzuela and discuss Brazil-U.S &#x000A;relations...it's interesting to see how diplomacy engages youth," &#x000A;said 2008 Youth Ambassador, Pedro Henrique Torres after his &#x000A;discussion with the Assistant Secretary. The Public Affairs &#x000A;Section posted photos of the meeting on the Mission's Flickr site &#x000A;that were also carried on the Assistant Secretary's newly launched &#x000A;blog. PA recorded the event and will create short clips to post on &#x000A;the Mission's YouTube channel and to distribute to youth contacts. &#x000A;&#x000A;&#x000A;&#x000A;<a id='par20' href='#par20'>¶</a>20. (U) A/S Valenzuela cleared this message. &#x000A;KUBISKE</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>
