@@ -1,7 +1,7 @@
 Unofficial mirror of WikiLeaks Cablegate data
 ---------------------------------------------
 
-**CURRENT SOURCE: magnet:?xt=urn:btih:3NWFCSXRETK5Q2CHEAWLPXTHMQ2OHQRZ** 
+**CURRENT SOURCE: magnet:?xt=urn:btih:WGOC2JJQHLRHO673WEJOTRF553FLM6XQ** 
 
 * http://github.com/anarchivist/cablegate-data
 * git://github.com/anarchivist/cablegate-data.git
