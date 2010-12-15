@@ -1,7 +1,7 @@
 Unofficial mirror of WikiLeaks Cablegate data
 ---------------------------------------------
 
-**CURRENT SOURCE: http://88.80.16.63/torrent/cablegate/cablegate-201012100047.7z.torrent** 
+**CURRENT SOURCE: magnet:?xt=urn:btih:JWWYNL7T6PD43R6QRJRIHPTMKZ4OHCG2** 
 
 * http://github.com/anarchivist/cablegate-data
 * git://github.com/anarchivist/cablegate-data.git
