@@ -132,6 +132,7 @@ div.small h3 {
 	width: 20%;
 }
 div.big {
+	text-align: left;
 	width: 75%;
 	background: none;
 	padding-top: 0px;
@@ -293,17 +294,4 @@ strong {
     font-size: 14px;
     padding-top: 12px;
     display: block;
-}
-
-#kus {
-    border: solid 3px #000;
-    font-size: 28px; font-weight: bold;
-    width: 430px;
-    height: 38px;
-    padding: 15px;
-    text-align: center;
-    margin-left: 120px;
-}
-#kus a {
-
 }
